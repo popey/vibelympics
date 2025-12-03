@@ -21,6 +21,3 @@ Thumbs.db
 __pycache__/
 *.pyc
 .venv/
-
-# Tessl
-.tessl/
