@@ -1,0 +1,458 @@
+.app-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  height: 100%;
+  width: 100%;
+  padding: 1rem;
+  position: relative;
+}
+
+/* Loading state */
+.loading-indicator {
+  font-size: 4rem;
+}
+
+.pulse {
+  display: inline-block;
+  animation: pulse 1.5s ease-in-out infinite;
+}
+
+@keyframes pulse {
+  0%, 100% {
+    transform: scale(1);
+    opacity: 1;
+  }
+  50% {
+    transform: scale(1.2);
+    opacity: 0.7;
+  }
+}
+
+/* Error state */
+.error-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 2rem;
+}
+
+.error-icon {
+  font-size: 3rem;
+}
+
+.retry-button {
+  font-size: 2.5rem;
+  background: transparent;
+  border: none;
+  cursor: pointer;
+  padding: 1rem;
+  border-radius: 50%;
+  transition: transform 0.2s, background-color 0.2s;
+}
+
+.retry-button:hover {
+  background: rgba(255, 255, 255, 0.1);
+  transform: scale(1.1);
+}
+
+.retry-button:active {
+  transform: scale(0.95);
+}
+
+/* Searching state */
+.searching-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 1.5rem;
+}
+
+.searching-icon {
+  font-size: 4rem;
+}
+
+.searching-indicator {
+  font-size: 2.5rem;
+}
+
+.bounce {
+  animation: bounce 0.6s ease-in-out infinite;
+}
+
+@keyframes bounce {
+  0%, 100% {
+    transform: translateY(0);
+  }
+  50% {
+    transform: translateY(-15px);
+  }
+}
+
+.spin {
+  animation: spin 1s linear infinite;
+}
+
+@keyframes spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
+
+/* Settings button */
+.settings-button {
+  position: absolute;
+  top: 1rem;
+  right: 1rem;
+  font-size: 1.75rem;
+  background: transparent;
+  border: none;
+  cursor: pointer;
+  padding: 0.5rem;
+  border-radius: 50%;
+  transition: transform 0.2s, background-color 0.2s;
+  z-index: 10;
+}
+
+.settings-button:hover {
+  background: rgba(255, 255, 255, 0.1);
+  transform: scale(1.1);
+}
+
+.settings-button:active {
+  transform: scale(0.95) rotate(30deg);
+}
+
+/* Settings panel */
+.settings-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 2rem;
+  padding: 2rem;
+}
+
+.settings-title {
+  font-size: 3rem;
+}
+
+.settings-options {
+  display: flex;
+  gap: 2rem;
+}
+
+.unit-button {
+  font-size: 3rem;
+  background: rgba(255, 255, 255, 0.05);
+  border: 3px solid transparent;
+  cursor: pointer;
+  padding: 1.5rem;
+  border-radius: 1rem;
+  transition: all 0.2s;
+}
+
+.unit-button:hover {
+  background: rgba(255, 255, 255, 0.1);
+  transform: scale(1.05);
+}
+
+.unit-button.selected {
+  border-color: #4CAF50;
+  background: rgba(76, 175, 80, 0.2);
+}
+
+.unit-button:active {
+  transform: scale(0.95);
+}
+
+.back-button {
+  position: absolute;
+  top: 1rem;
+  left: 1rem;
+  font-size: 1.75rem;
+  background: transparent;
+  border: none;
+  cursor: pointer;
+  padding: 0.5rem;
+  border-radius: 50%;
+  transition: transform 0.2s, background-color 0.2s;
+}
+
+.back-button:hover {
+  background: rgba(255, 255, 255, 0.1);
+  transform: scale(1.1);
+}
+
+.back-button:active {
+  transform: scale(0.95);
+}
+
+/* Amenity grid */
+.grid-container {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  gap: 0.75rem;
+  max-width: 400px;
+  width: 100%;
+  padding: 1rem;
+}
+
+.amenity-button {
+  aspect-ratio: 1;
+  font-size: 2.5rem;
+  background: rgba(255, 255, 255, 0.05);
+  border: none;
+  border-radius: 1rem;
+  cursor: pointer;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  transition: all 0.15s ease-out;
+  -webkit-tap-highlight-color: transparent;
+}
+
+.amenity-button:hover {
+  background: rgba(255, 255, 255, 0.15);
+  transform: scale(1.05);
+}
+
+.amenity-button:active {
+  transform: scale(0.95);
+  background: rgba(255, 255, 255, 0.2);
+}
+
+/* Location indicator at bottom */
+.location-indicator {
+  position: absolute;
+  bottom: 1.5rem;
+  font-size: 1.5rem;
+  opacity: 0.5;
+  animation: pulse 3s ease-in-out infinite;
+}
+
+/* Map view */
+.map-view {
+  position: fixed;
+  inset: 0;
+  background: #1a1a2e;
+}
+
+.map-container {
+  height: 100%;
+  width: 100%;
+  background: #1a1a2e;
+}
+
+.map-back-button {
+  position: absolute;
+  top: 1rem;
+  left: 1rem;
+  font-size: 1.75rem;
+  background: rgba(26, 26, 46, 0.9);
+  border: none;
+  cursor: pointer;
+  padding: 0.75rem;
+  border-radius: 50%;
+  z-index: 1000;
+  transition: transform 0.2s, background-color 0.2s;
+}
+
+.map-back-button:hover {
+  background: rgba(26, 26, 46, 1);
+  transform: scale(1.1);
+}
+
+.map-back-button:active {
+  transform: scale(0.95);
+}
+
+.copyright-button {
+  position: absolute;
+  bottom: 1rem;
+  right: 1rem;
+  font-size: 1.25rem;
+  background: rgba(26, 26, 46, 0.9);
+  border: none;
+  cursor: pointer;
+  padding: 0.5rem;
+  border-radius: 50%;
+  z-index: 1000;
+  text-decoration: none;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.copyright-button:hover {
+  background: rgba(26, 26, 46, 1);
+}
+
+/* Emoji markers */
+.emoji-marker {
+  background: transparent;
+  border: none;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+/* Marker popup */
+.marker-popup {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 0.25rem;
+  padding: 0.25rem;
+}
+
+.popup-emoji {
+  font-size: 1.5rem;
+}
+
+.popup-distance {
+  font-size: 0.875rem;
+  white-space: nowrap;
+}
+
+/* Override Leaflet popup styles */
+.leaflet-popup-content-wrapper {
+  background: rgba(26, 26, 46, 0.95);
+  color: white;
+  border-radius: 0.75rem;
+  padding: 0;
+}
+
+.leaflet-popup-content {
+  margin: 0.5rem;
+}
+
+.leaflet-popup-tip {
+  background: rgba(26, 26, 46, 0.95);
+}
+
+/* Navigation view */
+.navigation-view {
+  position: fixed;
+  inset: 0;
+  display: flex;
+  flex-direction: column;
+  background: #1a1a2e;
+}
+
+.nav-map-section {
+  flex: 1;
+  min-height: 0;
+}
+
+.nav-instructions {
+  background: #1a1a2e;
+  padding: 1.5rem;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 0.75rem;
+  border-top: 1px solid rgba(255, 255, 255, 0.1);
+}
+
+.current-instruction {
+  display: flex;
+  align-items: center;
+  gap: 1rem;
+}
+
+.instruction-arrow {
+  font-size: 4rem;
+}
+
+.instruction-distance {
+  font-size: 2rem;
+}
+
+.next-instruction {
+  display: flex;
+  align-items: center;
+  gap: 0.5rem;
+  opacity: 0.6;
+}
+
+.next-arrow {
+  font-size: 1.5rem;
+}
+
+.next-distance {
+  font-size: 1rem;
+}
+
+.total-distance {
+  font-size: 0.875rem;
+  opacity: 0.5;
+  margin-top: 0.5rem;
+}
+
+/* Celebration */
+.celebration {
+  animation: celebrationBg 0.5s ease-out;
+}
+
+@keyframes celebrationBg {
+  0% {
+    background: #4CAF50;
+  }
+  100% {
+    background: #1a1a2e;
+  }
+}
+
+.celebration-emoji {
+  font-size: 6rem;
+  animation: celebrationPop 0.5s ease-out, bounce 1s ease-in-out 0.5s infinite;
+}
+
+@keyframes celebrationPop {
+  0% {
+    transform: scale(0);
+    opacity: 0;
+  }
+  50% {
+    transform: scale(1.3);
+  }
+  100% {
+    transform: scale(1);
+    opacity: 1;
+  }
+}
+
+/* Mobile-first responsive adjustments */
+@media (max-width: 400px) {
+  .grid-container {
+    gap: 0.5rem;
+    padding: 0.5rem;
+  }
+
+  .amenity-button {
+    font-size: 2rem;
+    border-radius: 0.75rem;
+  }
+
+  .instruction-arrow {
+    font-size: 3rem;
+  }
+
+  .instruction-distance {
+    font-size: 1.5rem;
+  }
+}
+
+@media (min-width: 500px) {
+  .amenity-button {
+    font-size: 3rem;
+  }
+
+  .grid-container {
+    gap: 1rem;
+  }
+}
