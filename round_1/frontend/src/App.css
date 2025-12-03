@@ -6,6 +6,7 @@
   height: 100%;
   width: 100%;
   padding: 1rem;
+  position: relative;
 }
 
 /* Loading state */
@@ -60,27 +61,24 @@
   transform: scale(0.95);
 }
 
-/* Ready state */
-.status-indicator {
+/* Searching state */
+.searching-container {
   display: flex;
   flex-direction: column;
   align-items: center;
-  gap: 1rem;
-  margin-bottom: 2rem;
+  gap: 1.5rem;
 }
 
-.brand {
-  font-size: 1.5rem;
-  letter-spacing: 0.1rem;
-}
-
-.backend-status {
-  font-size: 1.5rem;
-}
-
-.ready-message {
+.searching-icon {
   font-size: 4rem;
-  animation: bounce 1s ease infinite;
+}
+
+.searching-indicator {
+  font-size: 2.5rem;
+}
+
+.bounce {
+  animation: bounce 0.6s ease-in-out infinite;
 }
 
 @keyframes bounce {
@@ -88,6 +86,173 @@
     transform: translateY(0);
   }
   50% {
-    transform: translateY(-10px);
+    transform: translateY(-15px);
+  }
+}
+
+.spin {
+  animation: spin 1s linear infinite;
+}
+
+@keyframes spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
+
+/* Settings button */
+.settings-button {
+  position: absolute;
+  top: 1rem;
+  right: 1rem;
+  font-size: 1.75rem;
+  background: transparent;
+  border: none;
+  cursor: pointer;
+  padding: 0.5rem;
+  border-radius: 50%;
+  transition: transform 0.2s, background-color 0.2s;
+  z-index: 10;
+}
+
+.settings-button:hover {
+  background: rgba(255, 255, 255, 0.1);
+  transform: scale(1.1);
+}
+
+.settings-button:active {
+  transform: scale(0.95) rotate(30deg);
+}
+
+/* Settings panel */
+.settings-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 2rem;
+  padding: 2rem;
+}
+
+.settings-title {
+  font-size: 3rem;
+}
+
+.settings-options {
+  display: flex;
+  gap: 2rem;
+}
+
+.unit-button {
+  font-size: 3rem;
+  background: rgba(255, 255, 255, 0.05);
+  border: 3px solid transparent;
+  cursor: pointer;
+  padding: 1.5rem;
+  border-radius: 1rem;
+  transition: all 0.2s;
+}
+
+.unit-button:hover {
+  background: rgba(255, 255, 255, 0.1);
+  transform: scale(1.05);
+}
+
+.unit-button.selected {
+  border-color: #4CAF50;
+  background: rgba(76, 175, 80, 0.2);
+}
+
+.unit-button:active {
+  transform: scale(0.95);
+}
+
+.back-button {
+  position: absolute;
+  top: 1rem;
+  left: 1rem;
+  font-size: 1.75rem;
+  background: transparent;
+  border: none;
+  cursor: pointer;
+  padding: 0.5rem;
+  border-radius: 50%;
+  transition: transform 0.2s, background-color 0.2s;
+}
+
+.back-button:hover {
+  background: rgba(255, 255, 255, 0.1);
+  transform: scale(1.1);
+}
+
+.back-button:active {
+  transform: scale(0.95);
+}
+
+/* Amenity grid */
+.grid-container {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  gap: 0.75rem;
+  max-width: 400px;
+  width: 100%;
+  padding: 1rem;
+}
+
+.amenity-button {
+  aspect-ratio: 1;
+  font-size: 2.5rem;
+  background: rgba(255, 255, 255, 0.05);
+  border: none;
+  border-radius: 1rem;
+  cursor: pointer;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  transition: all 0.15s ease-out;
+  -webkit-tap-highlight-color: transparent;
+}
+
+.amenity-button:hover {
+  background: rgba(255, 255, 255, 0.15);
+  transform: scale(1.05);
+}
+
+.amenity-button:active {
+  transform: scale(0.95);
+  background: rgba(255, 255, 255, 0.2);
+}
+
+/* Location indicator at bottom */
+.location-indicator {
+  position: absolute;
+  bottom: 1.5rem;
+  font-size: 1.5rem;
+  opacity: 0.5;
+  animation: pulse 3s ease-in-out infinite;
+}
+
+/* Mobile-first responsive adjustments */
+@media (max-width: 400px) {
+  .grid-container {
+    gap: 0.5rem;
+    padding: 0.5rem;
+  }
+
+  .amenity-button {
+    font-size: 2rem;
+    border-radius: 0.75rem;
+  }
+}
+
+@media (min-width: 500px) {
+  .amenity-button {
+    font-size: 3rem;
+  }
+
+  .grid-container {
+    gap: 1rem;
   }
 }
