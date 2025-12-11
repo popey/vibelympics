@@ -1,0 +1,7 @@
+{
+  "name": "tessl/pypi-boto3",
+  "version": "1.40.0",
+  "docs": "docs/index.md",
+  "describes": "pkg:pypi/boto3@1.40.23",
+  "summary": "The AWS SDK for Python providing high-level and low-level interfaces to AWS services"
+}

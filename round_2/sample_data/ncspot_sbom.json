@@ -1,0 +1,2945 @@
+{
+  "artifacts": [
+    {
+      "id": "4219634b880e5cd0",
+      "name": "debconf",
+      "version": "1.5.79ubuntu1",
+      "type": "deb",
+      "foundBy": "snap-cataloger",
+      "locations": [
+        {
+          "path": "/snap/manifest.yaml",
+          "accessPath": "/snap/manifest.yaml"
+        }
+      ],
+      "licenses": [],
+      "language": "",
+      "cpes": [
+        {
+          "cpe": "cpe:2.3:a:debconf:debconf:1.5.79ubuntu1:*:*:*:*:*:*:*",
+          "source": "syft-generated"
+        }
+      ],
+      "purl": "pkg:deb/ubuntu/debconf@1.5.79ubuntu1?arch=amd64",
+      "metadataType": "snap-entry",
+      "metadata": {
+        "snapType": "app",
+        "base": "core22",
+        "snapName": "ncspot",
+        "snapVersion": "1.3.2",
+        "architecture": "amd64"
+      }
+    },
+    {
+      "id": "06a7de2ae31a5b8f",
+      "name": "libasound2",
+      "version": "1.2.6.1-1ubuntu1",
+      "type": "deb",
+      "foundBy": "snap-cataloger",
+      "locations": [
+        {
+          "path": "/snap/manifest.yaml",
+          "accessPath": "/snap/manifest.yaml"
+        }
+      ],
+      "licenses": [],
+      "language": "",
+      "cpes": [
+        {
+          "cpe": "cpe:2.3:a:libasound2:libasound2:1.2.6.1-1ubuntu1:*:*:*:*:*:*:*",
+          "source": "syft-generated"
+        }
+      ],
+      "purl": "pkg:deb/ubuntu/libasound2@1.2.6.1-1ubuntu1?arch=amd64",
+      "metadataType": "snap-entry",
+      "metadata": {
+        "snapType": "app",
+        "base": "core22",
+        "snapName": "ncspot",
+        "snapVersion": "1.3.2",
+        "architecture": "amd64"
+      }
+    },
+    {
+      "id": "b7354c874ea3173a",
+      "name": "libasound2-data",
+      "version": "1.2.6.1-1ubuntu1",
+      "type": "deb",
+      "foundBy": "snap-cataloger",
+      "locations": [
+        {
+          "path": "/snap/manifest.yaml",
+          "accessPath": "/snap/manifest.yaml"
+        }
+      ],
+      "licenses": [],
+      "language": "",
+      "cpes": [
+        {
+          "cpe": "cpe:2.3:a:libasound2-data:libasound2-data:1.2.6.1-1ubuntu1:*:*:*:*:*:*:*",
+          "source": "syft-generated"
+        },
+        {
+          "cpe": "cpe:2.3:a:libasound2-data:libasound2_data:1.2.6.1-1ubuntu1:*:*:*:*:*:*:*",
+          "source": "syft-generated"
+        },
+        {
+          "cpe": "cpe:2.3:a:libasound2_data:libasound2-data:1.2.6.1-1ubuntu1:*:*:*:*:*:*:*",
+          "source": "syft-generated"
+        },
+        {
+          "cpe": "cpe:2.3:a:libasound2_data:libasound2_data:1.2.6.1-1ubuntu1:*:*:*:*:*:*:*",
+          "source": "syft-generated"
+        },
+        {
+          "cpe": "cpe:2.3:a:libasound2:libasound2-data:1.2.6.1-1ubuntu1:*:*:*:*:*:*:*",
+          "source": "syft-generated"
+        },
+        {
+          "cpe": "cpe:2.3:a:libasound2:libasound2_data:1.2.6.1-1ubuntu1:*:*:*:*:*:*:*",
+          "source": "syft-generated"
+        }
+      ],
+      "purl": "pkg:deb/ubuntu/libasound2-data@1.2.6.1-1ubuntu1?arch=amd64",
+      "metadataType": "snap-entry",
+      "metadata": {
+        "snapType": "app",
+        "base": "core22",
+        "snapName": "ncspot",
+        "snapVersion": "1.3.2",
+        "architecture": "amd64"
+      }
+    },
+    {
+      "id": "ac888f09d583f9e6",
+      "name": "libasound2-plugins",
+      "version": "1.2.6-1",
+      "type": "deb",
+      "foundBy": "snap-cataloger",
+      "locations": [
+        {
+          "path": "/snap/manifest.yaml",
+          "accessPath": "/snap/manifest.yaml"
+        }
+      ],
+      "licenses": [],
+      "language": "",
+      "cpes": [
+        {
+          "cpe": "cpe:2.3:a:libasound2-plugins:libasound2-plugins:1.2.6-1:*:*:*:*:*:*:*",
+          "source": "syft-generated"
+        },
+        {
+          "cpe": "cpe:2.3:a:libasound2-plugins:libasound2_plugins:1.2.6-1:*:*:*:*:*:*:*",
+          "source": "syft-generated"
+        },
+        {
+          "cpe": "cpe:2.3:a:libasound2_plugins:libasound2-plugins:1.2.6-1:*:*:*:*:*:*:*",
+          "source": "syft-generated"
+        },
+        {
+          "cpe": "cpe:2.3:a:libasound2_plugins:libasound2_plugins:1.2.6-1:*:*:*:*:*:*:*",
+          "source": "syft-generated"
+        },
+        {
+          "cpe": "cpe:2.3:a:libasound2:libasound2-plugins:1.2.6-1:*:*:*:*:*:*:*",
+          "source": "syft-generated"
+        },
+        {
+          "cpe": "cpe:2.3:a:libasound2:libasound2_plugins:1.2.6-1:*:*:*:*:*:*:*",
+          "source": "syft-generated"
+        }
+      ],
+      "purl": "pkg:deb/ubuntu/libasound2-plugins@1.2.6-1?arch=amd64",
+      "metadataType": "snap-entry",
+      "metadata": {
+        "snapType": "app",
+        "base": "core22",
+        "snapName": "ncspot",
+        "snapVersion": "1.3.2",
+        "architecture": "amd64"
+      }
+    },
+    {
+      "id": "7764fbd018f1103c",
+      "name": "libasyncns0",
+      "version": "0.8-6build2",
+      "type": "deb",
+      "foundBy": "snap-cataloger",
+      "locations": [
+        {
+          "path": "/snap/manifest.yaml",
+          "accessPath": "/snap/manifest.yaml"
+        }
+      ],
+      "licenses": [],
+      "language": "",
+      "cpes": [
+        {
+          "cpe": "cpe:2.3:a:libasyncns0:libasyncns0:0.8-6build2:*:*:*:*:*:*:*",
+          "source": "syft-generated"
+        }
+      ],
+      "purl": "pkg:deb/ubuntu/libasyncns0@0.8-6build2?arch=amd64",
+      "metadataType": "snap-entry",
+      "metadata": {
+        "snapType": "app",
+        "base": "core22",
+        "snapName": "ncspot",
+        "snapVersion": "1.3.2",
+        "architecture": "amd64"
+      }
+    },
+    {
+      "id": "99ece92155a5e298",
+      "name": "libdbus-1-3",
+      "version": "1.12.20-2ubuntu4.1",
+      "type": "deb",
+      "foundBy": "snap-cataloger",
+      "locations": [
+        {
+          "path": "/snap/manifest.yaml",
+          "accessPath": "/snap/manifest.yaml"
+        }
+      ],
+      "licenses": [],
+      "language": "",
+      "cpes": [
+        {
+          "cpe": "cpe:2.3:a:libdbus-1-3:libdbus-1-3:1.12.20-2ubuntu4.1:*:*:*:*:*:*:*",
+          "source": "syft-generated"
+        },
+        {
+          "cpe": "cpe:2.3:a:libdbus-1-3:libdbus_1_3:1.12.20-2ubuntu4.1:*:*:*:*:*:*:*",
+          "source": "syft-generated"
+        },
+        {
+          "cpe": "cpe:2.3:a:libdbus_1_3:libdbus-1-3:1.12.20-2ubuntu4.1:*:*:*:*:*:*:*",
+          "source": "syft-generated"
+        },
+        {
+          "cpe": "cpe:2.3:a:libdbus_1_3:libdbus_1_3:1.12.20-2ubuntu4.1:*:*:*:*:*:*:*",
+          "source": "syft-generated"
+        },
+        {
+          "cpe": "cpe:2.3:a:libdbus-1:libdbus-1-3:1.12.20-2ubuntu4.1:*:*:*:*:*:*:*",
+          "source": "syft-generated"
+        },
+        {
+          "cpe": "cpe:2.3:a:libdbus-1:libdbus_1_3:1.12.20-2ubuntu4.1:*:*:*:*:*:*:*",
+          "source": "syft-generated"
+        },
+        {
+          "cpe": "cpe:2.3:a:libdbus_1:libdbus-1-3:1.12.20-2ubuntu4.1:*:*:*:*:*:*:*",
+          "source": "syft-generated"
+        },
+        {
+          "cpe": "cpe:2.3:a:libdbus_1:libdbus_1_3:1.12.20-2ubuntu4.1:*:*:*:*:*:*:*",
+          "source": "syft-generated"
+        },
+        {
+          "cpe": "cpe:2.3:a:libdbus:libdbus-1-3:1.12.20-2ubuntu4.1:*:*:*:*:*:*:*",
+          "source": "syft-generated"
+        },
+        {
+          "cpe": "cpe:2.3:a:libdbus:libdbus_1_3:1.12.20-2ubuntu4.1:*:*:*:*:*:*:*",
+          "source": "syft-generated"
+        }
+      ],
+      "purl": "pkg:deb/ubuntu/libdbus-1-3@1.12.20-2ubuntu4.1?arch=amd64",
+      "metadataType": "snap-entry",
+      "metadata": {
+        "snapType": "app",
+        "base": "core22",
+        "snapName": "ncspot",
+        "snapVersion": "1.3.2",
+        "architecture": "amd64"
+      }
+    },
+    {
+      "id": "42865b50b1ef65dc",
+      "name": "libflac8",
+      "version": "1.3.3-2ubuntu0.2",
+      "type": "deb",
+      "foundBy": "snap-cataloger",
+      "locations": [
+        {
+          "path": "/snap/manifest.yaml",
+          "accessPath": "/snap/manifest.yaml"
+        }
+      ],
+      "licenses": [],
+      "language": "",
+      "cpes": [
+        {
+          "cpe": "cpe:2.3:a:libflac8:libflac8:1.3.3-2ubuntu0.2:*:*:*:*:*:*:*",
+          "source": "syft-generated"
+        }
+      ],
+      "purl": "pkg:deb/ubuntu/libflac8@1.3.3-2ubuntu0.2?arch=amd64",
+      "metadataType": "snap-entry",
+      "metadata": {
+        "snapType": "app",
+        "base": "core22",
+        "snapName": "ncspot",
+        "snapVersion": "1.3.2",
+        "architecture": "amd64"
+      }
+    },
+    {
+      "id": "acbded123179f4d3",
+      "name": "libgcrypt20",
+      "version": "1.9.4-3ubuntu3",
+      "type": "deb",
+      "foundBy": "snap-cataloger",
+      "locations": [
+        {
+          "path": "/snap/manifest.yaml",
+          "accessPath": "/snap/manifest.yaml"
+        }
+      ],
+      "licenses": [],
+      "language": "",
+      "cpes": [
+        {
+          "cpe": "cpe:2.3:a:libgcrypt20:libgcrypt20:1.9.4-3ubuntu3:*:*:*:*:*:*:*",
+          "source": "syft-generated"
+        }
+      ],
+      "purl": "pkg:deb/ubuntu/libgcrypt20@1.9.4-3ubuntu3?arch=amd64",
+      "metadataType": "snap-entry",
+      "metadata": {
+        "snapType": "app",
+        "base": "core22",
+        "snapName": "ncspot",
+        "snapVersion": "1.3.2",
+        "architecture": "amd64"
+      }
+    },
+    {
+      "id": "265c195a2470d4e3",
+      "name": "libgpg-error0",
+      "version": "1.43-3",
+      "type": "deb",
+      "foundBy": "snap-cataloger",
+      "locations": [
+        {
+          "path": "/snap/manifest.yaml",
+          "accessPath": "/snap/manifest.yaml"
+        }
+      ],
+      "licenses": [],
+      "language": "",
+      "cpes": [
+        {
+          "cpe": "cpe:2.3:a:libgpg-error0:libgpg-error0:1.43-3:*:*:*:*:*:*:*",
+          "source": "syft-generated"
+        },
+        {
+          "cpe": "cpe:2.3:a:libgpg-error0:libgpg_error0:1.43-3:*:*:*:*:*:*:*",
+          "source": "syft-generated"
+        },
+        {
+          "cpe": "cpe:2.3:a:libgpg_error0:libgpg-error0:1.43-3:*:*:*:*:*:*:*",
+          "source": "syft-generated"
+        },
+        {
+          "cpe": "cpe:2.3:a:libgpg_error0:libgpg_error0:1.43-3:*:*:*:*:*:*:*",
+          "source": "syft-generated"
+        },
+        {
+          "cpe": "cpe:2.3:a:libgpg:libgpg-error0:1.43-3:*:*:*:*:*:*:*",
+          "source": "syft-generated"
+        },
+        {
+          "cpe": "cpe:2.3:a:libgpg:libgpg_error0:1.43-3:*:*:*:*:*:*:*",
+          "source": "syft-generated"
+        }
+      ],
+      "purl": "pkg:deb/ubuntu/libgpg-error0@1.43-3?arch=amd64",
+      "metadataType": "snap-entry",
+      "metadata": {
+        "snapType": "app",
+        "base": "core22",
+        "snapName": "ncspot",
+        "snapVersion": "1.3.2",
+        "architecture": "amd64"
+      }
+    },
+    {
+      "id": "df02f753da2bb8e2",
+      "name": "libjack-jackd2-0",
+      "version": "1.9.20~dfsg-1",
+      "type": "deb",
+      "foundBy": "snap-cataloger",
+      "locations": [
+        {
+          "path": "/snap/manifest.yaml",
+          "accessPath": "/snap/manifest.yaml"
+        }
+      ],
+      "licenses": [],
+      "language": "",
+      "cpes": [
+        {
+          "cpe": "cpe:2.3:a:libjack-jackd2-0:libjack-jackd2-0:1.9.20\\~dfsg-1:*:*:*:*:*:*:*",
+          "source": "syft-generated"
+        },
+        {
+          "cpe": "cpe:2.3:a:libjack-jackd2-0:libjack_jackd2_0:1.9.20\\~dfsg-1:*:*:*:*:*:*:*",
+          "source": "syft-generated"
+        },
+        {
+          "cpe": "cpe:2.3:a:libjack_jackd2_0:libjack-jackd2-0:1.9.20\\~dfsg-1:*:*:*:*:*:*:*",
+          "source": "syft-generated"
+        },
+        {
+          "cpe": "cpe:2.3:a:libjack_jackd2_0:libjack_jackd2_0:1.9.20\\~dfsg-1:*:*:*:*:*:*:*",
+          "source": "syft-generated"
+        },
+        {
+          "cpe": "cpe:2.3:a:libjack-jackd2:libjack-jackd2-0:1.9.20\\~dfsg-1:*:*:*:*:*:*:*",
+          "source": "syft-generated"
+        },
+        {
+          "cpe": "cpe:2.3:a:libjack-jackd2:libjack_jackd2_0:1.9.20\\~dfsg-1:*:*:*:*:*:*:*",
+          "source": "syft-generated"
+        },
+        {
+          "cpe": "cpe:2.3:a:libjack_jackd2:libjack-jackd2-0:1.9.20\\~dfsg-1:*:*:*:*:*:*:*",
+          "source": "syft-generated"
+        },
+        {
+          "cpe": "cpe:2.3:a:libjack_jackd2:libjack_jackd2_0:1.9.20\\~dfsg-1:*:*:*:*:*:*:*",
+          "source": "syft-generated"
+        },
+        {
+          "cpe": "cpe:2.3:a:libjack:libjack-jackd2-0:1.9.20\\~dfsg-1:*:*:*:*:*:*:*",
+          "source": "syft-generated"
+        },
+        {
+          "cpe": "cpe:2.3:a:libjack:libjack_jackd2_0:1.9.20\\~dfsg-1:*:*:*:*:*:*:*",
+          "source": "syft-generated"
+        }
+      ],
+      "purl": "pkg:deb/ubuntu/libjack-jackd2-0@1.9.20~dfsg-1?arch=amd64",
+      "metadataType": "snap-entry",
+      "metadata": {
+        "snapType": "app",
+        "base": "core22",
+        "snapName": "ncspot",
+        "snapVersion": "1.3.2",
+        "architecture": "amd64"
+      }
+    },
+    {
+      "id": "8d298b3c3452e998",
+      "name": "liblz4-1",
+      "version": "1.9.3-2build2",
+      "type": "deb",
+      "foundBy": "snap-cataloger",
+      "locations": [
+        {
+          "path": "/snap/manifest.yaml",
+          "accessPath": "/snap/manifest.yaml"
+        }
+      ],
+      "licenses": [],
+      "language": "",
+      "cpes": [
+        {
+          "cpe": "cpe:2.3:a:liblz4-1:liblz4-1:1.9.3-2build2:*:*:*:*:*:*:*",
+          "source": "syft-generated"
+        },
+        {
+          "cpe": "cpe:2.3:a:liblz4-1:liblz4_1:1.9.3-2build2:*:*:*:*:*:*:*",
+          "source": "syft-generated"
+        },
+        {
+          "cpe": "cpe:2.3:a:liblz4_1:liblz4-1:1.9.3-2build2:*:*:*:*:*:*:*",
+          "source": "syft-generated"
+        },
+        {
+          "cpe": "cpe:2.3:a:liblz4_1:liblz4_1:1.9.3-2build2:*:*:*:*:*:*:*",
+          "source": "syft-generated"
+        },
+        {
+          "cpe": "cpe:2.3:a:liblz4:liblz4-1:1.9.3-2build2:*:*:*:*:*:*:*",
+          "source": "syft-generated"
+        },
+        {
+          "cpe": "cpe:2.3:a:liblz4:liblz4_1:1.9.3-2build2:*:*:*:*:*:*:*",
+          "source": "syft-generated"
+        }
+      ],
+      "purl": "pkg:deb/ubuntu/liblz4-1@1.9.3-2build2?arch=amd64",
+      "metadataType": "snap-entry",
+      "metadata": {
+        "snapType": "app",
+        "base": "core22",
+        "snapName": "ncspot",
+        "snapVersion": "1.3.2",
+        "architecture": "amd64"
+      }
+    },
+    {
+      "id": "d35b0430c12ad4ac",
+      "name": "liblzma5",
+      "version": "5.2.5-2ubuntu1",
+      "type": "deb",
+      "foundBy": "snap-cataloger",
+      "locations": [
+        {
+          "path": "/snap/manifest.yaml",
+          "accessPath": "/snap/manifest.yaml"
+        }
+      ],
+      "licenses": [],
+      "language": "",
+      "cpes": [
+        {
+          "cpe": "cpe:2.3:a:liblzma5:liblzma5:5.2.5-2ubuntu1:*:*:*:*:*:*:*",
+          "source": "syft-generated"
+        }
+      ],
+      "purl": "pkg:deb/ubuntu/liblzma5@5.2.5-2ubuntu1?arch=amd64",
+      "metadataType": "snap-entry",
+      "metadata": {
+        "snapType": "app",
+        "base": "core22",
+        "snapName": "ncspot",
+        "snapVersion": "1.3.2",
+        "architecture": "amd64"
+      }
+    },
+    {
+      "id": "36c4b34758dbc53c",
+      "name": "libncursesw5",
+      "version": "6.3-2ubuntu0.1",
+      "type": "deb",
+      "foundBy": "snap-cataloger",
+      "locations": [
+        {
+          "path": "/snap/manifest.yaml",
+          "accessPath": "/snap/manifest.yaml"
+        }
+      ],
+      "licenses": [],
+      "language": "",
+      "cpes": [
+        {
+          "cpe": "cpe:2.3:a:libncursesw5:libncursesw5:6.3-2ubuntu0.1:*:*:*:*:*:*:*",
+          "source": "syft-generated"
+        }
+      ],
+      "purl": "pkg:deb/ubuntu/libncursesw5@6.3-2ubuntu0.1?arch=amd64",
+      "metadataType": "snap-entry",
+      "metadata": {
+        "snapType": "app",
+        "base": "core22",
+        "snapName": "ncspot",
+        "snapVersion": "1.3.2",
+        "architecture": "amd64"
+      }
+    },
+    {
+      "id": "e4a580a00902792a",
+      "name": "libogg0",
+      "version": "1.3.5-0ubuntu3",
+      "type": "deb",
+      "foundBy": "snap-cataloger",
+      "locations": [
+        {
+          "path": "/snap/manifest.yaml",
+          "accessPath": "/snap/manifest.yaml"
+        }
+      ],
+      "licenses": [],
+      "language": "",
+      "cpes": [
+        {
+          "cpe": "cpe:2.3:a:libogg0:libogg0:1.3.5-0ubuntu3:*:*:*:*:*:*:*",
+          "source": "syft-generated"
+        }
+      ],
+      "purl": "pkg:deb/ubuntu/libogg0@1.3.5-0ubuntu3?arch=amd64",
+      "metadataType": "snap-entry",
+      "metadata": {
+        "snapType": "app",
+        "base": "core22",
+        "snapName": "ncspot",
+        "snapVersion": "1.3.2",
+        "architecture": "amd64"
+      }
+    },
+    {
+      "id": "85de9c6d535a6b0c",
+      "name": "libopus0",
+      "version": "1.3.1-0.1build2",
+      "type": "deb",
+      "foundBy": "snap-cataloger",
+      "locations": [
+        {
+          "path": "/snap/manifest.yaml",
+          "accessPath": "/snap/manifest.yaml"
+        }
+      ],
+      "licenses": [],
+      "language": "",
+      "cpes": [
+        {
+          "cpe": "cpe:2.3:a:libopus0:libopus0:1.3.1-0.1build2:*:*:*:*:*:*:*",
+          "source": "syft-generated"
+        }
+      ],
+      "purl": "pkg:deb/ubuntu/libopus0@1.3.1-0.1build2?arch=amd64",
+      "metadataType": "snap-entry",
+      "metadata": {
+        "snapType": "app",
+        "base": "core22",
+        "snapName": "ncspot",
+        "snapVersion": "1.3.2",
+        "architecture": "amd64"
+      }
+    },
+    {
+      "id": "d5416c06aae3d434",
+      "name": "libpulse0",
+      "version": "1:15.99.1+dfsg1-1ubuntu2.2",
+      "type": "deb",
+      "foundBy": "snap-cataloger",
+      "locations": [
+        {
+          "path": "/snap/manifest.yaml",
+          "accessPath": "/snap/manifest.yaml"
+        }
+      ],
+      "licenses": [],
+      "language": "",
+      "cpes": [
+        {
+          "cpe": "cpe:2.3:a:libpulse0:libpulse0:1\\:15.99.1\\+dfsg1-1ubuntu2.2:*:*:*:*:*:*:*",
+          "source": "syft-generated"
+        }
+      ],
+      "purl": "pkg:deb/ubuntu/libpulse0@1%3A15.99.1%2Bdfsg1-1ubuntu2.2?arch=amd64",
+      "metadataType": "snap-entry",
+      "metadata": {
+        "snapType": "app",
+        "base": "core22",
+        "snapName": "ncspot",
+        "snapVersion": "1.3.2",
+        "architecture": "amd64"
+      }
+    },
+    {
+      "id": "a2e1472e4ee23123",
+      "name": "libpulsedsp",
+      "version": "1:15.99.1+dfsg1-1ubuntu2.2",
+      "type": "deb",
+      "foundBy": "snap-cataloger",
+      "locations": [
+        {
+          "path": "/snap/manifest.yaml",
+          "accessPath": "/snap/manifest.yaml"
+        }
+      ],
+      "licenses": [],
+      "language": "",
+      "cpes": [
+        {
+          "cpe": "cpe:2.3:a:libpulsedsp:libpulsedsp:1\\:15.99.1\\+dfsg1-1ubuntu2.2:*:*:*:*:*:*:*",
+          "source": "syft-generated"
+        }
+      ],
+      "purl": "pkg:deb/ubuntu/libpulsedsp@1%3A15.99.1%2Bdfsg1-1ubuntu2.2?arch=amd64",
+      "metadataType": "snap-entry",
+      "metadata": {
+        "snapType": "app",
+        "base": "core22",
+        "snapName": "ncspot",
+        "snapVersion": "1.3.2",
+        "architecture": "amd64"
+      }
+    },
+    {
+      "id": "7851675ae2299616",
+      "name": "libsamplerate0",
+      "version": "0.2.2-1build1",
+      "type": "deb",
+      "foundBy": "snap-cataloger",
+      "locations": [
+        {
+          "path": "/snap/manifest.yaml",
+          "accessPath": "/snap/manifest.yaml"
+        }
+      ],
+      "licenses": [],
+      "language": "",
+      "cpes": [
+        {
+          "cpe": "cpe:2.3:a:libsamplerate0:libsamplerate0:0.2.2-1build1:*:*:*:*:*:*:*",
+          "source": "syft-generated"
+        }
+      ],
+      "purl": "pkg:deb/ubuntu/libsamplerate0@0.2.2-1build1?arch=amd64",
+      "metadataType": "snap-entry",
+      "metadata": {
+        "snapType": "app",
+        "base": "core22",
+        "snapName": "ncspot",
+        "snapVersion": "1.3.2",
+        "architecture": "amd64"
+      }
+    },
+    {
+      "id": "8f3c497c0fa3f6c3",
+      "name": "libsndfile1",
+      "version": "1.0.31-2ubuntu0.2",
+      "type": "deb",
+      "foundBy": "snap-cataloger",
+      "locations": [
+        {
+          "path": "/snap/manifest.yaml",
+          "accessPath": "/snap/manifest.yaml"
+        }
+      ],
+      "licenses": [],
+      "language": "",
+      "cpes": [
+        {
+          "cpe": "cpe:2.3:a:libsndfile1:libsndfile1:1.0.31-2ubuntu0.2:*:*:*:*:*:*:*",
+          "source": "syft-generated"
+        }
+      ],
+      "purl": "pkg:deb/ubuntu/libsndfile1@1.0.31-2ubuntu0.2?arch=amd64",
+      "metadataType": "snap-entry",
+      "metadata": {
+        "snapType": "app",
+        "base": "core22",
+        "snapName": "ncspot",
+        "snapVersion": "1.3.2",
+        "architecture": "amd64"
+      }
+    },
+    {
+      "id": "a13b6ba00ff77f4e",
+      "name": "libssl3",
+      "version": "3.0.2-0ubuntu1.20",
+      "type": "deb",
+      "foundBy": "snap-cataloger",
+      "locations": [
+        {
+          "path": "/snap/manifest.yaml",
+          "accessPath": "/snap/manifest.yaml"
+        }
+      ],
+      "licenses": [],
+      "language": "",
+      "cpes": [
+        {
+          "cpe": "cpe:2.3:a:libssl3:libssl3:3.0.2-0ubuntu1.20:*:*:*:*:*:*:*",
+          "source": "syft-generated"
+        }
+      ],
+      "purl": "pkg:deb/ubuntu/libssl3@3.0.2-0ubuntu1.20?arch=amd64",
+      "metadataType": "snap-entry",
+      "metadata": {
+        "snapType": "app",
+        "base": "core22",
+        "snapName": "ncspot",
+        "snapVersion": "1.3.2",
+        "architecture": "amd64"
+      }
+    },
+    {
+      "id": "0915990acd255d2c",
+      "name": "libsystemd0",
+      "version": "249.11-0ubuntu3.17",
+      "type": "deb",
+      "foundBy": "snap-cataloger",
+      "locations": [
+        {
+          "path": "/snap/manifest.yaml",
+          "accessPath": "/snap/manifest.yaml"
+        }
+      ],
+      "licenses": [],
+      "language": "",
+      "cpes": [
+        {
+          "cpe": "cpe:2.3:a:libsystemd0:libsystemd0:249.11-0ubuntu3.17:*:*:*:*:*:*:*",
+          "source": "syft-generated"
+        }
+      ],
+      "purl": "pkg:deb/ubuntu/libsystemd0@249.11-0ubuntu3.17?arch=amd64",
+      "metadataType": "snap-entry",
+      "metadata": {
+        "snapType": "app",
+        "base": "core22",
+        "snapName": "ncspot",
+        "snapVersion": "1.3.2",
+        "architecture": "amd64"
+      }
+    },
+    {
+      "id": "c715b6dc98ea79ca",
+      "name": "libtinfo5",
+      "version": "6.3-2ubuntu0.1",
+      "type": "deb",
+      "foundBy": "snap-cataloger",
+      "locations": [
+        {
+          "path": "/snap/manifest.yaml",
+          "accessPath": "/snap/manifest.yaml"
+        }
+      ],
+      "licenses": [],
+      "language": "",
+      "cpes": [
+        {
+          "cpe": "cpe:2.3:a:libtinfo5:libtinfo5:6.3-2ubuntu0.1:*:*:*:*:*:*:*",
+          "source": "syft-generated"
+        }
+      ],
+      "purl": "pkg:deb/ubuntu/libtinfo5@6.3-2ubuntu0.1?arch=amd64",
+      "metadataType": "snap-entry",
+      "metadata": {
+        "snapType": "app",
+        "base": "core22",
+        "snapName": "ncspot",
+        "snapVersion": "1.3.2",
+        "architecture": "amd64"
+      }
+    },
+    {
+      "id": "95314fe0ee98638a",
+      "name": "libvorbis0a",
+      "version": "1.3.7-1build2",
+      "type": "deb",
+      "foundBy": "snap-cataloger",
+      "locations": [
+        {
+          "path": "/snap/manifest.yaml",
+          "accessPath": "/snap/manifest.yaml"
+        }
+      ],
+      "licenses": [],
+      "language": "",
+      "cpes": [
+        {
+          "cpe": "cpe:2.3:a:libvorbis0a:libvorbis0a:1.3.7-1build2:*:*:*:*:*:*:*",
+          "source": "syft-generated"
+        }
+      ],
+      "purl": "pkg:deb/ubuntu/libvorbis0a@1.3.7-1build2?arch=amd64",
+      "metadataType": "snap-entry",
+      "metadata": {
+        "snapType": "app",
+        "base": "core22",
+        "snapName": "ncspot",
+        "snapVersion": "1.3.2",
+        "architecture": "amd64"
+      }
+    },
+    {
+      "id": "7e1424545c73538c",
+      "name": "libvorbisenc2",
+      "version": "1.3.7-1build2",
+      "type": "deb",
+      "foundBy": "snap-cataloger",
+      "locations": [
+        {
+          "path": "/snap/manifest.yaml",
+          "accessPath": "/snap/manifest.yaml"
+        }
+      ],
+      "licenses": [],
+      "language": "",
+      "cpes": [
+        {
+          "cpe": "cpe:2.3:a:libvorbisenc2:libvorbisenc2:1.3.7-1build2:*:*:*:*:*:*:*",
+          "source": "syft-generated"
+        }
+      ],
+      "purl": "pkg:deb/ubuntu/libvorbisenc2@1.3.7-1build2?arch=amd64",
+      "metadataType": "snap-entry",
+      "metadata": {
+        "snapType": "app",
+        "base": "core22",
+        "snapName": "ncspot",
+        "snapVersion": "1.3.2",
+        "architecture": "amd64"
+      }
+    },
+    {
+      "id": "a20521593df6ba97",
+      "name": "libx11-6",
+      "version": "2:1.7.5-1ubuntu0.3",
+      "type": "deb",
+      "foundBy": "snap-cataloger",
+      "locations": [
+        {
+          "path": "/snap/manifest.yaml",
+          "accessPath": "/snap/manifest.yaml"
+        }
+      ],
+      "licenses": [],
+      "language": "",
+      "cpes": [
+        {
+          "cpe": "cpe:2.3:a:libx11-6:libx11-6:2\\:1.7.5-1ubuntu0.3:*:*:*:*:*:*:*",
+          "source": "syft-generated"
+        },
+        {
+          "cpe": "cpe:2.3:a:libx11-6:libx11_6:2\\:1.7.5-1ubuntu0.3:*:*:*:*:*:*:*",
+          "source": "syft-generated"
+        },
+        {
+          "cpe": "cpe:2.3:a:libx11_6:libx11-6:2\\:1.7.5-1ubuntu0.3:*:*:*:*:*:*:*",
+          "source": "syft-generated"
+        },
+        {
+          "cpe": "cpe:2.3:a:libx11_6:libx11_6:2\\:1.7.5-1ubuntu0.3:*:*:*:*:*:*:*",
+          "source": "syft-generated"
+        },
+        {
+          "cpe": "cpe:2.3:a:libx11:libx11-6:2\\:1.7.5-1ubuntu0.3:*:*:*:*:*:*:*",
+          "source": "syft-generated"
+        },
+        {
+          "cpe": "cpe:2.3:a:libx11:libx11_6:2\\:1.7.5-1ubuntu0.3:*:*:*:*:*:*:*",
+          "source": "syft-generated"
+        }
+      ],
+      "purl": "pkg:deb/ubuntu/libx11-6@2%3A1.7.5-1ubuntu0.3?arch=amd64",
+      "metadataType": "snap-entry",
+      "metadata": {
+        "snapType": "app",
+        "base": "core22",
+        "snapName": "ncspot",
+        "snapVersion": "1.3.2",
+        "architecture": "amd64"
+      }
+    },
+    {
+      "id": "4f1485816aba53c5",
+      "name": "libx11-data",
+      "version": "2:1.7.5-1ubuntu0.3",
+      "type": "deb",
+      "foundBy": "snap-cataloger",
+      "locations": [
+        {
+          "path": "/snap/manifest.yaml",
+          "accessPath": "/snap/manifest.yaml"
+        }
+      ],
+      "licenses": [],
+      "language": "",
+      "cpes": [
+        {
+          "cpe": "cpe:2.3:a:libx11-data:libx11-data:2\\:1.7.5-1ubuntu0.3:*:*:*:*:*:*:*",
+          "source": "syft-generated"
+        },
+        {
+          "cpe": "cpe:2.3:a:libx11-data:libx11_data:2\\:1.7.5-1ubuntu0.3:*:*:*:*:*:*:*",
+          "source": "syft-generated"
+        },
+        {
+          "cpe": "cpe:2.3:a:libx11_data:libx11-data:2\\:1.7.5-1ubuntu0.3:*:*:*:*:*:*:*",
+          "source": "syft-generated"
+        },
+        {
+          "cpe": "cpe:2.3:a:libx11_data:libx11_data:2\\:1.7.5-1ubuntu0.3:*:*:*:*:*:*:*",
+          "source": "syft-generated"
+        },
+        {
+          "cpe": "cpe:2.3:a:libx11:libx11-data:2\\:1.7.5-1ubuntu0.3:*:*:*:*:*:*:*",
+          "source": "syft-generated"
+        },
+        {
+          "cpe": "cpe:2.3:a:libx11:libx11_data:2\\:1.7.5-1ubuntu0.3:*:*:*:*:*:*:*",
+          "source": "syft-generated"
+        }
+      ],
+      "purl": "pkg:deb/ubuntu/libx11-data@2%3A1.7.5-1ubuntu0.3?arch=amd64",
+      "metadataType": "snap-entry",
+      "metadata": {
+        "snapType": "app",
+        "base": "core22",
+        "snapName": "ncspot",
+        "snapVersion": "1.3.2",
+        "architecture": "amd64"
+      }
+    },
+    {
+      "id": "7b543c619be26119",
+      "name": "libx11-xcb1",
+      "version": "2:1.7.5-1ubuntu0.3",
+      "type": "deb",
+      "foundBy": "snap-cataloger",
+      "locations": [
+        {
+          "path": "/snap/manifest.yaml",
+          "accessPath": "/snap/manifest.yaml"
+        }
+      ],
+      "licenses": [],
+      "language": "",
+      "cpes": [
+        {
+          "cpe": "cpe:2.3:a:libx11-xcb1:libx11-xcb1:2\\:1.7.5-1ubuntu0.3:*:*:*:*:*:*:*",
+          "source": "syft-generated"
+        },
+        {
+          "cpe": "cpe:2.3:a:libx11-xcb1:libx11_xcb1:2\\:1.7.5-1ubuntu0.3:*:*:*:*:*:*:*",
+          "source": "syft-generated"
+        },
+        {
+          "cpe": "cpe:2.3:a:libx11_xcb1:libx11-xcb1:2\\:1.7.5-1ubuntu0.3:*:*:*:*:*:*:*",
+          "source": "syft-generated"
+        },
+        {
+          "cpe": "cpe:2.3:a:libx11_xcb1:libx11_xcb1:2\\:1.7.5-1ubuntu0.3:*:*:*:*:*:*:*",
+          "source": "syft-generated"
+        },
+        {
+          "cpe": "cpe:2.3:a:libx11:libx11-xcb1:2\\:1.7.5-1ubuntu0.3:*:*:*:*:*:*:*",
+          "source": "syft-generated"
+        },
+        {
+          "cpe": "cpe:2.3:a:libx11:libx11_xcb1:2\\:1.7.5-1ubuntu0.3:*:*:*:*:*:*:*",
+          "source": "syft-generated"
+        }
+      ],
+      "purl": "pkg:deb/ubuntu/libx11-xcb1@2%3A1.7.5-1ubuntu0.3?arch=amd64",
+      "metadataType": "snap-entry",
+      "metadata": {
+        "snapType": "app",
+        "base": "core22",
+        "snapName": "ncspot",
+        "snapVersion": "1.3.2",
+        "architecture": "amd64"
+      }
+    },
+    {
+      "id": "16737fa5ba696606",
+      "name": "libxau6",
+      "version": "1:1.0.9-1build5",
+      "type": "deb",
+      "foundBy": "snap-cataloger",
+      "locations": [
+        {
+          "path": "/snap/manifest.yaml",
+          "accessPath": "/snap/manifest.yaml"
+        }
+      ],
+      "licenses": [],
+      "language": "",
+      "cpes": [
+        {
+          "cpe": "cpe:2.3:a:libxau6:libxau6:1\\:1.0.9-1build5:*:*:*:*:*:*:*",
+          "source": "syft-generated"
+        }
+      ],
+      "purl": "pkg:deb/ubuntu/libxau6@1%3A1.0.9-1build5?arch=amd64",
+      "metadataType": "snap-entry",
+      "metadata": {
+        "snapType": "app",
+        "base": "core22",
+        "snapName": "ncspot",
+        "snapVersion": "1.3.2",
+        "architecture": "amd64"
+      }
+    },
+    {
+      "id": "22dd7fdc3bcccb2a",
+      "name": "libxcb-render0",
+      "version": "1.14-3ubuntu3",
+      "type": "deb",
+      "foundBy": "snap-cataloger",
+      "locations": [
+        {
+          "path": "/snap/manifest.yaml",
+          "accessPath": "/snap/manifest.yaml"
+        }
+      ],
+      "licenses": [],
+      "language": "",
+      "cpes": [
+        {
+          "cpe": "cpe:2.3:a:libxcb-render0:libxcb-render0:1.14-3ubuntu3:*:*:*:*:*:*:*",
+          "source": "syft-generated"
+        },
+        {
+          "cpe": "cpe:2.3:a:libxcb-render0:libxcb_render0:1.14-3ubuntu3:*:*:*:*:*:*:*",
+          "source": "syft-generated"
+        },
+        {
+          "cpe": "cpe:2.3:a:libxcb_render0:libxcb-render0:1.14-3ubuntu3:*:*:*:*:*:*:*",
+          "source": "syft-generated"
+        },
+        {
+          "cpe": "cpe:2.3:a:libxcb_render0:libxcb_render0:1.14-3ubuntu3:*:*:*:*:*:*:*",
+          "source": "syft-generated"
+        },
+        {
+          "cpe": "cpe:2.3:a:libxcb:libxcb-render0:1.14-3ubuntu3:*:*:*:*:*:*:*",
+          "source": "syft-generated"
+        },
+        {
+          "cpe": "cpe:2.3:a:libxcb:libxcb_render0:1.14-3ubuntu3:*:*:*:*:*:*:*",
+          "source": "syft-generated"
+        }
+      ],
+      "purl": "pkg:deb/ubuntu/libxcb-render0@1.14-3ubuntu3?arch=amd64",
+      "metadataType": "snap-entry",
+      "metadata": {
+        "snapType": "app",
+        "base": "core22",
+        "snapName": "ncspot",
+        "snapVersion": "1.3.2",
+        "architecture": "amd64"
+      }
+    },
+    {
+      "id": "8d36512b0a2b43fc",
+      "name": "libxcb-shape0",
+      "version": "1.14-3ubuntu3",
+      "type": "deb",
+      "foundBy": "snap-cataloger",
+      "locations": [
+        {
+          "path": "/snap/manifest.yaml",
+          "accessPath": "/snap/manifest.yaml"
+        }
+      ],
+      "licenses": [],
+      "language": "",
+      "cpes": [
+        {
+          "cpe": "cpe:2.3:a:libxcb-shape0:libxcb-shape0:1.14-3ubuntu3:*:*:*:*:*:*:*",
+          "source": "syft-generated"
+        },
+        {
+          "cpe": "cpe:2.3:a:libxcb-shape0:libxcb_shape0:1.14-3ubuntu3:*:*:*:*:*:*:*",
+          "source": "syft-generated"
+        },
+        {
+          "cpe": "cpe:2.3:a:libxcb_shape0:libxcb-shape0:1.14-3ubuntu3:*:*:*:*:*:*:*",
+          "source": "syft-generated"
+        },
+        {
+          "cpe": "cpe:2.3:a:libxcb_shape0:libxcb_shape0:1.14-3ubuntu3:*:*:*:*:*:*:*",
+          "source": "syft-generated"
+        },
+        {
+          "cpe": "cpe:2.3:a:libxcb:libxcb-shape0:1.14-3ubuntu3:*:*:*:*:*:*:*",
+          "source": "syft-generated"
+        },
+        {
+          "cpe": "cpe:2.3:a:libxcb:libxcb_shape0:1.14-3ubuntu3:*:*:*:*:*:*:*",
+          "source": "syft-generated"
+        }
+      ],
+      "purl": "pkg:deb/ubuntu/libxcb-shape0@1.14-3ubuntu3?arch=amd64",
+      "metadataType": "snap-entry",
+      "metadata": {
+        "snapType": "app",
+        "base": "core22",
+        "snapName": "ncspot",
+        "snapVersion": "1.3.2",
+        "architecture": "amd64"
+      }
+    },
+    {
+      "id": "e05c5aac6c478b59",
+      "name": "libxcb-xfixes0",
+      "version": "1.14-3ubuntu3",
+      "type": "deb",
+      "foundBy": "snap-cataloger",
+      "locations": [
+        {
+          "path": "/snap/manifest.yaml",
+          "accessPath": "/snap/manifest.yaml"
+        }
+      ],
+      "licenses": [],
+      "language": "",
+      "cpes": [
+        {
+          "cpe": "cpe:2.3:a:libxcb-xfixes0:libxcb-xfixes0:1.14-3ubuntu3:*:*:*:*:*:*:*",
+          "source": "syft-generated"
+        },
+        {
+          "cpe": "cpe:2.3:a:libxcb-xfixes0:libxcb_xfixes0:1.14-3ubuntu3:*:*:*:*:*:*:*",
+          "source": "syft-generated"
+        },
+        {
+          "cpe": "cpe:2.3:a:libxcb_xfixes0:libxcb-xfixes0:1.14-3ubuntu3:*:*:*:*:*:*:*",
+          "source": "syft-generated"
+        },
+        {
+          "cpe": "cpe:2.3:a:libxcb_xfixes0:libxcb_xfixes0:1.14-3ubuntu3:*:*:*:*:*:*:*",
+          "source": "syft-generated"
+        },
+        {
+          "cpe": "cpe:2.3:a:libxcb:libxcb-xfixes0:1.14-3ubuntu3:*:*:*:*:*:*:*",
+          "source": "syft-generated"
+        },
+        {
+          "cpe": "cpe:2.3:a:libxcb:libxcb_xfixes0:1.14-3ubuntu3:*:*:*:*:*:*:*",
+          "source": "syft-generated"
+        }
+      ],
+      "purl": "pkg:deb/ubuntu/libxcb-xfixes0@1.14-3ubuntu3?arch=amd64",
+      "metadataType": "snap-entry",
+      "metadata": {
+        "snapType": "app",
+        "base": "core22",
+        "snapName": "ncspot",
+        "snapVersion": "1.3.2",
+        "architecture": "amd64"
+      }
+    },
+    {
+      "id": "9e02cfde67c5efc8",
+      "name": "libxcb1",
+      "version": "1.14-3ubuntu3",
+      "type": "deb",
+      "foundBy": "snap-cataloger",
+      "locations": [
+        {
+          "path": "/snap/manifest.yaml",
+          "accessPath": "/snap/manifest.yaml"
+        }
+      ],
+      "licenses": [],
+      "language": "",
+      "cpes": [
+        {
+          "cpe": "cpe:2.3:a:libxcb1:libxcb1:1.14-3ubuntu3:*:*:*:*:*:*:*",
+          "source": "syft-generated"
+        }
+      ],
+      "purl": "pkg:deb/ubuntu/libxcb1@1.14-3ubuntu3?arch=amd64",
+      "metadataType": "snap-entry",
+      "metadata": {
+        "snapType": "app",
+        "base": "core22",
+        "snapName": "ncspot",
+        "snapVersion": "1.3.2",
+        "architecture": "amd64"
+      }
+    },
+    {
+      "id": "b1b4c03a2d7646e8",
+      "name": "libxdmcp6",
+      "version": "1:1.1.3-0ubuntu5",
+      "type": "deb",
+      "foundBy": "snap-cataloger",
+      "locations": [
+        {
+          "path": "/snap/manifest.yaml",
+          "accessPath": "/snap/manifest.yaml"
+        }
+      ],
+      "licenses": [],
+      "language": "",
+      "cpes": [
+        {
+          "cpe": "cpe:2.3:a:libxdmcp6:libxdmcp6:1\\:1.1.3-0ubuntu5:*:*:*:*:*:*:*",
+          "source": "syft-generated"
+        }
+      ],
+      "purl": "pkg:deb/ubuntu/libxdmcp6@1%3A1.1.3-0ubuntu5?arch=amd64",
+      "metadataType": "snap-entry",
+      "metadata": {
+        "snapType": "app",
+        "base": "core22",
+        "snapName": "ncspot",
+        "snapVersion": "1.3.2",
+        "architecture": "amd64"
+      }
+    },
+    {
+      "id": "0e3e9087e34f977b",
+      "name": "ncspot",
+      "version": "1.3.2",
+      "type": "deb",
+      "foundBy": "snap-cataloger",
+      "locations": [
+        {
+          "path": "/meta/snap.yaml",
+          "accessPath": "/meta/snap.yaml"
+        }
+      ],
+      "licenses": [],
+      "language": "",
+      "cpes": [
+        {
+          "cpe": "cpe:2.3:a:ncspot:ncspot:1.3.2:*:*:*:*:*:*:*",
+          "source": "syft-generated"
+        }
+      ],
+      "purl": "pkg:generic/snap/ncspot@1.3.2?base=core22&type=app",
+      "metadataType": "snap-entry",
+      "metadata": {
+        "snapType": "app",
+        "base": "core22",
+        "snapName": "ncspot",
+        "snapVersion": "1.3.2",
+        "architecture": ""
+      }
+    }
+  ],
+  "artifactRelationships": [
+    {
+      "parent": "06a7de2ae31a5b8f",
+      "child": "25eafd1415f6974f",
+      "type": "evident-by",
+      "metadata": {
+        "kind": "supporting"
+      }
+    },
+    {
+      "parent": "0915990acd255d2c",
+      "child": "25eafd1415f6974f",
+      "type": "evident-by",
+      "metadata": {
+        "kind": "supporting"
+      }
+    },
+    {
+      "parent": "0e3e9087e34f977b",
+      "child": "ec247a55a2f0badf",
+      "type": "evident-by",
+      "metadata": {
+        "kind": "supporting"
+      }
+    },
+    {
+      "parent": "16737fa5ba696606",
+      "child": "25eafd1415f6974f",
+      "type": "evident-by",
+      "metadata": {
+        "kind": "supporting"
+      }
+    },
+    {
+      "parent": "190c44efcd74defdb216e1da82318e99fe7d21be204c307672e4ad7c1a545f4a",
+      "child": "06a7de2ae31a5b8f",
+      "type": "contains"
+    },
+    {
+      "parent": "190c44efcd74defdb216e1da82318e99fe7d21be204c307672e4ad7c1a545f4a",
+      "child": "0915990acd255d2c",
+      "type": "contains"
+    },
+    {
+      "parent": "190c44efcd74defdb216e1da82318e99fe7d21be204c307672e4ad7c1a545f4a",
+      "child": "0e3e9087e34f977b",
+      "type": "contains"
+    },
+    {
+      "parent": "190c44efcd74defdb216e1da82318e99fe7d21be204c307672e4ad7c1a545f4a",
+      "child": "16737fa5ba696606",
+      "type": "contains"
+    },
+    {
+      "parent": "190c44efcd74defdb216e1da82318e99fe7d21be204c307672e4ad7c1a545f4a",
+      "child": "22dd7fdc3bcccb2a",
+      "type": "contains"
+    },
+    {
+      "parent": "190c44efcd74defdb216e1da82318e99fe7d21be204c307672e4ad7c1a545f4a",
+      "child": "265c195a2470d4e3",
+      "type": "contains"
+    },
+    {
+      "parent": "190c44efcd74defdb216e1da82318e99fe7d21be204c307672e4ad7c1a545f4a",
+      "child": "36c4b34758dbc53c",
+      "type": "contains"
+    },
+    {
+      "parent": "190c44efcd74defdb216e1da82318e99fe7d21be204c307672e4ad7c1a545f4a",
+      "child": "4219634b880e5cd0",
+      "type": "contains"
+    },
+    {
+      "parent": "190c44efcd74defdb216e1da82318e99fe7d21be204c307672e4ad7c1a545f4a",
+      "child": "42865b50b1ef65dc",
+      "type": "contains"
+    },
+    {
+      "parent": "190c44efcd74defdb216e1da82318e99fe7d21be204c307672e4ad7c1a545f4a",
+      "child": "4f1485816aba53c5",
+      "type": "contains"
+    },
+    {
+      "parent": "190c44efcd74defdb216e1da82318e99fe7d21be204c307672e4ad7c1a545f4a",
+      "child": "7764fbd018f1103c",
+      "type": "contains"
+    },
+    {
+      "parent": "190c44efcd74defdb216e1da82318e99fe7d21be204c307672e4ad7c1a545f4a",
+      "child": "7851675ae2299616",
+      "type": "contains"
+    },
+    {
+      "parent": "190c44efcd74defdb216e1da82318e99fe7d21be204c307672e4ad7c1a545f4a",
+      "child": "7b543c619be26119",
+      "type": "contains"
+    },
+    {
+      "parent": "190c44efcd74defdb216e1da82318e99fe7d21be204c307672e4ad7c1a545f4a",
+      "child": "7e1424545c73538c",
+      "type": "contains"
+    },
+    {
+      "parent": "190c44efcd74defdb216e1da82318e99fe7d21be204c307672e4ad7c1a545f4a",
+      "child": "85de9c6d535a6b0c",
+      "type": "contains"
+    },
+    {
+      "parent": "190c44efcd74defdb216e1da82318e99fe7d21be204c307672e4ad7c1a545f4a",
+      "child": "8d298b3c3452e998",
+      "type": "contains"
+    },
+    {
+      "parent": "190c44efcd74defdb216e1da82318e99fe7d21be204c307672e4ad7c1a545f4a",
+      "child": "8d36512b0a2b43fc",
+      "type": "contains"
+    },
+    {
+      "parent": "190c44efcd74defdb216e1da82318e99fe7d21be204c307672e4ad7c1a545f4a",
+      "child": "8f3c497c0fa3f6c3",
+      "type": "contains"
+    },
+    {
+      "parent": "190c44efcd74defdb216e1da82318e99fe7d21be204c307672e4ad7c1a545f4a",
+      "child": "95314fe0ee98638a",
+      "type": "contains"
+    },
+    {
+      "parent": "190c44efcd74defdb216e1da82318e99fe7d21be204c307672e4ad7c1a545f4a",
+      "child": "99ece92155a5e298",
+      "type": "contains"
+    },
+    {
+      "parent": "190c44efcd74defdb216e1da82318e99fe7d21be204c307672e4ad7c1a545f4a",
+      "child": "9e02cfde67c5efc8",
+      "type": "contains"
+    },
+    {
+      "parent": "190c44efcd74defdb216e1da82318e99fe7d21be204c307672e4ad7c1a545f4a",
+      "child": "a13b6ba00ff77f4e",
+      "type": "contains"
+    },
+    {
+      "parent": "190c44efcd74defdb216e1da82318e99fe7d21be204c307672e4ad7c1a545f4a",
+      "child": "a20521593df6ba97",
+      "type": "contains"
+    },
+    {
+      "parent": "190c44efcd74defdb216e1da82318e99fe7d21be204c307672e4ad7c1a545f4a",
+      "child": "a2e1472e4ee23123",
+      "type": "contains"
+    },
+    {
+      "parent": "190c44efcd74defdb216e1da82318e99fe7d21be204c307672e4ad7c1a545f4a",
+      "child": "ac888f09d583f9e6",
+      "type": "contains"
+    },
+    {
+      "parent": "190c44efcd74defdb216e1da82318e99fe7d21be204c307672e4ad7c1a545f4a",
+      "child": "acbded123179f4d3",
+      "type": "contains"
+    },
+    {
+      "parent": "190c44efcd74defdb216e1da82318e99fe7d21be204c307672e4ad7c1a545f4a",
+      "child": "b1b4c03a2d7646e8",
+      "type": "contains"
+    },
+    {
+      "parent": "190c44efcd74defdb216e1da82318e99fe7d21be204c307672e4ad7c1a545f4a",
+      "child": "b7354c874ea3173a",
+      "type": "contains"
+    },
+    {
+      "parent": "190c44efcd74defdb216e1da82318e99fe7d21be204c307672e4ad7c1a545f4a",
+      "child": "c715b6dc98ea79ca",
+      "type": "contains"
+    },
+    {
+      "parent": "190c44efcd74defdb216e1da82318e99fe7d21be204c307672e4ad7c1a545f4a",
+      "child": "d35b0430c12ad4ac",
+      "type": "contains"
+    },
+    {
+      "parent": "190c44efcd74defdb216e1da82318e99fe7d21be204c307672e4ad7c1a545f4a",
+      "child": "d5416c06aae3d434",
+      "type": "contains"
+    },
+    {
+      "parent": "190c44efcd74defdb216e1da82318e99fe7d21be204c307672e4ad7c1a545f4a",
+      "child": "df02f753da2bb8e2",
+      "type": "contains"
+    },
+    {
+      "parent": "190c44efcd74defdb216e1da82318e99fe7d21be204c307672e4ad7c1a545f4a",
+      "child": "e05c5aac6c478b59",
+      "type": "contains"
+    },
+    {
+      "parent": "190c44efcd74defdb216e1da82318e99fe7d21be204c307672e4ad7c1a545f4a",
+      "child": "e4a580a00902792a",
+      "type": "contains"
+    },
+    {
+      "parent": "22dd7fdc3bcccb2a",
+      "child": "25eafd1415f6974f",
+      "type": "evident-by",
+      "metadata": {
+        "kind": "supporting"
+      }
+    },
+    {
+      "parent": "265c195a2470d4e3",
+      "child": "25eafd1415f6974f",
+      "type": "evident-by",
+      "metadata": {
+        "kind": "supporting"
+      }
+    },
+    {
+      "parent": "36c4b34758dbc53c",
+      "child": "25eafd1415f6974f",
+      "type": "evident-by",
+      "metadata": {
+        "kind": "supporting"
+      }
+    },
+    {
+      "parent": "4219634b880e5cd0",
+      "child": "25eafd1415f6974f",
+      "type": "evident-by",
+      "metadata": {
+        "kind": "supporting"
+      }
+    },
+    {
+      "parent": "42865b50b1ef65dc",
+      "child": "25eafd1415f6974f",
+      "type": "evident-by",
+      "metadata": {
+        "kind": "supporting"
+      }
+    },
+    {
+      "parent": "4f1485816aba53c5",
+      "child": "25eafd1415f6974f",
+      "type": "evident-by",
+      "metadata": {
+        "kind": "supporting"
+      }
+    },
+    {
+      "parent": "7764fbd018f1103c",
+      "child": "25eafd1415f6974f",
+      "type": "evident-by",
+      "metadata": {
+        "kind": "supporting"
+      }
+    },
+    {
+      "parent": "7851675ae2299616",
+      "child": "25eafd1415f6974f",
+      "type": "evident-by",
+      "metadata": {
+        "kind": "supporting"
+      }
+    },
+    {
+      "parent": "7b543c619be26119",
+      "child": "25eafd1415f6974f",
+      "type": "evident-by",
+      "metadata": {
+        "kind": "supporting"
+      }
+    },
+    {
+      "parent": "7e1424545c73538c",
+      "child": "25eafd1415f6974f",
+      "type": "evident-by",
+      "metadata": {
+        "kind": "supporting"
+      }
+    },
+    {
+      "parent": "85de9c6d535a6b0c",
+      "child": "25eafd1415f6974f",
+      "type": "evident-by",
+      "metadata": {
+        "kind": "supporting"
+      }
+    },
+    {
+      "parent": "8d298b3c3452e998",
+      "child": "25eafd1415f6974f",
+      "type": "evident-by",
+      "metadata": {
+        "kind": "supporting"
+      }
+    },
+    {
+      "parent": "8d36512b0a2b43fc",
+      "child": "25eafd1415f6974f",
+      "type": "evident-by",
+      "metadata": {
+        "kind": "supporting"
+      }
+    },
+    {
+      "parent": "8f3c497c0fa3f6c3",
+      "child": "25eafd1415f6974f",
+      "type": "evident-by",
+      "metadata": {
+        "kind": "supporting"
+      }
+    },
+    {
+      "parent": "95314fe0ee98638a",
+      "child": "25eafd1415f6974f",
+      "type": "evident-by",
+      "metadata": {
+        "kind": "supporting"
+      }
+    },
+    {
+      "parent": "99ece92155a5e298",
+      "child": "25eafd1415f6974f",
+      "type": "evident-by",
+      "metadata": {
+        "kind": "supporting"
+      }
+    },
+    {
+      "parent": "9e02cfde67c5efc8",
+      "child": "25eafd1415f6974f",
+      "type": "evident-by",
+      "metadata": {
+        "kind": "supporting"
+      }
+    },
+    {
+      "parent": "a13b6ba00ff77f4e",
+      "child": "25eafd1415f6974f",
+      "type": "evident-by",
+      "metadata": {
+        "kind": "supporting"
+      }
+    },
+    {
+      "parent": "a20521593df6ba97",
+      "child": "25eafd1415f6974f",
+      "type": "evident-by",
+      "metadata": {
+        "kind": "supporting"
+      }
+    },
+    {
+      "parent": "a2e1472e4ee23123",
+      "child": "25eafd1415f6974f",
+      "type": "evident-by",
+      "metadata": {
+        "kind": "supporting"
+      }
+    },
+    {
+      "parent": "ac888f09d583f9e6",
+      "child": "25eafd1415f6974f",
+      "type": "evident-by",
+      "metadata": {
+        "kind": "supporting"
+      }
+    },
+    {
+      "parent": "acbded123179f4d3",
+      "child": "25eafd1415f6974f",
+      "type": "evident-by",
+      "metadata": {
+        "kind": "supporting"
+      }
+    },
+    {
+      "parent": "b1b4c03a2d7646e8",
+      "child": "25eafd1415f6974f",
+      "type": "evident-by",
+      "metadata": {
+        "kind": "supporting"
+      }
+    },
+    {
+      "parent": "b7354c874ea3173a",
+      "child": "25eafd1415f6974f",
+      "type": "evident-by",
+      "metadata": {
+        "kind": "supporting"
+      }
+    },
+    {
+      "parent": "c715b6dc98ea79ca",
+      "child": "25eafd1415f6974f",
+      "type": "evident-by",
+      "metadata": {
+        "kind": "supporting"
+      }
+    },
+    {
+      "parent": "d35b0430c12ad4ac",
+      "child": "25eafd1415f6974f",
+      "type": "evident-by",
+      "metadata": {
+        "kind": "supporting"
+      }
+    },
+    {
+      "parent": "d5416c06aae3d434",
+      "child": "25eafd1415f6974f",
+      "type": "evident-by",
+      "metadata": {
+        "kind": "supporting"
+      }
+    },
+    {
+      "parent": "df02f753da2bb8e2",
+      "child": "25eafd1415f6974f",
+      "type": "evident-by",
+      "metadata": {
+        "kind": "supporting"
+      }
+    },
+    {
+      "parent": "e05c5aac6c478b59",
+      "child": "25eafd1415f6974f",
+      "type": "evident-by",
+      "metadata": {
+        "kind": "supporting"
+      }
+    },
+    {
+      "parent": "e4a580a00902792a",
+      "child": "25eafd1415f6974f",
+      "type": "evident-by",
+      "metadata": {
+        "kind": "supporting"
+      }
+    }
+  ],
+  "files": [
+    {
+      "id": "71fc991aa9914411",
+      "location": {
+        "path": "/bin/ncspot"
+      },
+      "executable": {
+        "format": "elf",
+        "hasExports": false,
+        "hasEntrypoint": false,
+        "importedLibraries": []
+      },
+      "unknowns": [
+        "cargo-auditable-binary-cataloger: rust cataloger: unable to read dependency information: unknown file format",
+        "file-executable-cataloger: unable to determine ELF features: EOF",
+        "unknowns-labeler: no package identified in executable file"
+      ]
+    },
+    {
+      "id": "49d4dedc71bb903e",
+      "location": {
+        "path": "/lib/x86_64-linux-gnu/libdbus-1.so.3.19.13"
+      },
+      "executable": {
+        "format": "elf",
+        "hasExports": false,
+        "hasEntrypoint": false,
+        "importedLibraries": []
+      },
+      "unknowns": [
+        "cargo-auditable-binary-cataloger: rust cataloger: unable to read dependency information: unknown file format",
+        "file-executable-cataloger: unable to determine ELF features: EOF",
+        "unknowns-labeler: no package identified in executable file"
+      ]
+    },
+    {
+      "id": "d13eca8e7ede680e",
+      "location": {
+        "path": "/lib/x86_64-linux-gnu/libgpg-error.so.0.32.1"
+      },
+      "executable": {
+        "format": "elf",
+        "hasExports": false,
+        "hasEntrypoint": false,
+        "importedLibraries": []
+      },
+      "unknowns": [
+        "cargo-auditable-binary-cataloger: rust cataloger: unable to read dependency information: unknown file format",
+        "file-executable-cataloger: unable to determine ELF features: EOF",
+        "unknowns-labeler: no package identified in executable file"
+      ]
+    },
+    {
+      "id": "c5bb1f9a6d1bdbb3",
+      "location": {
+        "path": "/lib/x86_64-linux-gnu/liblzma.so.5.2.5"
+      },
+      "executable": {
+        "format": "elf",
+        "hasExports": false,
+        "hasEntrypoint": false,
+        "importedLibraries": []
+      },
+      "unknowns": [
+        "cargo-auditable-binary-cataloger: rust cataloger: unable to read dependency information: unknown file format",
+        "file-executable-cataloger: unable to determine ELF features: EOF",
+        "unknowns-labeler: no package identified in executable file"
+      ]
+    },
+    {
+      "id": "f8841b218bc0517d",
+      "location": {
+        "path": "/lib/x86_64-linux-gnu/libncursesw.so.5.9"
+      },
+      "executable": {
+        "format": "elf",
+        "hasExports": false,
+        "hasEntrypoint": false,
+        "importedLibraries": []
+      },
+      "unknowns": [
+        "cargo-auditable-binary-cataloger: rust cataloger: unable to read dependency information: unknown file format",
+        "file-executable-cataloger: unable to determine ELF features: EOF",
+        "unknowns-labeler: no package identified in executable file"
+      ]
+    },
+    {
+      "id": "955756dfbb9b557b",
+      "location": {
+        "path": "/lib/x86_64-linux-gnu/libtinfo.so.5.9"
+      },
+      "executable": {
+        "format": "elf",
+        "hasExports": false,
+        "hasEntrypoint": false,
+        "importedLibraries": []
+      },
+      "unknowns": [
+        "cargo-auditable-binary-cataloger: rust cataloger: unable to read dependency information: unknown file format",
+        "file-executable-cataloger: unable to determine ELF features: EOF",
+        "unknowns-labeler: no package identified in executable file"
+      ]
+    },
+    {
+      "id": "ec247a55a2f0badf",
+      "location": {
+        "path": "/meta/snap.yaml"
+      },
+      "metadata": {
+        "mode": 644,
+        "type": "RegularFile",
+        "userID": 0,
+        "groupID": 0,
+        "mimeType": "text/plain",
+        "size": 1388
+      },
+      "digests": [
+        {
+          "algorithm": "sha1",
+          "value": "a598e223f99ae866f5ba703f3f713dd684fe9955"
+        },
+        {
+          "algorithm": "sha256",
+          "value": "1a8fb305f13c7614e21922f7e17286fcacf39a2cce2b2b90f8ca9beb40c92cc8"
+        }
+      ]
+    },
+    {
+      "id": "25eafd1415f6974f",
+      "location": {
+        "path": "/snap/manifest.yaml"
+      },
+      "metadata": {
+        "mode": 644,
+        "type": "RegularFile",
+        "userID": 0,
+        "groupID": 0,
+        "mimeType": "text/plain",
+        "size": 4977
+      },
+      "digests": [
+        {
+          "algorithm": "sha1",
+          "value": "cc2f8b1bccdac08178d76de10a4b14b6778badd2"
+        },
+        {
+          "algorithm": "sha256",
+          "value": "1b7affdb15578b94c1ae3650bf0691358945a79dfc953a49c6b626f211481feb"
+        }
+      ]
+    },
+    {
+      "id": "84fcc1ea2a079e27",
+      "location": {
+        "path": "/snap/snapcraft.yaml"
+      },
+      "unknowns": [
+        "snap-cataloger: failed to parse snapcraft.yaml: yaml: unmarshal errors:\n  line 22: cannot unmarshal !!map into string\n  line 23: cannot unmarshal !!map into string\n  line 24: cannot unmarshal !!map into string"
+      ]
+    },
+    {
+      "id": "86eb51616b823fab",
+      "location": {
+        "path": "/usr/lib/x86_64-linux-gnu/alsa-lib/libasound_module_conf_pulse.so"
+      },
+      "executable": {
+        "format": "elf",
+        "hasExports": false,
+        "hasEntrypoint": false,
+        "importedLibraries": []
+      },
+      "unknowns": [
+        "cargo-auditable-binary-cataloger: rust cataloger: unable to read dependency information: unknown file format",
+        "file-executable-cataloger: unable to determine ELF features: EOF",
+        "unknowns-labeler: no package identified in executable file"
+      ]
+    },
+    {
+      "id": "cca3cc4d18abd3cf",
+      "location": {
+        "path": "/usr/lib/x86_64-linux-gnu/alsa-lib/libasound_module_ctl_arcam_av.so"
+      },
+      "executable": {
+        "format": "elf",
+        "hasExports": false,
+        "hasEntrypoint": false,
+        "importedLibraries": []
+      },
+      "unknowns": [
+        "cargo-auditable-binary-cataloger: rust cataloger: unable to read dependency information: unknown file format",
+        "file-executable-cataloger: unable to determine ELF features: EOF",
+        "unknowns-labeler: no package identified in executable file"
+      ]
+    },
+    {
+      "id": "f32245e6c0fd9118",
+      "location": {
+        "path": "/usr/lib/x86_64-linux-gnu/alsa-lib/libasound_module_ctl_oss.so"
+      },
+      "executable": {
+        "format": "elf",
+        "hasExports": false,
+        "hasEntrypoint": false,
+        "importedLibraries": []
+      },
+      "unknowns": [
+        "cargo-auditable-binary-cataloger: rust cataloger: unable to read dependency information: unknown file format",
+        "file-executable-cataloger: unable to determine ELF features: EOF",
+        "unknowns-labeler: no package identified in executable file"
+      ]
+    },
+    {
+      "id": "ce1f750bedaf5235",
+      "location": {
+        "path": "/usr/lib/x86_64-linux-gnu/alsa-lib/libasound_module_ctl_pulse.so"
+      },
+      "executable": {
+        "format": "elf",
+        "hasExports": false,
+        "hasEntrypoint": false,
+        "importedLibraries": []
+      },
+      "unknowns": [
+        "cargo-auditable-binary-cataloger: rust cataloger: unable to read dependency information: unknown file format",
+        "file-executable-cataloger: unable to determine ELF features: EOF",
+        "unknowns-labeler: no package identified in executable file"
+      ]
+    },
+    {
+      "id": "74ae84089f9efe12",
+      "location": {
+        "path": "/usr/lib/x86_64-linux-gnu/alsa-lib/libasound_module_pcm_jack.so"
+      },
+      "executable": {
+        "format": "elf",
+        "hasExports": false,
+        "hasEntrypoint": false,
+        "importedLibraries": []
+      },
+      "unknowns": [
+        "cargo-auditable-binary-cataloger: rust cataloger: unable to read dependency information: unknown file format",
+        "file-executable-cataloger: unable to determine ELF features: EOF",
+        "unknowns-labeler: no package identified in executable file"
+      ]
+    },
+    {
+      "id": "b34a8afda9cc5ed4",
+      "location": {
+        "path": "/usr/lib/x86_64-linux-gnu/alsa-lib/libasound_module_pcm_oss.so"
+      },
+      "executable": {
+        "format": "elf",
+        "hasExports": false,
+        "hasEntrypoint": false,
+        "importedLibraries": []
+      },
+      "unknowns": [
+        "cargo-auditable-binary-cataloger: rust cataloger: unable to read dependency information: unknown file format",
+        "file-executable-cataloger: unable to determine ELF features: EOF",
+        "unknowns-labeler: no package identified in executable file"
+      ]
+    },
+    {
+      "id": "21878f7e34863080",
+      "location": {
+        "path": "/usr/lib/x86_64-linux-gnu/alsa-lib/libasound_module_pcm_pulse.so"
+      },
+      "executable": {
+        "format": "elf",
+        "hasExports": false,
+        "hasEntrypoint": false,
+        "importedLibraries": []
+      },
+      "unknowns": [
+        "cargo-auditable-binary-cataloger: rust cataloger: unable to read dependency information: unknown file format",
+        "file-executable-cataloger: unable to determine ELF features: EOF",
+        "unknowns-labeler: no package identified in executable file"
+      ]
+    },
+    {
+      "id": "f2611d042a1204f5",
+      "location": {
+        "path": "/usr/lib/x86_64-linux-gnu/alsa-lib/libasound_module_pcm_upmix.so"
+      },
+      "executable": {
+        "format": "elf",
+        "hasExports": false,
+        "hasEntrypoint": false,
+        "importedLibraries": []
+      },
+      "unknowns": [
+        "cargo-auditable-binary-cataloger: rust cataloger: unable to read dependency information: unknown file format",
+        "file-executable-cataloger: unable to determine ELF features: EOF",
+        "unknowns-labeler: no package identified in executable file"
+      ]
+    },
+    {
+      "id": "70f305f658c6f016",
+      "location": {
+        "path": "/usr/lib/x86_64-linux-gnu/alsa-lib/libasound_module_pcm_usb_stream.so"
+      },
+      "executable": {
+        "format": "elf",
+        "hasExports": false,
+        "hasEntrypoint": false,
+        "importedLibraries": []
+      },
+      "unknowns": [
+        "cargo-auditable-binary-cataloger: rust cataloger: unable to read dependency information: unknown file format",
+        "file-executable-cataloger: unable to determine ELF features: EOF",
+        "unknowns-labeler: no package identified in executable file"
+      ]
+    },
+    {
+      "id": "478d6119b70b00f2",
+      "location": {
+        "path": "/usr/lib/x86_64-linux-gnu/alsa-lib/libasound_module_pcm_vdownmix.so"
+      },
+      "executable": {
+        "format": "elf",
+        "hasExports": false,
+        "hasEntrypoint": false,
+        "importedLibraries": []
+      },
+      "unknowns": [
+        "cargo-auditable-binary-cataloger: rust cataloger: unable to read dependency information: unknown file format",
+        "file-executable-cataloger: unable to determine ELF features: EOF",
+        "unknowns-labeler: no package identified in executable file"
+      ]
+    },
+    {
+      "id": "7016dbc144899b92",
+      "location": {
+        "path": "/usr/lib/x86_64-linux-gnu/alsa-lib/libasound_module_rate_samplerate.so"
+      },
+      "executable": {
+        "format": "elf",
+        "hasExports": false,
+        "hasEntrypoint": false,
+        "importedLibraries": []
+      },
+      "unknowns": [
+        "cargo-auditable-binary-cataloger: rust cataloger: unable to read dependency information: unknown file format",
+        "file-executable-cataloger: unable to determine ELF features: EOF",
+        "unknowns-labeler: no package identified in executable file"
+      ]
+    },
+    {
+      "id": "0408d37edbe8eaf1",
+      "location": {
+        "path": "/usr/lib/x86_64-linux-gnu/alsa-lib/libasound_module_rate_speexrate.so"
+      },
+      "executable": {
+        "format": "elf",
+        "hasExports": false,
+        "hasEntrypoint": false,
+        "importedLibraries": []
+      },
+      "unknowns": [
+        "cargo-auditable-binary-cataloger: rust cataloger: unable to read dependency information: unknown file format",
+        "file-executable-cataloger: unable to determine ELF features: EOF",
+        "unknowns-labeler: no package identified in executable file"
+      ]
+    },
+    {
+      "id": "dc607c78f8e7301d",
+      "location": {
+        "path": "/usr/lib/x86_64-linux-gnu/engines-3/afalg.so"
+      },
+      "executable": {
+        "format": "elf",
+        "hasExports": false,
+        "hasEntrypoint": false,
+        "importedLibraries": []
+      },
+      "unknowns": [
+        "cargo-auditable-binary-cataloger: rust cataloger: unable to read dependency information: unknown file format",
+        "file-executable-cataloger: unable to determine ELF features: EOF",
+        "unknowns-labeler: no package identified in executable file"
+      ]
+    },
+    {
+      "id": "75bf335ceddad226",
+      "location": {
+        "path": "/usr/lib/x86_64-linux-gnu/engines-3/loader_attic.so"
+      },
+      "executable": {
+        "format": "elf",
+        "hasExports": false,
+        "hasEntrypoint": false,
+        "importedLibraries": []
+      },
+      "unknowns": [
+        "cargo-auditable-binary-cataloger: rust cataloger: unable to read dependency information: unknown file format",
+        "file-executable-cataloger: unable to determine ELF features: EOF",
+        "unknowns-labeler: no package identified in executable file"
+      ]
+    },
+    {
+      "id": "aecd1bba9306b6ef",
+      "location": {
+        "path": "/usr/lib/x86_64-linux-gnu/engines-3/padlock.so"
+      },
+      "executable": {
+        "format": "elf",
+        "hasExports": false,
+        "hasEntrypoint": false,
+        "importedLibraries": []
+      },
+      "unknowns": [
+        "cargo-auditable-binary-cataloger: rust cataloger: unable to read dependency information: unknown file format",
+        "file-executable-cataloger: unable to determine ELF features: EOF",
+        "unknowns-labeler: no package identified in executable file"
+      ]
+    },
+    {
+      "id": "10cb050b962d3825",
+      "location": {
+        "path": "/usr/lib/x86_64-linux-gnu/libFLAC.so.8.3.0"
+      },
+      "executable": {
+        "format": "elf",
+        "hasExports": false,
+        "hasEntrypoint": false,
+        "importedLibraries": []
+      },
+      "unknowns": [
+        "cargo-auditable-binary-cataloger: rust cataloger: unable to read dependency information: unknown file format",
+        "file-executable-cataloger: unable to determine ELF features: EOF",
+        "unknowns-labeler: no package identified in executable file"
+      ]
+    },
+    {
+      "id": "158b1e17c1fc77fc",
+      "location": {
+        "path": "/usr/lib/x86_64-linux-gnu/libX11-xcb.so.1.0.0"
+      },
+      "executable": {
+        "format": "elf",
+        "hasExports": false,
+        "hasEntrypoint": false,
+        "importedLibraries": []
+      },
+      "unknowns": [
+        "cargo-auditable-binary-cataloger: rust cataloger: unable to read dependency information: unknown file format",
+        "file-executable-cataloger: unable to determine ELF features: EOF",
+        "unknowns-labeler: no package identified in executable file"
+      ]
+    },
+    {
+      "id": "5a1e026356782370",
+      "location": {
+        "path": "/usr/lib/x86_64-linux-gnu/libX11.so.6.4.0"
+      },
+      "executable": {
+        "format": "elf",
+        "hasExports": false,
+        "hasEntrypoint": false,
+        "importedLibraries": []
+      },
+      "unknowns": [
+        "cargo-auditable-binary-cataloger: rust cataloger: unable to read dependency information: unknown file format",
+        "file-executable-cataloger: unable to determine ELF features: EOF",
+        "unknowns-labeler: no package identified in executable file"
+      ]
+    },
+    {
+      "id": "e0f51d6488672190",
+      "location": {
+        "path": "/usr/lib/x86_64-linux-gnu/libXau.so.6.0.0"
+      },
+      "executable": {
+        "format": "elf",
+        "hasExports": false,
+        "hasEntrypoint": false,
+        "importedLibraries": []
+      },
+      "unknowns": [
+        "cargo-auditable-binary-cataloger: rust cataloger: unable to read dependency information: unknown file format",
+        "file-executable-cataloger: unable to determine ELF features: EOF",
+        "unknowns-labeler: no package identified in executable file"
+      ]
+    },
+    {
+      "id": "ac988b65e7936663",
+      "location": {
+        "path": "/usr/lib/x86_64-linux-gnu/libXdmcp.so.6.0.0"
+      },
+      "executable": {
+        "format": "elf",
+        "hasExports": false,
+        "hasEntrypoint": false,
+        "importedLibraries": []
+      },
+      "unknowns": [
+        "cargo-auditable-binary-cataloger: rust cataloger: unable to read dependency information: unknown file format",
+        "file-executable-cataloger: unable to determine ELF features: EOF",
+        "unknowns-labeler: no package identified in executable file"
+      ]
+    },
+    {
+      "id": "54ceb8cfe80ccbc1",
+      "location": {
+        "path": "/usr/lib/x86_64-linux-gnu/libasound.so.2.0.0"
+      },
+      "executable": {
+        "format": "elf",
+        "hasExports": false,
+        "hasEntrypoint": false,
+        "importedLibraries": []
+      },
+      "unknowns": [
+        "cargo-auditable-binary-cataloger: rust cataloger: unable to read dependency information: unknown file format",
+        "file-executable-cataloger: unable to determine ELF features: EOF",
+        "unknowns-labeler: no package identified in executable file"
+      ]
+    },
+    {
+      "id": "d91f538965769fd0",
+      "location": {
+        "path": "/usr/lib/x86_64-linux-gnu/libasyncns.so.0.3.1"
+      },
+      "executable": {
+        "format": "elf",
+        "hasExports": false,
+        "hasEntrypoint": false,
+        "importedLibraries": []
+      },
+      "unknowns": [
+        "cargo-auditable-binary-cataloger: rust cataloger: unable to read dependency information: unknown file format",
+        "file-executable-cataloger: unable to determine ELF features: EOF",
+        "unknowns-labeler: no package identified in executable file"
+      ]
+    },
+    {
+      "id": "f3cb635afcd274c0",
+      "location": {
+        "path": "/usr/lib/x86_64-linux-gnu/libcrypto.so.3"
+      },
+      "executable": {
+        "format": "elf",
+        "hasExports": false,
+        "hasEntrypoint": false,
+        "importedLibraries": []
+      },
+      "unknowns": [
+        "cargo-auditable-binary-cataloger: rust cataloger: unable to read dependency information: unknown file format",
+        "file-executable-cataloger: unable to determine ELF features: EOF",
+        "unknowns-labeler: no package identified in executable file"
+      ]
+    },
+    {
+      "id": "c801c33c2b1ba2fb",
+      "location": {
+        "path": "/usr/lib/x86_64-linux-gnu/libformw.so.5.9"
+      },
+      "executable": {
+        "format": "elf",
+        "hasExports": false,
+        "hasEntrypoint": false,
+        "importedLibraries": []
+      },
+      "unknowns": [
+        "cargo-auditable-binary-cataloger: rust cataloger: unable to read dependency information: unknown file format",
+        "file-executable-cataloger: unable to determine ELF features: EOF",
+        "unknowns-labeler: no package identified in executable file"
+      ]
+    },
+    {
+      "id": "1fa32df2de7891db",
+      "location": {
+        "path": "/usr/lib/x86_64-linux-gnu/libgcrypt.so.20.3.4"
+      },
+      "executable": {
+        "format": "elf",
+        "hasExports": false,
+        "hasEntrypoint": false,
+        "importedLibraries": []
+      },
+      "unknowns": [
+        "cargo-auditable-binary-cataloger: rust cataloger: unable to read dependency information: unknown file format",
+        "file-executable-cataloger: unable to determine ELF features: EOF",
+        "unknowns-labeler: no package identified in executable file"
+      ]
+    },
+    {
+      "id": "576bff4dd5cb00f0",
+      "location": {
+        "path": "/usr/lib/x86_64-linux-gnu/libjack.so.0.1.0"
+      },
+      "executable": {
+        "format": "elf",
+        "hasExports": false,
+        "hasEntrypoint": false,
+        "importedLibraries": []
+      },
+      "unknowns": [
+        "cargo-auditable-binary-cataloger: rust cataloger: unable to read dependency information: unknown file format",
+        "file-executable-cataloger: unable to determine ELF features: EOF",
+        "unknowns-labeler: no package identified in executable file"
+      ]
+    },
+    {
+      "id": "5a9cb8a05d970c7f",
+      "location": {
+        "path": "/usr/lib/x86_64-linux-gnu/libjacknet.so.0.1.0"
+      },
+      "executable": {
+        "format": "elf",
+        "hasExports": false,
+        "hasEntrypoint": false,
+        "importedLibraries": []
+      },
+      "unknowns": [
+        "cargo-auditable-binary-cataloger: rust cataloger: unable to read dependency information: unknown file format",
+        "file-executable-cataloger: unable to determine ELF features: EOF",
+        "unknowns-labeler: no package identified in executable file"
+      ]
+    },
+    {
+      "id": "e11972ce028f57cd",
+      "location": {
+        "path": "/usr/lib/x86_64-linux-gnu/libjackserver.so.0.1.0"
+      },
+      "executable": {
+        "format": "elf",
+        "hasExports": false,
+        "hasEntrypoint": false,
+        "importedLibraries": []
+      },
+      "unknowns": [
+        "cargo-auditable-binary-cataloger: rust cataloger: unable to read dependency information: unknown file format",
+        "file-executable-cataloger: unable to determine ELF features: EOF",
+        "unknowns-labeler: no package identified in executable file"
+      ]
+    },
+    {
+      "id": "b54361df62a2675e",
+      "location": {
+        "path": "/usr/lib/x86_64-linux-gnu/liblz4.so.1.9.3"
+      },
+      "executable": {
+        "format": "elf",
+        "hasExports": false,
+        "hasEntrypoint": false,
+        "importedLibraries": []
+      },
+      "unknowns": [
+        "cargo-auditable-binary-cataloger: rust cataloger: unable to read dependency information: unknown file format",
+        "file-executable-cataloger: unable to determine ELF features: EOF",
+        "unknowns-labeler: no package identified in executable file"
+      ]
+    },
+    {
+      "id": "db7145dfa713549e",
+      "location": {
+        "path": "/usr/lib/x86_64-linux-gnu/libmenuw.so.5.9"
+      },
+      "executable": {
+        "format": "elf",
+        "hasExports": false,
+        "hasEntrypoint": false,
+        "importedLibraries": []
+      },
+      "unknowns": [
+        "cargo-auditable-binary-cataloger: rust cataloger: unable to read dependency information: unknown file format",
+        "file-executable-cataloger: unable to determine ELF features: EOF",
+        "unknowns-labeler: no package identified in executable file"
+      ]
+    },
+    {
+      "id": "ecf31319001d7c38",
+      "location": {
+        "path": "/usr/lib/x86_64-linux-gnu/libogg.so.0.8.5"
+      },
+      "executable": {
+        "format": "elf",
+        "hasExports": false,
+        "hasEntrypoint": false,
+        "importedLibraries": []
+      },
+      "unknowns": [
+        "cargo-auditable-binary-cataloger: rust cataloger: unable to read dependency information: unknown file format",
+        "file-executable-cataloger: unable to determine ELF features: EOF",
+        "unknowns-labeler: no package identified in executable file"
+      ]
+    },
+    {
+      "id": "1deb6f5a82d530c3",
+      "location": {
+        "path": "/usr/lib/x86_64-linux-gnu/libopus.so.0.8.0"
+      },
+      "executable": {
+        "format": "elf",
+        "hasExports": false,
+        "hasEntrypoint": false,
+        "importedLibraries": []
+      },
+      "unknowns": [
+        "cargo-auditable-binary-cataloger: rust cataloger: unable to read dependency information: unknown file format",
+        "file-executable-cataloger: unable to determine ELF features: EOF",
+        "unknowns-labeler: no package identified in executable file"
+      ]
+    },
+    {
+      "id": "15dc532d837f4042",
+      "location": {
+        "path": "/usr/lib/x86_64-linux-gnu/libpanelw.so.5.9"
+      },
+      "executable": {
+        "format": "elf",
+        "hasExports": false,
+        "hasEntrypoint": false,
+        "importedLibraries": []
+      },
+      "unknowns": [
+        "cargo-auditable-binary-cataloger: rust cataloger: unable to read dependency information: unknown file format",
+        "file-executable-cataloger: unable to determine ELF features: EOF",
+        "unknowns-labeler: no package identified in executable file"
+      ]
+    },
+    {
+      "id": "0badda26703b94bf",
+      "location": {
+        "path": "/usr/lib/x86_64-linux-gnu/libpulse-simple.so.0.1.1"
+      },
+      "executable": {
+        "format": "elf",
+        "hasExports": false,
+        "hasEntrypoint": false,
+        "importedLibraries": []
+      },
+      "unknowns": [
+        "cargo-auditable-binary-cataloger: rust cataloger: unable to read dependency information: unknown file format",
+        "file-executable-cataloger: unable to determine ELF features: EOF",
+        "unknowns-labeler: no package identified in executable file"
+      ]
+    },
+    {
+      "id": "12aaeb22d4e94e20",
+      "location": {
+        "path": "/usr/lib/x86_64-linux-gnu/libpulse.so.0.24.1"
+      },
+      "executable": {
+        "format": "elf",
+        "hasExports": false,
+        "hasEntrypoint": false,
+        "importedLibraries": []
+      },
+      "unknowns": [
+        "cargo-auditable-binary-cataloger: rust cataloger: unable to read dependency information: unknown file format",
+        "file-executable-cataloger: unable to determine ELF features: EOF",
+        "unknowns-labeler: no package identified in executable file"
+      ]
+    },
+    {
+      "id": "c13bac96063a09d0",
+      "location": {
+        "path": "/usr/lib/x86_64-linux-gnu/libsamplerate.so.0.2.2"
+      },
+      "executable": {
+        "format": "elf",
+        "hasExports": false,
+        "hasEntrypoint": false,
+        "importedLibraries": []
+      },
+      "unknowns": [
+        "cargo-auditable-binary-cataloger: rust cataloger: unable to read dependency information: unknown file format",
+        "file-executable-cataloger: unable to determine ELF features: EOF",
+        "unknowns-labeler: no package identified in executable file"
+      ]
+    },
+    {
+      "id": "29cd1e4d8fc885f8",
+      "location": {
+        "path": "/usr/lib/x86_64-linux-gnu/libsndfile.so.1.0.31"
+      },
+      "executable": {
+        "format": "elf",
+        "hasExports": false,
+        "hasEntrypoint": false,
+        "importedLibraries": []
+      },
+      "unknowns": [
+        "cargo-auditable-binary-cataloger: rust cataloger: unable to read dependency information: unknown file format",
+        "file-executable-cataloger: unable to determine ELF features: EOF",
+        "unknowns-labeler: no package identified in executable file"
+      ]
+    },
+    {
+      "id": "fc0d9f35b402c043",
+      "location": {
+        "path": "/usr/lib/x86_64-linux-gnu/libssl.so.3"
+      },
+      "executable": {
+        "format": "elf",
+        "hasExports": false,
+        "hasEntrypoint": false,
+        "importedLibraries": []
+      },
+      "unknowns": [
+        "cargo-auditable-binary-cataloger: rust cataloger: unable to read dependency information: unknown file format",
+        "file-executable-cataloger: unable to determine ELF features: EOF",
+        "unknowns-labeler: no package identified in executable file"
+      ]
+    },
+    {
+      "id": "08b68a64a87c3321",
+      "location": {
+        "path": "/usr/lib/x86_64-linux-gnu/libsystemd.so.0.32.0"
+      },
+      "executable": {
+        "format": "elf",
+        "hasExports": false,
+        "hasEntrypoint": false,
+        "importedLibraries": []
+      },
+      "unknowns": [
+        "cargo-auditable-binary-cataloger: rust cataloger: unable to read dependency information: unknown file format",
+        "file-executable-cataloger: unable to determine ELF features: EOF",
+        "unknowns-labeler: no package identified in executable file"
+      ]
+    },
+    {
+      "id": "f83b68e5348d5607",
+      "location": {
+        "path": "/usr/lib/x86_64-linux-gnu/libtic.so.5.9"
+      },
+      "executable": {
+        "format": "elf",
+        "hasExports": false,
+        "hasEntrypoint": false,
+        "importedLibraries": []
+      },
+      "unknowns": [
+        "cargo-auditable-binary-cataloger: rust cataloger: unable to read dependency information: unknown file format",
+        "file-executable-cataloger: unable to determine ELF features: EOF",
+        "unknowns-labeler: no package identified in executable file"
+      ]
+    },
+    {
+      "id": "a09d60806d097a5d",
+      "location": {
+        "path": "/usr/lib/x86_64-linux-gnu/libvorbis.so.0.4.9"
+      },
+      "executable": {
+        "format": "elf",
+        "hasExports": false,
+        "hasEntrypoint": false,
+        "importedLibraries": []
+      },
+      "unknowns": [
+        "cargo-auditable-binary-cataloger: rust cataloger: unable to read dependency information: unknown file format",
+        "file-executable-cataloger: unable to determine ELF features: EOF",
+        "unknowns-labeler: no package identified in executable file"
+      ]
+    },
+    {
+      "id": "b7b61324fe9daf3b",
+      "location": {
+        "path": "/usr/lib/x86_64-linux-gnu/libvorbisenc.so.2.0.12"
+      },
+      "executable": {
+        "format": "elf",
+        "hasExports": false,
+        "hasEntrypoint": false,
+        "importedLibraries": []
+      },
+      "unknowns": [
+        "cargo-auditable-binary-cataloger: rust cataloger: unable to read dependency information: unknown file format",
+        "file-executable-cataloger: unable to determine ELF features: EOF",
+        "unknowns-labeler: no package identified in executable file"
+      ]
+    },
+    {
+      "id": "0e844eb4dceec530",
+      "location": {
+        "path": "/usr/lib/x86_64-linux-gnu/libxcb-render.so.0.0.0"
+      },
+      "executable": {
+        "format": "elf",
+        "hasExports": false,
+        "hasEntrypoint": false,
+        "importedLibraries": []
+      },
+      "unknowns": [
+        "cargo-auditable-binary-cataloger: rust cataloger: unable to read dependency information: unknown file format",
+        "file-executable-cataloger: unable to determine ELF features: EOF",
+        "unknowns-labeler: no package identified in executable file"
+      ]
+    },
+    {
+      "id": "e48b299377604f8c",
+      "location": {
+        "path": "/usr/lib/x86_64-linux-gnu/libxcb-shape.so.0.0.0"
+      },
+      "executable": {
+        "format": "elf",
+        "hasExports": false,
+        "hasEntrypoint": false,
+        "importedLibraries": []
+      },
+      "unknowns": [
+        "cargo-auditable-binary-cataloger: rust cataloger: unable to read dependency information: unknown file format",
+        "file-executable-cataloger: unable to determine ELF features: EOF",
+        "unknowns-labeler: no package identified in executable file"
+      ]
+    },
+    {
+      "id": "a496fe7620596ae5",
+      "location": {
+        "path": "/usr/lib/x86_64-linux-gnu/libxcb-xfixes.so.0.0.0"
+      },
+      "executable": {
+        "format": "elf",
+        "hasExports": false,
+        "hasEntrypoint": false,
+        "importedLibraries": []
+      },
+      "unknowns": [
+        "cargo-auditable-binary-cataloger: rust cataloger: unable to read dependency information: unknown file format",
+        "file-executable-cataloger: unable to determine ELF features: EOF",
+        "unknowns-labeler: no package identified in executable file"
+      ]
+    },
+    {
+      "id": "7f7e399a1a78f734",
+      "location": {
+        "path": "/usr/lib/x86_64-linux-gnu/libxcb.so.1.1.0"
+      },
+      "executable": {
+        "format": "elf",
+        "hasExports": false,
+        "hasEntrypoint": false,
+        "importedLibraries": []
+      },
+      "unknowns": [
+        "cargo-auditable-binary-cataloger: rust cataloger: unable to read dependency information: unknown file format",
+        "file-executable-cataloger: unable to determine ELF features: EOF",
+        "unknowns-labeler: no package identified in executable file"
+      ]
+    },
+    {
+      "id": "dff6208650006ae4",
+      "location": {
+        "path": "/usr/lib/x86_64-linux-gnu/ossl-modules/legacy.so"
+      },
+      "executable": {
+        "format": "elf",
+        "hasExports": false,
+        "hasEntrypoint": false,
+        "importedLibraries": []
+      },
+      "unknowns": [
+        "cargo-auditable-binary-cataloger: rust cataloger: unable to read dependency information: unknown file format",
+        "file-executable-cataloger: unable to determine ELF features: EOF",
+        "unknowns-labeler: no package identified in executable file"
+      ]
+    },
+    {
+      "id": "c67750e351176123",
+      "location": {
+        "path": "/usr/lib/x86_64-linux-gnu/pulseaudio/libpulsecommon-15.99.so"
+      },
+      "executable": {
+        "format": "elf",
+        "hasExports": false,
+        "hasEntrypoint": false,
+        "importedLibraries": []
+      },
+      "unknowns": [
+        "cargo-auditable-binary-cataloger: rust cataloger: unable to read dependency information: unknown file format",
+        "file-executable-cataloger: unable to determine ELF features: EOF",
+        "unknowns-labeler: no package identified in executable file"
+      ]
+    },
+    {
+      "id": "39ee95ce8bc4f332",
+      "location": {
+        "path": "/usr/lib/x86_64-linux-gnu/pulseaudio/libpulsedsp.so"
+      },
+      "executable": {
+        "format": "elf",
+        "hasExports": false,
+        "hasEntrypoint": false,
+        "importedLibraries": []
+      },
+      "unknowns": [
+        "cargo-auditable-binary-cataloger: rust cataloger: unable to read dependency information: unknown file format",
+        "file-executable-cataloger: unable to determine ELF features: EOF",
+        "unknowns-labeler: no package identified in executable file"
+      ]
+    }
+  ],
+  "source": {
+    "id": "190c44efcd74defdb216e1da82318e99fe7d21be204c307672e4ad7c1a545f4a",
+    "name": "ncspot",
+    "version": "1.3.2",
+    "type": "snap",
+    "metadata": {
+      "summary": "Cross-platform ncurses Spotify client written in Rust",
+      "base": "core22",
+      "grade": "stable",
+      "confinement": "strict",
+      "architectures": [
+        "amd64"
+      ],
+      "digests": [
+        {
+          "algorithm": "sha256",
+          "value": "2ed86ed796f64b9679fa5e40f8f1a8ab759e5ec4b4b2480d75f3dae0aca55c71"
+        }
+      ]
+    }
+  },
+  "distro": {},
+  "descriptor": {
+    "name": "syft",
+    "version": "1.38.0",
+    "configuration": {
+      "catalogers": {
+        "requested": {
+          "default": [
+            "installed",
+            "file"
+          ]
+        },
+        "used": [
+          "alpm-db-cataloger",
+          "apk-db-cataloger",
+          "binary-classifier-cataloger",
+          "bitnami-cataloger",
+          "cargo-auditable-binary-cataloger",
+          "conan-info-cataloger",
+          "conda-meta-cataloger",
+          "dotnet-deps-binary-cataloger",
+          "dpkg-db-cataloger",
+          "elf-binary-package-cataloger",
+          "file-content-cataloger",
+          "file-digest-cataloger",
+          "file-executable-cataloger",
+          "file-metadata-cataloger",
+          "go-module-binary-cataloger",
+          "graalvm-native-image-cataloger",
+          "homebrew-cataloger",
+          "java-archive-cataloger",
+          "java-jvm-cataloger",
+          "javascript-package-cataloger",
+          "linux-kernel-cataloger",
+          "lua-rock-cataloger",
+          "nix-cataloger",
+          "pe-binary-package-cataloger",
+          "php-composer-installed-cataloger",
+          "php-interpreter-cataloger",
+          "portage-cataloger",
+          "python-installed-package-cataloger",
+          "r-package-cataloger",
+          "rpm-db-cataloger",
+          "ruby-installed-gemspec-cataloger",
+          "snap-cataloger"
+        ]
+      },
+      "data-generation": {
+        "generate-cpes": true
+      },
+      "files": {
+        "content": {
+          "globs": null,
+          "skip-files-above-size": 0
+        },
+        "hashers": [
+          "sha-1",
+          "sha-256"
+        ],
+        "selection": "owned-by-package"
+      },
+      "licenses": {
+        "coverage": 75,
+        "include-content": "none"
+      },
+      "packages": {
+        "binary": [
+          "python-binary",
+          "python-binary-lib",
+          "pypy-binary-lib",
+          "go-binary",
+          "julia-binary",
+          "helm",
+          "redis-binary",
+          "nodejs-binary",
+          "go-binary-hint",
+          "busybox-binary",
+          "util-linux-binary",
+          "haproxy-binary",
+          "perl-binary",
+          "php-composer-binary",
+          "httpd-binary",
+          "memcached-binary",
+          "traefik-binary",
+          "arangodb-binary",
+          "postgresql-binary",
+          "mysql-binary",
+          "mysql-binary",
+          "mysql-binary",
+          "xtrabackup-binary",
+          "mariadb-binary",
+          "rust-standard-library-linux",
+          "rust-standard-library-macos",
+          "ruby-binary",
+          "erlang-binary",
+          "erlang-alpine-binary",
+          "erlang-library",
+          "swipl-binary",
+          "dart-binary",
+          "haskell-ghc-binary",
+          "haskell-cabal-binary",
+          "haskell-stack-binary",
+          "consul-binary",
+          "hashicorp-vault-binary",
+          "nginx-binary",
+          "bash-binary",
+          "openssl-binary",
+          "gcc-binary",
+          "fluent-bit-binary",
+          "wordpress-cli-binary",
+          "curl-binary",
+          "lighttpd-binary",
+          "proftpd-binary",
+          "zstd-binary",
+          "xz-binary",
+          "gzip-binary",
+          "sqlcipher-binary",
+          "jq-binary",
+          "chrome-binary",
+          "ffmpeg-binary",
+          "ffmpeg-library",
+          "ffmpeg-library",
+          "elixir-binary",
+          "elixir-library",
+          "java-binary",
+          "java-jdb-binary"
+        ],
+        "dotnet": {
+          "dep-packages-must-claim-dll": true,
+          "dep-packages-must-have-dll": false,
+          "propagate-dll-claims-to-parents": true,
+          "relax-dll-claims-when-bundling-detected": true
+        },
+        "golang": {
+          "local-mod-cache-dir": "/Users/alan/go/pkg/mod",
+          "local-vendor-dir": "",
+          "main-module-version": {
+            "from-build-settings": true,
+            "from-contents": false,
+            "from-ld-flags": true
+          },
+          "proxies": [
+            "https://proxy.golang.org",
+            "direct"
+          ],
+          "search-local-mod-cache-licenses": false,
+          "search-local-vendor-licenses": false,
+          "search-remote-licenses": false
+        },
+        "java-archive": {
+          "include-indexed-archives": true,
+          "include-unindexed-archives": false,
+          "maven-base-url": "https://repo1.maven.org/maven2",
+          "maven-localrepository-dir": "/Users/alan/.m2/repository",
+          "max-parent-recursive-depth": 0,
+          "resolve-transitive-dependencies": false,
+          "use-maven-localrepository": false,
+          "use-network": false
+        },
+        "javascript": {
+          "include-dev-dependencies": false,
+          "npm-base-url": "https://registry.npmjs.org",
+          "search-remote-licenses": false
+        },
+        "linux-kernel": {
+          "catalog-modules": true
+        },
+        "nix": {
+          "capture-owned-files": false
+        },
+        "python": {
+          "guess-unpinned-requirements": false,
+          "pypi-base-url": "https://pypi.org/pypi",
+          "search-remote-licenses": false
+        }
+      },
+      "relationships": {
+        "exclude-binary-packages-with-file-ownership-overlap": true,
+        "package-file-ownership": true,
+        "package-file-ownership-overlap": true
+      },
+      "search": {
+        "scope": "squashed"
+      }
+    }
+  },
+  "schema": {
+    "version": "16.1.0",
+    "url": "https://raw.githubusercontent.com/anchore/syft/main/schema/json/schema-16.1.0.json"
+  }
+}

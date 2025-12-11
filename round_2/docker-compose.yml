@@ -1,0 +1,92 @@
+services:
+  frontend:
+    build:
+      context: .
+      dockerfile: Dockerfile.frontend
+    ports:
+      - "3000:3000"
+    volumes:
+      - ./frontend-src:/app/src:ro
+      - ./public:/app/public:ro
+    environment:
+      - VITE_API_URL=http://localhost:8000
+    depends_on:
+      - backend
+
+  backend:
+    build:
+      context: .
+      dockerfile: Dockerfile.backend
+    ports:
+      - "8000:8000"
+    volumes:
+      - ./backend-src:/app/backend-src:ro
+      - ./data:/app/data
+    environment:
+      - DATABASE_PATH=/app/data/snapscope.db
+      - S3_ENDPOINT=http://minio:9000
+      - S3_ACCESS_KEY=minioadmin
+      - S3_SECRET_KEY=minioadmin
+      - S3_SBOM_BUCKET=sboms
+      - S3_VULN_BUCKET=vulnerabilities
+    depends_on:
+      minio:
+        condition: service_healthy
+
+  worker:
+    build:
+      context: .
+      dockerfile: Dockerfile.worker
+    user: "0:0"  # Run as root to access Docker socket
+    volumes:
+      - ./worker-src:/app/worker-src:ro
+      - ./data:/app/data
+      - /var/run/docker.sock:/var/run/docker.sock
+      - ./worker-temp:/tmp/snapscope
+    environment:
+      - DATABASE_PATH=/app/data/snapscope.db
+      - S3_ENDPOINT=http://minio:9000
+      - S3_ACCESS_KEY=minioadmin
+      - S3_SECRET_KEY=minioadmin
+      - S3_SBOM_BUCKET=sboms
+      - S3_VULN_BUCKET=vulnerabilities
+      - TEMP_DIR=/tmp/snapscope
+      - HOST_TEMP_DIR=${PWD}/worker-temp
+    depends_on:
+      minio:
+        condition: service_healthy
+      backend:
+        condition: service_started
+
+  minio:
+    image: minio/minio:latest
+    ports:
+      - "9000:9000"
+      - "9001:9001"
+    volumes:
+      - minio-data:/data
+    environment:
+      - MINIO_ROOT_USER=minioadmin
+      - MINIO_ROOT_PASSWORD=minioadmin
+    command: server /data --console-address ":9001"
+    healthcheck:
+      test: ["CMD", "mc", "ready", "local"]
+      interval: 5s
+      timeout: 5s
+      retries: 5
+
+  minio-init:
+    image: minio/mc:latest
+    depends_on:
+      minio:
+        condition: service_healthy
+    entrypoint: >
+      /bin/sh -c "
+      mc alias set myminio http://minio:9000 minioadmin minioadmin;
+      mc mb myminio/sboms --ignore-existing;
+      mc mb myminio/vulnerabilities --ignore-existing;
+      exit 0;
+      "
+
+volumes:
+  minio-data:

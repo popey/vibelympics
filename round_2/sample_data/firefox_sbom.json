@@ -1,0 +1,3199 @@
+{
+  "artifacts": [
+    {
+      "id": "c7d31a1a5de7de96",
+      "name": "firefox",
+      "version": "145.0.2-1",
+      "type": "deb",
+      "foundBy": "snap-cataloger",
+      "locations": [
+        {
+          "path": "/meta/snap.yaml",
+          "accessPath": "/meta/snap.yaml"
+        }
+      ],
+      "licenses": [],
+      "language": "",
+      "cpes": [
+        {
+          "cpe": "cpe:2.3:a:firefox:firefox:145.0.2-1:*:*:*:*:*:*:*",
+          "source": "syft-generated"
+        }
+      ],
+      "purl": "pkg:generic/snap/firefox@145.0.2-1?base=core22&type=app",
+      "metadataType": "snap-entry",
+      "metadata": {
+        "snapType": "app",
+        "base": "core22",
+        "snapName": "firefox",
+        "snapVersion": "145.0.2-1",
+        "architecture": ""
+      }
+    },
+    {
+      "id": "6e3aaae8830acd86",
+      "name": "libaom3",
+      "version": "3.3.0-1ubuntu0.1",
+      "type": "deb",
+      "foundBy": "snap-cataloger",
+      "locations": [
+        {
+          "path": "/snap/manifest.yaml",
+          "accessPath": "/snap/manifest.yaml"
+        }
+      ],
+      "licenses": [],
+      "language": "",
+      "cpes": [
+        {
+          "cpe": "cpe:2.3:a:libaom3:libaom3:3.3.0-1ubuntu0.1:*:*:*:*:*:*:*",
+          "source": "syft-generated"
+        }
+      ],
+      "purl": "pkg:deb/ubuntu/libaom3@3.3.0-1ubuntu0.1?arch=amd64",
+      "metadataType": "snap-entry",
+      "metadata": {
+        "snapType": "app",
+        "base": "core22",
+        "snapName": "firefox",
+        "snapVersion": "145.0.2-1",
+        "architecture": "amd64"
+      }
+    },
+    {
+      "id": "01b1a42e4887caad",
+      "name": "libasound2-data",
+      "version": "1.2.6.1-1ubuntu1",
+      "type": "deb",
+      "foundBy": "snap-cataloger",
+      "locations": [
+        {
+          "path": "/snap/manifest.yaml",
+          "accessPath": "/snap/manifest.yaml"
+        }
+      ],
+      "licenses": [],
+      "language": "",
+      "cpes": [
+        {
+          "cpe": "cpe:2.3:a:libasound2-data:libasound2-data:1.2.6.1-1ubuntu1:*:*:*:*:*:*:*",
+          "source": "syft-generated"
+        },
+        {
+          "cpe": "cpe:2.3:a:libasound2-data:libasound2_data:1.2.6.1-1ubuntu1:*:*:*:*:*:*:*",
+          "source": "syft-generated"
+        },
+        {
+          "cpe": "cpe:2.3:a:libasound2_data:libasound2-data:1.2.6.1-1ubuntu1:*:*:*:*:*:*:*",
+          "source": "syft-generated"
+        },
+        {
+          "cpe": "cpe:2.3:a:libasound2_data:libasound2_data:1.2.6.1-1ubuntu1:*:*:*:*:*:*:*",
+          "source": "syft-generated"
+        },
+        {
+          "cpe": "cpe:2.3:a:libasound2:libasound2-data:1.2.6.1-1ubuntu1:*:*:*:*:*:*:*",
+          "source": "syft-generated"
+        },
+        {
+          "cpe": "cpe:2.3:a:libasound2:libasound2_data:1.2.6.1-1ubuntu1:*:*:*:*:*:*:*",
+          "source": "syft-generated"
+        }
+      ],
+      "purl": "pkg:deb/ubuntu/libasound2-data@1.2.6.1-1ubuntu1?arch=amd64",
+      "metadataType": "snap-entry",
+      "metadata": {
+        "snapType": "app",
+        "base": "core22",
+        "snapName": "firefox",
+        "snapVersion": "145.0.2-1",
+        "architecture": "amd64"
+      }
+    },
+    {
+      "id": "3b03a5a4e847fc94",
+      "name": "libavcodec58",
+      "version": "7:4.4.2-0ubuntu0.22.04.1",
+      "type": "deb",
+      "foundBy": "snap-cataloger",
+      "locations": [
+        {
+          "path": "/snap/manifest.yaml",
+          "accessPath": "/snap/manifest.yaml"
+        }
+      ],
+      "licenses": [],
+      "language": "",
+      "cpes": [
+        {
+          "cpe": "cpe:2.3:a:libavcodec58:libavcodec58:7\\:4.4.2-0ubuntu0.22.04.1:*:*:*:*:*:*:*",
+          "source": "syft-generated"
+        }
+      ],
+      "purl": "pkg:deb/ubuntu/libavcodec58@7%3A4.4.2-0ubuntu0.22.04.1?arch=amd64",
+      "metadataType": "snap-entry",
+      "metadata": {
+        "snapType": "app",
+        "base": "core22",
+        "snapName": "firefox",
+        "snapVersion": "145.0.2-1",
+        "architecture": "amd64"
+      }
+    },
+    {
+      "id": "10e8c2c614697d76",
+      "name": "libavutil56",
+      "version": "7:4.4.2-0ubuntu0.22.04.1",
+      "type": "deb",
+      "foundBy": "snap-cataloger",
+      "locations": [
+        {
+          "path": "/snap/manifest.yaml",
+          "accessPath": "/snap/manifest.yaml"
+        }
+      ],
+      "licenses": [],
+      "language": "",
+      "cpes": [
+        {
+          "cpe": "cpe:2.3:a:libavutil56:libavutil56:7\\:4.4.2-0ubuntu0.22.04.1:*:*:*:*:*:*:*",
+          "source": "syft-generated"
+        }
+      ],
+      "purl": "pkg:deb/ubuntu/libavutil56@7%3A4.4.2-0ubuntu0.22.04.1?arch=amd64",
+      "metadataType": "snap-entry",
+      "metadata": {
+        "snapType": "app",
+        "base": "core22",
+        "snapName": "firefox",
+        "snapVersion": "145.0.2-1",
+        "architecture": "amd64"
+      }
+    },
+    {
+      "id": "70648e5daed43da2",
+      "name": "libcodec2-1.0",
+      "version": "1.0.1-3",
+      "type": "deb",
+      "foundBy": "snap-cataloger",
+      "locations": [
+        {
+          "path": "/snap/manifest.yaml",
+          "accessPath": "/snap/manifest.yaml"
+        }
+      ],
+      "licenses": [],
+      "language": "",
+      "cpes": [
+        {
+          "cpe": "cpe:2.3:a:libcodec2-1.0:libcodec2-1.0:1.0.1-3:*:*:*:*:*:*:*",
+          "source": "syft-generated"
+        },
+        {
+          "cpe": "cpe:2.3:a:libcodec2-1.0:libcodec2_1.0:1.0.1-3:*:*:*:*:*:*:*",
+          "source": "syft-generated"
+        },
+        {
+          "cpe": "cpe:2.3:a:libcodec2_1.0:libcodec2-1.0:1.0.1-3:*:*:*:*:*:*:*",
+          "source": "syft-generated"
+        },
+        {
+          "cpe": "cpe:2.3:a:libcodec2_1.0:libcodec2_1.0:1.0.1-3:*:*:*:*:*:*:*",
+          "source": "syft-generated"
+        },
+        {
+          "cpe": "cpe:2.3:a:libcodec2:libcodec2-1.0:1.0.1-3:*:*:*:*:*:*:*",
+          "source": "syft-generated"
+        },
+        {
+          "cpe": "cpe:2.3:a:libcodec2:libcodec2_1.0:1.0.1-3:*:*:*:*:*:*:*",
+          "source": "syft-generated"
+        }
+      ],
+      "purl": "pkg:deb/ubuntu/libcodec2-1.0@1.0.1-3?arch=amd64",
+      "metadataType": "snap-entry",
+      "metadata": {
+        "snapType": "app",
+        "base": "core22",
+        "snapName": "firefox",
+        "snapVersion": "145.0.2-1",
+        "architecture": "amd64"
+      }
+    },
+    {
+      "id": "dae13da4216dd412",
+      "name": "libcurl4",
+      "version": "7.81.0-1ubuntu1.21",
+      "type": "deb",
+      "foundBy": "snap-cataloger",
+      "locations": [
+        {
+          "path": "/snap/manifest.yaml",
+          "accessPath": "/snap/manifest.yaml"
+        }
+      ],
+      "licenses": [],
+      "language": "",
+      "cpes": [
+        {
+          "cpe": "cpe:2.3:a:libcurl4:libcurl4:7.81.0-1ubuntu1.21:*:*:*:*:*:*:*",
+          "source": "syft-generated"
+        }
+      ],
+      "purl": "pkg:deb/ubuntu/libcurl4@7.81.0-1ubuntu1.21?arch=amd64",
+      "metadataType": "snap-entry",
+      "metadata": {
+        "snapType": "app",
+        "base": "core22",
+        "snapName": "firefox",
+        "snapVersion": "145.0.2-1",
+        "architecture": "amd64"
+      }
+    },
+    {
+      "id": "6d729f1247a8bda3",
+      "name": "libdav1d5",
+      "version": "0.9.2-1",
+      "type": "deb",
+      "foundBy": "snap-cataloger",
+      "locations": [
+        {
+          "path": "/snap/manifest.yaml",
+          "accessPath": "/snap/manifest.yaml"
+        }
+      ],
+      "licenses": [],
+      "language": "",
+      "cpes": [
+        {
+          "cpe": "cpe:2.3:a:libdav1d5:libdav1d5:0.9.2-1:*:*:*:*:*:*:*",
+          "source": "syft-generated"
+        }
+      ],
+      "purl": "pkg:deb/ubuntu/libdav1d5@0.9.2-1?arch=amd64",
+      "metadataType": "snap-entry",
+      "metadata": {
+        "snapType": "app",
+        "base": "core22",
+        "snapName": "firefox",
+        "snapVersion": "145.0.2-1",
+        "architecture": "amd64"
+      }
+    },
+    {
+      "id": "981a578a4c6868db",
+      "name": "libgsm1",
+      "version": "1.0.19-1",
+      "type": "deb",
+      "foundBy": "snap-cataloger",
+      "locations": [
+        {
+          "path": "/snap/manifest.yaml",
+          "accessPath": "/snap/manifest.yaml"
+        }
+      ],
+      "licenses": [],
+      "language": "",
+      "cpes": [
+        {
+          "cpe": "cpe:2.3:a:libgsm1:libgsm1:1.0.19-1:*:*:*:*:*:*:*",
+          "source": "syft-generated"
+        }
+      ],
+      "purl": "pkg:deb/ubuntu/libgsm1@1.0.19-1?arch=amd64",
+      "metadataType": "snap-entry",
+      "metadata": {
+        "snapType": "app",
+        "base": "core22",
+        "snapName": "firefox",
+        "snapVersion": "145.0.2-1",
+        "architecture": "amd64"
+      }
+    },
+    {
+      "id": "e1d94299aa9f0329",
+      "name": "libmfx1",
+      "version": "22.3.0-1",
+      "type": "deb",
+      "foundBy": "snap-cataloger",
+      "locations": [
+        {
+          "path": "/snap/manifest.yaml",
+          "accessPath": "/snap/manifest.yaml"
+        }
+      ],
+      "licenses": [],
+      "language": "",
+      "cpes": [
+        {
+          "cpe": "cpe:2.3:a:libmfx1:libmfx1:22.3.0-1:*:*:*:*:*:*:*",
+          "source": "syft-generated"
+        }
+      ],
+      "purl": "pkg:deb/ubuntu/libmfx1@22.3.0-1?arch=amd64",
+      "metadataType": "snap-entry",
+      "metadata": {
+        "snapType": "app",
+        "base": "core22",
+        "snapName": "firefox",
+        "snapVersion": "145.0.2-1",
+        "architecture": "amd64"
+      }
+    },
+    {
+      "id": "c45f0c46504e46cf",
+      "name": "libmp3lame0",
+      "version": "3.100-3build2",
+      "type": "deb",
+      "foundBy": "snap-cataloger",
+      "locations": [
+        {
+          "path": "/snap/manifest.yaml",
+          "accessPath": "/snap/manifest.yaml"
+        }
+      ],
+      "licenses": [],
+      "language": "",
+      "cpes": [
+        {
+          "cpe": "cpe:2.3:a:libmp3lame0:libmp3lame0:3.100-3build2:*:*:*:*:*:*:*",
+          "source": "syft-generated"
+        }
+      ],
+      "purl": "pkg:deb/ubuntu/libmp3lame0@3.100-3build2?arch=amd64",
+      "metadataType": "snap-entry",
+      "metadata": {
+        "snapType": "app",
+        "base": "core22",
+        "snapName": "firefox",
+        "snapVersion": "145.0.2-1",
+        "architecture": "amd64"
+      }
+    },
+    {
+      "id": "2c5841d54cb2f7cd",
+      "name": "libnghttp2-14",
+      "version": "1.43.0-1ubuntu0.2",
+      "type": "deb",
+      "foundBy": "snap-cataloger",
+      "locations": [
+        {
+          "path": "/snap/manifest.yaml",
+          "accessPath": "/snap/manifest.yaml"
+        }
+      ],
+      "licenses": [],
+      "language": "",
+      "cpes": [
+        {
+          "cpe": "cpe:2.3:a:libnghttp2-14:libnghttp2-14:1.43.0-1ubuntu0.2:*:*:*:*:*:*:*",
+          "source": "syft-generated"
+        },
+        {
+          "cpe": "cpe:2.3:a:libnghttp2-14:libnghttp2_14:1.43.0-1ubuntu0.2:*:*:*:*:*:*:*",
+          "source": "syft-generated"
+        },
+        {
+          "cpe": "cpe:2.3:a:libnghttp2_14:libnghttp2-14:1.43.0-1ubuntu0.2:*:*:*:*:*:*:*",
+          "source": "syft-generated"
+        },
+        {
+          "cpe": "cpe:2.3:a:libnghttp2_14:libnghttp2_14:1.43.0-1ubuntu0.2:*:*:*:*:*:*:*",
+          "source": "syft-generated"
+        },
+        {
+          "cpe": "cpe:2.3:a:libnghttp2:libnghttp2-14:1.43.0-1ubuntu0.2:*:*:*:*:*:*:*",
+          "source": "syft-generated"
+        },
+        {
+          "cpe": "cpe:2.3:a:libnghttp2:libnghttp2_14:1.43.0-1ubuntu0.2:*:*:*:*:*:*:*",
+          "source": "syft-generated"
+        }
+      ],
+      "purl": "pkg:deb/ubuntu/libnghttp2-14@1.43.0-1ubuntu0.2?arch=amd64",
+      "metadataType": "snap-entry",
+      "metadata": {
+        "snapType": "app",
+        "base": "core22",
+        "snapName": "firefox",
+        "snapVersion": "145.0.2-1",
+        "architecture": "amd64"
+      }
+    },
+    {
+      "id": "9173daedd7c9376c",
+      "name": "libnuma1",
+      "version": "2.0.14-3ubuntu2",
+      "type": "deb",
+      "foundBy": "snap-cataloger",
+      "locations": [
+        {
+          "path": "/snap/manifest.yaml",
+          "accessPath": "/snap/manifest.yaml"
+        }
+      ],
+      "licenses": [],
+      "language": "",
+      "cpes": [
+        {
+          "cpe": "cpe:2.3:a:libnuma1:libnuma1:2.0.14-3ubuntu2:*:*:*:*:*:*:*",
+          "source": "syft-generated"
+        }
+      ],
+      "purl": "pkg:deb/ubuntu/libnuma1@2.0.14-3ubuntu2?arch=amd64",
+      "metadataType": "snap-entry",
+      "metadata": {
+        "snapType": "app",
+        "base": "core22",
+        "snapName": "firefox",
+        "snapVersion": "145.0.2-1",
+        "architecture": "amd64"
+      }
+    },
+    {
+      "id": "6423e39bc2641e3b",
+      "name": "libopus0",
+      "version": "1.3.1-0.1build2",
+      "type": "deb",
+      "foundBy": "snap-cataloger",
+      "locations": [
+        {
+          "path": "/snap/manifest.yaml",
+          "accessPath": "/snap/manifest.yaml"
+        }
+      ],
+      "licenses": [],
+      "language": "",
+      "cpes": [
+        {
+          "cpe": "cpe:2.3:a:libopus0:libopus0:1.3.1-0.1build2:*:*:*:*:*:*:*",
+          "source": "syft-generated"
+        }
+      ],
+      "purl": "pkg:deb/ubuntu/libopus0@1.3.1-0.1build2?arch=amd64",
+      "metadataType": "snap-entry",
+      "metadata": {
+        "snapType": "app",
+        "base": "core22",
+        "snapName": "firefox",
+        "snapVersion": "145.0.2-1",
+        "architecture": "amd64"
+      }
+    },
+    {
+      "id": "bc26c056d7a3c6f7",
+      "name": "libpci3",
+      "version": "1:3.7.0-6",
+      "type": "deb",
+      "foundBy": "snap-cataloger",
+      "locations": [
+        {
+          "path": "/snap/manifest.yaml",
+          "accessPath": "/snap/manifest.yaml"
+        }
+      ],
+      "licenses": [],
+      "language": "",
+      "cpes": [
+        {
+          "cpe": "cpe:2.3:a:libpci3:libpci3:1\\:3.7.0-6:*:*:*:*:*:*:*",
+          "source": "syft-generated"
+        }
+      ],
+      "purl": "pkg:deb/ubuntu/libpci3@1%3A3.7.0-6?arch=amd64",
+      "metadataType": "snap-entry",
+      "metadata": {
+        "snapType": "app",
+        "base": "core22",
+        "snapName": "firefox",
+        "snapVersion": "145.0.2-1",
+        "architecture": "amd64"
+      }
+    },
+    {
+      "id": "e9c910263b929cc8",
+      "name": "libpipewire-0.3-0",
+      "version": "0.3.48-1ubuntu3",
+      "type": "deb",
+      "foundBy": "snap-cataloger",
+      "locations": [
+        {
+          "path": "/snap/manifest.yaml",
+          "accessPath": "/snap/manifest.yaml"
+        }
+      ],
+      "licenses": [],
+      "language": "",
+      "cpes": [
+        {
+          "cpe": "cpe:2.3:a:libpipewire-0.3-0:libpipewire-0.3-0:0.3.48-1ubuntu3:*:*:*:*:*:*:*",
+          "source": "syft-generated"
+        },
+        {
+          "cpe": "cpe:2.3:a:libpipewire-0.3-0:libpipewire_0.3_0:0.3.48-1ubuntu3:*:*:*:*:*:*:*",
+          "source": "syft-generated"
+        },
+        {
+          "cpe": "cpe:2.3:a:libpipewire_0.3_0:libpipewire-0.3-0:0.3.48-1ubuntu3:*:*:*:*:*:*:*",
+          "source": "syft-generated"
+        },
+        {
+          "cpe": "cpe:2.3:a:libpipewire_0.3_0:libpipewire_0.3_0:0.3.48-1ubuntu3:*:*:*:*:*:*:*",
+          "source": "syft-generated"
+        },
+        {
+          "cpe": "cpe:2.3:a:libpipewire-0.3:libpipewire-0.3-0:0.3.48-1ubuntu3:*:*:*:*:*:*:*",
+          "source": "syft-generated"
+        },
+        {
+          "cpe": "cpe:2.3:a:libpipewire-0.3:libpipewire_0.3_0:0.3.48-1ubuntu3:*:*:*:*:*:*:*",
+          "source": "syft-generated"
+        },
+        {
+          "cpe": "cpe:2.3:a:libpipewire_0.3:libpipewire-0.3-0:0.3.48-1ubuntu3:*:*:*:*:*:*:*",
+          "source": "syft-generated"
+        },
+        {
+          "cpe": "cpe:2.3:a:libpipewire_0.3:libpipewire_0.3_0:0.3.48-1ubuntu3:*:*:*:*:*:*:*",
+          "source": "syft-generated"
+        },
+        {
+          "cpe": "cpe:2.3:a:libpipewire:libpipewire-0.3-0:0.3.48-1ubuntu3:*:*:*:*:*:*:*",
+          "source": "syft-generated"
+        },
+        {
+          "cpe": "cpe:2.3:a:libpipewire:libpipewire_0.3_0:0.3.48-1ubuntu3:*:*:*:*:*:*:*",
+          "source": "syft-generated"
+        }
+      ],
+      "purl": "pkg:deb/ubuntu/libpipewire-0.3-0@0.3.48-1ubuntu3?arch=amd64",
+      "metadataType": "snap-entry",
+      "metadata": {
+        "snapType": "app",
+        "base": "core22",
+        "snapName": "firefox",
+        "snapVersion": "145.0.2-1",
+        "architecture": "amd64"
+      }
+    },
+    {
+      "id": "3cc571e2152128bb",
+      "name": "libpipewire-0.3-modules",
+      "version": "0.3.48-1ubuntu3",
+      "type": "deb",
+      "foundBy": "snap-cataloger",
+      "locations": [
+        {
+          "path": "/snap/manifest.yaml",
+          "accessPath": "/snap/manifest.yaml"
+        }
+      ],
+      "licenses": [],
+      "language": "",
+      "cpes": [
+        {
+          "cpe": "cpe:2.3:a:libpipewire-0.3-modules:libpipewire-0.3-modules:0.3.48-1ubuntu3:*:*:*:*:*:*:*",
+          "source": "syft-generated"
+        },
+        {
+          "cpe": "cpe:2.3:a:libpipewire-0.3-modules:libpipewire_0.3_modules:0.3.48-1ubuntu3:*:*:*:*:*:*:*",
+          "source": "syft-generated"
+        },
+        {
+          "cpe": "cpe:2.3:a:libpipewire_0.3_modules:libpipewire-0.3-modules:0.3.48-1ubuntu3:*:*:*:*:*:*:*",
+          "source": "syft-generated"
+        },
+        {
+          "cpe": "cpe:2.3:a:libpipewire_0.3_modules:libpipewire_0.3_modules:0.3.48-1ubuntu3:*:*:*:*:*:*:*",
+          "source": "syft-generated"
+        },
+        {
+          "cpe": "cpe:2.3:a:libpipewire-0.3:libpipewire-0.3-modules:0.3.48-1ubuntu3:*:*:*:*:*:*:*",
+          "source": "syft-generated"
+        },
+        {
+          "cpe": "cpe:2.3:a:libpipewire-0.3:libpipewire_0.3_modules:0.3.48-1ubuntu3:*:*:*:*:*:*:*",
+          "source": "syft-generated"
+        },
+        {
+          "cpe": "cpe:2.3:a:libpipewire_0.3:libpipewire-0.3-modules:0.3.48-1ubuntu3:*:*:*:*:*:*:*",
+          "source": "syft-generated"
+        },
+        {
+          "cpe": "cpe:2.3:a:libpipewire_0.3:libpipewire_0.3_modules:0.3.48-1ubuntu3:*:*:*:*:*:*:*",
+          "source": "syft-generated"
+        },
+        {
+          "cpe": "cpe:2.3:a:libpipewire:libpipewire-0.3-modules:0.3.48-1ubuntu3:*:*:*:*:*:*:*",
+          "source": "syft-generated"
+        },
+        {
+          "cpe": "cpe:2.3:a:libpipewire:libpipewire_0.3_modules:0.3.48-1ubuntu3:*:*:*:*:*:*:*",
+          "source": "syft-generated"
+        }
+      ],
+      "purl": "pkg:deb/ubuntu/libpipewire-0.3-modules@0.3.48-1ubuntu3?arch=amd64",
+      "metadataType": "snap-entry",
+      "metadata": {
+        "snapType": "app",
+        "base": "core22",
+        "snapName": "firefox",
+        "snapVersion": "145.0.2-1",
+        "architecture": "amd64"
+      }
+    },
+    {
+      "id": "fdad9e3449e3d964",
+      "name": "librtmp1",
+      "version": "2.4+20151223.gitfa8646d.1-2build4",
+      "type": "deb",
+      "foundBy": "snap-cataloger",
+      "locations": [
+        {
+          "path": "/snap/manifest.yaml",
+          "accessPath": "/snap/manifest.yaml"
+        }
+      ],
+      "licenses": [],
+      "language": "",
+      "cpes": [
+        {
+          "cpe": "cpe:2.3:a:librtmp1:librtmp1:2.4\\+20151223.gitfa8646d.1-2build4:*:*:*:*:*:*:*",
+          "source": "syft-generated"
+        }
+      ],
+      "purl": "pkg:deb/ubuntu/librtmp1@2.4%2B20151223.gitfa8646d.1-2build4?arch=amd64",
+      "metadataType": "snap-entry",
+      "metadata": {
+        "snapType": "app",
+        "base": "core22",
+        "snapName": "firefox",
+        "snapVersion": "145.0.2-1",
+        "architecture": "amd64"
+      }
+    },
+    {
+      "id": "7fa0d9b7def08bee",
+      "name": "libsasl2-2",
+      "version": "2.1.27+dfsg2-3ubuntu1.2",
+      "type": "deb",
+      "foundBy": "snap-cataloger",
+      "locations": [
+        {
+          "path": "/snap/manifest.yaml",
+          "accessPath": "/snap/manifest.yaml"
+        }
+      ],
+      "licenses": [],
+      "language": "",
+      "cpes": [
+        {
+          "cpe": "cpe:2.3:a:libsasl2-2:libsasl2-2:2.1.27\\+dfsg2-3ubuntu1.2:*:*:*:*:*:*:*",
+          "source": "syft-generated"
+        },
+        {
+          "cpe": "cpe:2.3:a:libsasl2-2:libsasl2_2:2.1.27\\+dfsg2-3ubuntu1.2:*:*:*:*:*:*:*",
+          "source": "syft-generated"
+        },
+        {
+          "cpe": "cpe:2.3:a:libsasl2_2:libsasl2-2:2.1.27\\+dfsg2-3ubuntu1.2:*:*:*:*:*:*:*",
+          "source": "syft-generated"
+        },
+        {
+          "cpe": "cpe:2.3:a:libsasl2_2:libsasl2_2:2.1.27\\+dfsg2-3ubuntu1.2:*:*:*:*:*:*:*",
+          "source": "syft-generated"
+        },
+        {
+          "cpe": "cpe:2.3:a:libsasl2:libsasl2-2:2.1.27\\+dfsg2-3ubuntu1.2:*:*:*:*:*:*:*",
+          "source": "syft-generated"
+        },
+        {
+          "cpe": "cpe:2.3:a:libsasl2:libsasl2_2:2.1.27\\+dfsg2-3ubuntu1.2:*:*:*:*:*:*:*",
+          "source": "syft-generated"
+        }
+      ],
+      "purl": "pkg:deb/ubuntu/libsasl2-2@2.1.27%2Bdfsg2-3ubuntu1.2?arch=amd64",
+      "metadataType": "snap-entry",
+      "metadata": {
+        "snapType": "app",
+        "base": "core22",
+        "snapName": "firefox",
+        "snapVersion": "145.0.2-1",
+        "architecture": "amd64"
+      }
+    },
+    {
+      "id": "d90f77c01f2bc332",
+      "name": "libshine3",
+      "version": "3.1.1-2",
+      "type": "deb",
+      "foundBy": "snap-cataloger",
+      "locations": [
+        {
+          "path": "/snap/manifest.yaml",
+          "accessPath": "/snap/manifest.yaml"
+        }
+      ],
+      "licenses": [],
+      "language": "",
+      "cpes": [
+        {
+          "cpe": "cpe:2.3:a:libshine3:libshine3:3.1.1-2:*:*:*:*:*:*:*",
+          "source": "syft-generated"
+        }
+      ],
+      "purl": "pkg:deb/ubuntu/libshine3@3.1.1-2?arch=amd64",
+      "metadataType": "snap-entry",
+      "metadata": {
+        "snapType": "app",
+        "base": "core22",
+        "snapName": "firefox",
+        "snapVersion": "145.0.2-1",
+        "architecture": "amd64"
+      }
+    },
+    {
+      "id": "cba3b8f3a17f1499",
+      "name": "libsnappy1v5",
+      "version": "1.1.8-1build3",
+      "type": "deb",
+      "foundBy": "snap-cataloger",
+      "locations": [
+        {
+          "path": "/snap/manifest.yaml",
+          "accessPath": "/snap/manifest.yaml"
+        }
+      ],
+      "licenses": [],
+      "language": "",
+      "cpes": [
+        {
+          "cpe": "cpe:2.3:a:libsnappy1v5:libsnappy1v5:1.1.8-1build3:*:*:*:*:*:*:*",
+          "source": "syft-generated"
+        }
+      ],
+      "purl": "pkg:deb/ubuntu/libsnappy1v5@1.1.8-1build3?arch=amd64",
+      "metadataType": "snap-entry",
+      "metadata": {
+        "snapType": "app",
+        "base": "core22",
+        "snapName": "firefox",
+        "snapVersion": "145.0.2-1",
+        "architecture": "amd64"
+      }
+    },
+    {
+      "id": "ee45cd4c56faba05",
+      "name": "libsoxr0",
+      "version": "0.1.3-4build2",
+      "type": "deb",
+      "foundBy": "snap-cataloger",
+      "locations": [
+        {
+          "path": "/snap/manifest.yaml",
+          "accessPath": "/snap/manifest.yaml"
+        }
+      ],
+      "licenses": [],
+      "language": "",
+      "cpes": [
+        {
+          "cpe": "cpe:2.3:a:libsoxr0:libsoxr0:0.1.3-4build2:*:*:*:*:*:*:*",
+          "source": "syft-generated"
+        }
+      ],
+      "purl": "pkg:deb/ubuntu/libsoxr0@0.1.3-4build2?arch=amd64",
+      "metadataType": "snap-entry",
+      "metadata": {
+        "snapType": "app",
+        "base": "core22",
+        "snapName": "firefox",
+        "snapVersion": "145.0.2-1",
+        "architecture": "amd64"
+      }
+    },
+    {
+      "id": "d05eab40e9b5c2ed",
+      "name": "libspa-0.2-modules",
+      "version": "0.3.48-1ubuntu3",
+      "type": "deb",
+      "foundBy": "snap-cataloger",
+      "locations": [
+        {
+          "path": "/snap/manifest.yaml",
+          "accessPath": "/snap/manifest.yaml"
+        }
+      ],
+      "licenses": [],
+      "language": "",
+      "cpes": [
+        {
+          "cpe": "cpe:2.3:a:libspa-0.2-modules:libspa-0.2-modules:0.3.48-1ubuntu3:*:*:*:*:*:*:*",
+          "source": "syft-generated"
+        },
+        {
+          "cpe": "cpe:2.3:a:libspa-0.2-modules:libspa_0.2_modules:0.3.48-1ubuntu3:*:*:*:*:*:*:*",
+          "source": "syft-generated"
+        },
+        {
+          "cpe": "cpe:2.3:a:libspa_0.2_modules:libspa-0.2-modules:0.3.48-1ubuntu3:*:*:*:*:*:*:*",
+          "source": "syft-generated"
+        },
+        {
+          "cpe": "cpe:2.3:a:libspa_0.2_modules:libspa_0.2_modules:0.3.48-1ubuntu3:*:*:*:*:*:*:*",
+          "source": "syft-generated"
+        },
+        {
+          "cpe": "cpe:2.3:a:libspa-0.2:libspa-0.2-modules:0.3.48-1ubuntu3:*:*:*:*:*:*:*",
+          "source": "syft-generated"
+        },
+        {
+          "cpe": "cpe:2.3:a:libspa-0.2:libspa_0.2_modules:0.3.48-1ubuntu3:*:*:*:*:*:*:*",
+          "source": "syft-generated"
+        },
+        {
+          "cpe": "cpe:2.3:a:libspa_0.2:libspa-0.2-modules:0.3.48-1ubuntu3:*:*:*:*:*:*:*",
+          "source": "syft-generated"
+        },
+        {
+          "cpe": "cpe:2.3:a:libspa_0.2:libspa_0.2_modules:0.3.48-1ubuntu3:*:*:*:*:*:*:*",
+          "source": "syft-generated"
+        },
+        {
+          "cpe": "cpe:2.3:a:libspa:libspa-0.2-modules:0.3.48-1ubuntu3:*:*:*:*:*:*:*",
+          "source": "syft-generated"
+        },
+        {
+          "cpe": "cpe:2.3:a:libspa:libspa_0.2_modules:0.3.48-1ubuntu3:*:*:*:*:*:*:*",
+          "source": "syft-generated"
+        }
+      ],
+      "purl": "pkg:deb/ubuntu/libspa-0.2-modules@0.3.48-1ubuntu3?arch=amd64",
+      "metadataType": "snap-entry",
+      "metadata": {
+        "snapType": "app",
+        "base": "core22",
+        "snapName": "firefox",
+        "snapVersion": "145.0.2-1",
+        "architecture": "amd64"
+      }
+    },
+    {
+      "id": "7d7846d6e7e49283",
+      "name": "libspeechd2",
+      "version": "0.11.1-1ubuntu3",
+      "type": "deb",
+      "foundBy": "snap-cataloger",
+      "locations": [
+        {
+          "path": "/snap/manifest.yaml",
+          "accessPath": "/snap/manifest.yaml"
+        }
+      ],
+      "licenses": [],
+      "language": "",
+      "cpes": [
+        {
+          "cpe": "cpe:2.3:a:libspeechd2:libspeechd2:0.11.1-1ubuntu3:*:*:*:*:*:*:*",
+          "source": "syft-generated"
+        }
+      ],
+      "purl": "pkg:deb/ubuntu/libspeechd2@0.11.1-1ubuntu3?arch=amd64",
+      "metadataType": "snap-entry",
+      "metadata": {
+        "snapType": "app",
+        "base": "core22",
+        "snapName": "firefox",
+        "snapVersion": "145.0.2-1",
+        "architecture": "amd64"
+      }
+    },
+    {
+      "id": "91f76a4680c32bf3",
+      "name": "libspeex1",
+      "version": "1.2~rc1.2-1.1ubuntu3",
+      "type": "deb",
+      "foundBy": "snap-cataloger",
+      "locations": [
+        {
+          "path": "/snap/manifest.yaml",
+          "accessPath": "/snap/manifest.yaml"
+        }
+      ],
+      "licenses": [],
+      "language": "",
+      "cpes": [
+        {
+          "cpe": "cpe:2.3:a:libspeex1:libspeex1:1.2\\~rc1.2-1.1ubuntu3:*:*:*:*:*:*:*",
+          "source": "syft-generated"
+        }
+      ],
+      "purl": "pkg:deb/ubuntu/libspeex1@1.2~rc1.2-1.1ubuntu3?arch=amd64",
+      "metadataType": "snap-entry",
+      "metadata": {
+        "snapType": "app",
+        "base": "core22",
+        "snapName": "firefox",
+        "snapVersion": "145.0.2-1",
+        "architecture": "amd64"
+      }
+    },
+    {
+      "id": "9c2743b8cef079bc",
+      "name": "libswresample3",
+      "version": "7:4.4.2-0ubuntu0.22.04.1",
+      "type": "deb",
+      "foundBy": "snap-cataloger",
+      "locations": [
+        {
+          "path": "/snap/manifest.yaml",
+          "accessPath": "/snap/manifest.yaml"
+        }
+      ],
+      "licenses": [],
+      "language": "",
+      "cpes": [
+        {
+          "cpe": "cpe:2.3:a:libswresample3:libswresample3:7\\:4.4.2-0ubuntu0.22.04.1:*:*:*:*:*:*:*",
+          "source": "syft-generated"
+        }
+      ],
+      "purl": "pkg:deb/ubuntu/libswresample3@7%3A4.4.2-0ubuntu0.22.04.1?arch=amd64",
+      "metadataType": "snap-entry",
+      "metadata": {
+        "snapType": "app",
+        "base": "core22",
+        "snapName": "firefox",
+        "snapVersion": "145.0.2-1",
+        "architecture": "amd64"
+      }
+    },
+    {
+      "id": "466830bf4c868414",
+      "name": "libtheora0",
+      "version": "1.1.1+dfsg.1-15ubuntu4",
+      "type": "deb",
+      "foundBy": "snap-cataloger",
+      "locations": [
+        {
+          "path": "/snap/manifest.yaml",
+          "accessPath": "/snap/manifest.yaml"
+        }
+      ],
+      "licenses": [],
+      "language": "",
+      "cpes": [
+        {
+          "cpe": "cpe:2.3:a:libtheora0:libtheora0:1.1.1\\+dfsg.1-15ubuntu4:*:*:*:*:*:*:*",
+          "source": "syft-generated"
+        }
+      ],
+      "purl": "pkg:deb/ubuntu/libtheora0@1.1.1%2Bdfsg.1-15ubuntu4?arch=amd64",
+      "metadataType": "snap-entry",
+      "metadata": {
+        "snapType": "app",
+        "base": "core22",
+        "snapName": "firefox",
+        "snapVersion": "145.0.2-1",
+        "architecture": "amd64"
+      }
+    },
+    {
+      "id": "82099563e026dfb9",
+      "name": "libtwolame0",
+      "version": "0.4.0-2build2",
+      "type": "deb",
+      "foundBy": "snap-cataloger",
+      "locations": [
+        {
+          "path": "/snap/manifest.yaml",
+          "accessPath": "/snap/manifest.yaml"
+        }
+      ],
+      "licenses": [],
+      "language": "",
+      "cpes": [
+        {
+          "cpe": "cpe:2.3:a:libtwolame0:libtwolame0:0.4.0-2build2:*:*:*:*:*:*:*",
+          "source": "syft-generated"
+        }
+      ],
+      "purl": "pkg:deb/ubuntu/libtwolame0@0.4.0-2build2?arch=amd64",
+      "metadataType": "snap-entry",
+      "metadata": {
+        "snapType": "app",
+        "base": "core22",
+        "snapName": "firefox",
+        "snapVersion": "145.0.2-1",
+        "architecture": "amd64"
+      }
+    },
+    {
+      "id": "154d3561b2b73d85",
+      "name": "libvdpau1",
+      "version": "1.4-3build2",
+      "type": "deb",
+      "foundBy": "snap-cataloger",
+      "locations": [
+        {
+          "path": "/snap/manifest.yaml",
+          "accessPath": "/snap/manifest.yaml"
+        }
+      ],
+      "licenses": [],
+      "language": "",
+      "cpes": [
+        {
+          "cpe": "cpe:2.3:a:libvdpau1:libvdpau1:1.4-3build2:*:*:*:*:*:*:*",
+          "source": "syft-generated"
+        }
+      ],
+      "purl": "pkg:deb/ubuntu/libvdpau1@1.4-3build2?arch=amd64",
+      "metadataType": "snap-entry",
+      "metadata": {
+        "snapType": "app",
+        "base": "core22",
+        "snapName": "firefox",
+        "snapVersion": "145.0.2-1",
+        "architecture": "amd64"
+      }
+    },
+    {
+      "id": "c4622208552e10fb",
+      "name": "libvpx7",
+      "version": "1.11.0-2ubuntu2.4",
+      "type": "deb",
+      "foundBy": "snap-cataloger",
+      "locations": [
+        {
+          "path": "/snap/manifest.yaml",
+          "accessPath": "/snap/manifest.yaml"
+        }
+      ],
+      "licenses": [],
+      "language": "",
+      "cpes": [
+        {
+          "cpe": "cpe:2.3:a:libvpx7:libvpx7:1.11.0-2ubuntu2.4:*:*:*:*:*:*:*",
+          "source": "syft-generated"
+        }
+      ],
+      "purl": "pkg:deb/ubuntu/libvpx7@1.11.0-2ubuntu2.4?arch=amd64",
+      "metadataType": "snap-entry",
+      "metadata": {
+        "snapType": "app",
+        "base": "core22",
+        "snapName": "firefox",
+        "snapVersion": "145.0.2-1",
+        "architecture": "amd64"
+      }
+    },
+    {
+      "id": "5dfbc8e4fd995101",
+      "name": "libvulkan1",
+      "version": "1.3.204.1-2",
+      "type": "deb",
+      "foundBy": "snap-cataloger",
+      "locations": [
+        {
+          "path": "/snap/manifest.yaml",
+          "accessPath": "/snap/manifest.yaml"
+        }
+      ],
+      "licenses": [],
+      "language": "",
+      "cpes": [
+        {
+          "cpe": "cpe:2.3:a:libvulkan1:libvulkan1:1.3.204.1-2:*:*:*:*:*:*:*",
+          "source": "syft-generated"
+        }
+      ],
+      "purl": "pkg:deb/ubuntu/libvulkan1@1.3.204.1-2?arch=amd64",
+      "metadataType": "snap-entry",
+      "metadata": {
+        "snapType": "app",
+        "base": "core22",
+        "snapName": "firefox",
+        "snapVersion": "145.0.2-1",
+        "architecture": "amd64"
+      }
+    },
+    {
+      "id": "3ac3f1ed61f2b655",
+      "name": "libwebp7",
+      "version": "1.2.2-2ubuntu0.22.04.2",
+      "type": "deb",
+      "foundBy": "snap-cataloger",
+      "locations": [
+        {
+          "path": "/snap/manifest.yaml",
+          "accessPath": "/snap/manifest.yaml"
+        }
+      ],
+      "licenses": [],
+      "language": "",
+      "cpes": [
+        {
+          "cpe": "cpe:2.3:a:libwebp7:libwebp7:1.2.2-2ubuntu0.22.04.2:*:*:*:*:*:*:*",
+          "source": "syft-generated"
+        }
+      ],
+      "purl": "pkg:deb/ubuntu/libwebp7@1.2.2-2ubuntu0.22.04.2?arch=amd64",
+      "metadataType": "snap-entry",
+      "metadata": {
+        "snapType": "app",
+        "base": "core22",
+        "snapName": "firefox",
+        "snapVersion": "145.0.2-1",
+        "architecture": "amd64"
+      }
+    },
+    {
+      "id": "05988fcbdabb40f4",
+      "name": "libwebpmux3",
+      "version": "1.2.2-2ubuntu0.22.04.2",
+      "type": "deb",
+      "foundBy": "snap-cataloger",
+      "locations": [
+        {
+          "path": "/snap/manifest.yaml",
+          "accessPath": "/snap/manifest.yaml"
+        }
+      ],
+      "licenses": [],
+      "language": "",
+      "cpes": [
+        {
+          "cpe": "cpe:2.3:a:libwebpmux3:libwebpmux3:1.2.2-2ubuntu0.22.04.2:*:*:*:*:*:*:*",
+          "source": "syft-generated"
+        }
+      ],
+      "purl": "pkg:deb/ubuntu/libwebpmux3@1.2.2-2ubuntu0.22.04.2?arch=amd64",
+      "metadataType": "snap-entry",
+      "metadata": {
+        "snapType": "app",
+        "base": "core22",
+        "snapName": "firefox",
+        "snapVersion": "145.0.2-1",
+        "architecture": "amd64"
+      }
+    },
+    {
+      "id": "2bfaa30b385eca42",
+      "name": "libx264-163",
+      "version": "2:0.163.3060+git5db6aa6-2build1",
+      "type": "deb",
+      "foundBy": "snap-cataloger",
+      "locations": [
+        {
+          "path": "/snap/manifest.yaml",
+          "accessPath": "/snap/manifest.yaml"
+        }
+      ],
+      "licenses": [],
+      "language": "",
+      "cpes": [
+        {
+          "cpe": "cpe:2.3:a:libx264-163:libx264-163:2\\:0.163.3060\\+git5db6aa6-2build1:*:*:*:*:*:*:*",
+          "source": "syft-generated"
+        },
+        {
+          "cpe": "cpe:2.3:a:libx264-163:libx264_163:2\\:0.163.3060\\+git5db6aa6-2build1:*:*:*:*:*:*:*",
+          "source": "syft-generated"
+        },
+        {
+          "cpe": "cpe:2.3:a:libx264_163:libx264-163:2\\:0.163.3060\\+git5db6aa6-2build1:*:*:*:*:*:*:*",
+          "source": "syft-generated"
+        },
+        {
+          "cpe": "cpe:2.3:a:libx264_163:libx264_163:2\\:0.163.3060\\+git5db6aa6-2build1:*:*:*:*:*:*:*",
+          "source": "syft-generated"
+        },
+        {
+          "cpe": "cpe:2.3:a:libx264:libx264-163:2\\:0.163.3060\\+git5db6aa6-2build1:*:*:*:*:*:*:*",
+          "source": "syft-generated"
+        },
+        {
+          "cpe": "cpe:2.3:a:libx264:libx264_163:2\\:0.163.3060\\+git5db6aa6-2build1:*:*:*:*:*:*:*",
+          "source": "syft-generated"
+        }
+      ],
+      "purl": "pkg:deb/ubuntu/libx264-163@2%3A0.163.3060%2Bgit5db6aa6-2build1?arch=amd64",
+      "metadataType": "snap-entry",
+      "metadata": {
+        "snapType": "app",
+        "base": "core22",
+        "snapName": "firefox",
+        "snapVersion": "145.0.2-1",
+        "architecture": "amd64"
+      }
+    },
+    {
+      "id": "65eb223ca1203305",
+      "name": "libx265-199",
+      "version": "3.5-2",
+      "type": "deb",
+      "foundBy": "snap-cataloger",
+      "locations": [
+        {
+          "path": "/snap/manifest.yaml",
+          "accessPath": "/snap/manifest.yaml"
+        }
+      ],
+      "licenses": [],
+      "language": "",
+      "cpes": [
+        {
+          "cpe": "cpe:2.3:a:libx265-199:libx265-199:3.5-2:*:*:*:*:*:*:*",
+          "source": "syft-generated"
+        },
+        {
+          "cpe": "cpe:2.3:a:libx265-199:libx265_199:3.5-2:*:*:*:*:*:*:*",
+          "source": "syft-generated"
+        },
+        {
+          "cpe": "cpe:2.3:a:libx265_199:libx265-199:3.5-2:*:*:*:*:*:*:*",
+          "source": "syft-generated"
+        },
+        {
+          "cpe": "cpe:2.3:a:libx265_199:libx265_199:3.5-2:*:*:*:*:*:*:*",
+          "source": "syft-generated"
+        },
+        {
+          "cpe": "cpe:2.3:a:libx265:libx265-199:3.5-2:*:*:*:*:*:*:*",
+          "source": "syft-generated"
+        },
+        {
+          "cpe": "cpe:2.3:a:libx265:libx265_199:3.5-2:*:*:*:*:*:*:*",
+          "source": "syft-generated"
+        }
+      ],
+      "purl": "pkg:deb/ubuntu/libx265-199@3.5-2?arch=amd64",
+      "metadataType": "snap-entry",
+      "metadata": {
+        "snapType": "app",
+        "base": "core22",
+        "snapName": "firefox",
+        "snapVersion": "145.0.2-1",
+        "architecture": "amd64"
+      }
+    },
+    {
+      "id": "311370898e3cae45",
+      "name": "libxt6",
+      "version": "1:1.2.1-1",
+      "type": "deb",
+      "foundBy": "snap-cataloger",
+      "locations": [
+        {
+          "path": "/snap/manifest.yaml",
+          "accessPath": "/snap/manifest.yaml"
+        }
+      ],
+      "licenses": [],
+      "language": "",
+      "cpes": [
+        {
+          "cpe": "cpe:2.3:a:libxt6:libxt6:1\\:1.2.1-1:*:*:*:*:*:*:*",
+          "source": "syft-generated"
+        }
+      ],
+      "purl": "pkg:deb/ubuntu/libxt6@1%3A1.2.1-1?arch=amd64",
+      "metadataType": "snap-entry",
+      "metadata": {
+        "snapType": "app",
+        "base": "core22",
+        "snapName": "firefox",
+        "snapVersion": "145.0.2-1",
+        "architecture": "amd64"
+      }
+    },
+    {
+      "id": "6927333d819f2d09",
+      "name": "libxvidcore4",
+      "version": "2:1.3.7-1",
+      "type": "deb",
+      "foundBy": "snap-cataloger",
+      "locations": [
+        {
+          "path": "/snap/manifest.yaml",
+          "accessPath": "/snap/manifest.yaml"
+        }
+      ],
+      "licenses": [],
+      "language": "",
+      "cpes": [
+        {
+          "cpe": "cpe:2.3:a:libxvidcore4:libxvidcore4:2\\:1.3.7-1:*:*:*:*:*:*:*",
+          "source": "syft-generated"
+        }
+      ],
+      "purl": "pkg:deb/ubuntu/libxvidcore4@2%3A1.3.7-1?arch=amd64",
+      "metadataType": "snap-entry",
+      "metadata": {
+        "snapType": "app",
+        "base": "core22",
+        "snapName": "firefox",
+        "snapVersion": "145.0.2-1",
+        "architecture": "amd64"
+      }
+    },
+    {
+      "id": "66e66cf74c81c4b0",
+      "name": "libzvbi0",
+      "version": "0.2.35-19",
+      "type": "deb",
+      "foundBy": "snap-cataloger",
+      "locations": [
+        {
+          "path": "/snap/manifest.yaml",
+          "accessPath": "/snap/manifest.yaml"
+        }
+      ],
+      "licenses": [],
+      "language": "",
+      "cpes": [
+        {
+          "cpe": "cpe:2.3:a:libzvbi0:libzvbi0:0.2.35-19:*:*:*:*:*:*:*",
+          "source": "syft-generated"
+        }
+      ],
+      "purl": "pkg:deb/ubuntu/libzvbi0@0.2.35-19?arch=amd64",
+      "metadataType": "snap-entry",
+      "metadata": {
+        "snapType": "app",
+        "base": "core22",
+        "snapName": "firefox",
+        "snapVersion": "145.0.2-1",
+        "architecture": "amd64"
+      }
+    },
+    {
+      "id": "496312201dce2259",
+      "name": "mesa-vulkan-drivers",
+      "version": "23.2.1-1ubuntu3.1~22.04.3",
+      "type": "deb",
+      "foundBy": "snap-cataloger",
+      "locations": [
+        {
+          "path": "/snap/manifest.yaml",
+          "accessPath": "/snap/manifest.yaml"
+        }
+      ],
+      "licenses": [],
+      "language": "",
+      "cpes": [
+        {
+          "cpe": "cpe:2.3:a:mesa-vulkan-drivers:mesa-vulkan-drivers:23.2.1-1ubuntu3.1\\~22.04.3:*:*:*:*:*:*:*",
+          "source": "syft-generated"
+        },
+        {
+          "cpe": "cpe:2.3:a:mesa-vulkan-drivers:mesa_vulkan_drivers:23.2.1-1ubuntu3.1\\~22.04.3:*:*:*:*:*:*:*",
+          "source": "syft-generated"
+        },
+        {
+          "cpe": "cpe:2.3:a:mesa_vulkan_drivers:mesa-vulkan-drivers:23.2.1-1ubuntu3.1\\~22.04.3:*:*:*:*:*:*:*",
+          "source": "syft-generated"
+        },
+        {
+          "cpe": "cpe:2.3:a:mesa_vulkan_drivers:mesa_vulkan_drivers:23.2.1-1ubuntu3.1\\~22.04.3:*:*:*:*:*:*:*",
+          "source": "syft-generated"
+        },
+        {
+          "cpe": "cpe:2.3:a:mesa-vulkan:mesa-vulkan-drivers:23.2.1-1ubuntu3.1\\~22.04.3:*:*:*:*:*:*:*",
+          "source": "syft-generated"
+        },
+        {
+          "cpe": "cpe:2.3:a:mesa-vulkan:mesa_vulkan_drivers:23.2.1-1ubuntu3.1\\~22.04.3:*:*:*:*:*:*:*",
+          "source": "syft-generated"
+        },
+        {
+          "cpe": "cpe:2.3:a:mesa_vulkan:mesa-vulkan-drivers:23.2.1-1ubuntu3.1\\~22.04.3:*:*:*:*:*:*:*",
+          "source": "syft-generated"
+        },
+        {
+          "cpe": "cpe:2.3:a:mesa_vulkan:mesa_vulkan_drivers:23.2.1-1ubuntu3.1\\~22.04.3:*:*:*:*:*:*:*",
+          "source": "syft-generated"
+        },
+        {
+          "cpe": "cpe:2.3:a:mesa:mesa-vulkan-drivers:23.2.1-1ubuntu3.1\\~22.04.3:*:*:*:*:*:*:*",
+          "source": "syft-generated"
+        },
+        {
+          "cpe": "cpe:2.3:a:mesa:mesa_vulkan_drivers:23.2.1-1ubuntu3.1\\~22.04.3:*:*:*:*:*:*:*",
+          "source": "syft-generated"
+        }
+      ],
+      "purl": "pkg:deb/ubuntu/mesa-vulkan-drivers@23.2.1-1ubuntu3.1~22.04.3?arch=amd64",
+      "metadataType": "snap-entry",
+      "metadata": {
+        "snapType": "app",
+        "base": "core22",
+        "snapName": "firefox",
+        "snapVersion": "145.0.2-1",
+        "architecture": "amd64"
+      }
+    },
+    {
+      "id": "8824943d1f15214b",
+      "name": "ocl-icd-libopencl1",
+      "version": "2.2.14-3",
+      "type": "deb",
+      "foundBy": "snap-cataloger",
+      "locations": [
+        {
+          "path": "/snap/manifest.yaml",
+          "accessPath": "/snap/manifest.yaml"
+        }
+      ],
+      "licenses": [],
+      "language": "",
+      "cpes": [
+        {
+          "cpe": "cpe:2.3:a:ocl-icd-libopencl1:ocl-icd-libopencl1:2.2.14-3:*:*:*:*:*:*:*",
+          "source": "syft-generated"
+        },
+        {
+          "cpe": "cpe:2.3:a:ocl-icd-libopencl1:ocl_icd_libopencl1:2.2.14-3:*:*:*:*:*:*:*",
+          "source": "syft-generated"
+        },
+        {
+          "cpe": "cpe:2.3:a:ocl_icd_libopencl1:ocl-icd-libopencl1:2.2.14-3:*:*:*:*:*:*:*",
+          "source": "syft-generated"
+        },
+        {
+          "cpe": "cpe:2.3:a:ocl_icd_libopencl1:ocl_icd_libopencl1:2.2.14-3:*:*:*:*:*:*:*",
+          "source": "syft-generated"
+        },
+        {
+          "cpe": "cpe:2.3:a:ocl-icd:ocl-icd-libopencl1:2.2.14-3:*:*:*:*:*:*:*",
+          "source": "syft-generated"
+        },
+        {
+          "cpe": "cpe:2.3:a:ocl-icd:ocl_icd_libopencl1:2.2.14-3:*:*:*:*:*:*:*",
+          "source": "syft-generated"
+        },
+        {
+          "cpe": "cpe:2.3:a:ocl_icd:ocl-icd-libopencl1:2.2.14-3:*:*:*:*:*:*:*",
+          "source": "syft-generated"
+        },
+        {
+          "cpe": "cpe:2.3:a:ocl_icd:ocl_icd_libopencl1:2.2.14-3:*:*:*:*:*:*:*",
+          "source": "syft-generated"
+        },
+        {
+          "cpe": "cpe:2.3:a:ocl:ocl-icd-libopencl1:2.2.14-3:*:*:*:*:*:*:*",
+          "source": "syft-generated"
+        },
+        {
+          "cpe": "cpe:2.3:a:ocl:ocl_icd_libopencl1:2.2.14-3:*:*:*:*:*:*:*",
+          "source": "syft-generated"
+        }
+      ],
+      "purl": "pkg:deb/ubuntu/ocl-icd-libopencl1@2.2.14-3?arch=amd64",
+      "metadataType": "snap-entry",
+      "metadata": {
+        "snapType": "app",
+        "base": "core22",
+        "snapName": "firefox",
+        "snapVersion": "145.0.2-1",
+        "architecture": "amd64"
+      }
+    },
+    {
+      "id": "466737957b1a4e18",
+      "name": "opensc-pkcs11",
+      "version": "0.22.0-1ubuntu2.1",
+      "type": "deb",
+      "foundBy": "snap-cataloger",
+      "locations": [
+        {
+          "path": "/snap/manifest.yaml",
+          "accessPath": "/snap/manifest.yaml"
+        }
+      ],
+      "licenses": [],
+      "language": "",
+      "cpes": [
+        {
+          "cpe": "cpe:2.3:a:opensc-pkcs11:opensc-pkcs11:0.22.0-1ubuntu2.1:*:*:*:*:*:*:*",
+          "source": "syft-generated"
+        },
+        {
+          "cpe": "cpe:2.3:a:opensc-pkcs11:opensc_pkcs11:0.22.0-1ubuntu2.1:*:*:*:*:*:*:*",
+          "source": "syft-generated"
+        },
+        {
+          "cpe": "cpe:2.3:a:opensc_pkcs11:opensc-pkcs11:0.22.0-1ubuntu2.1:*:*:*:*:*:*:*",
+          "source": "syft-generated"
+        },
+        {
+          "cpe": "cpe:2.3:a:opensc_pkcs11:opensc_pkcs11:0.22.0-1ubuntu2.1:*:*:*:*:*:*:*",
+          "source": "syft-generated"
+        },
+        {
+          "cpe": "cpe:2.3:a:opensc:opensc-pkcs11:0.22.0-1ubuntu2.1:*:*:*:*:*:*:*",
+          "source": "syft-generated"
+        },
+        {
+          "cpe": "cpe:2.3:a:opensc:opensc_pkcs11:0.22.0-1ubuntu2.1:*:*:*:*:*:*:*",
+          "source": "syft-generated"
+        }
+      ],
+      "purl": "pkg:deb/ubuntu/opensc-pkcs11@0.22.0-1ubuntu2.1?arch=amd64",
+      "metadataType": "snap-entry",
+      "metadata": {
+        "snapType": "app",
+        "base": "core22",
+        "snapName": "firefox",
+        "snapVersion": "145.0.2-1",
+        "architecture": "amd64"
+      }
+    },
+    {
+      "id": "6bb5d65bc060a79f",
+      "name": "pipewire-bin",
+      "version": "0.3.48-1ubuntu3",
+      "type": "deb",
+      "foundBy": "snap-cataloger",
+      "locations": [
+        {
+          "path": "/snap/manifest.yaml",
+          "accessPath": "/snap/manifest.yaml"
+        }
+      ],
+      "licenses": [],
+      "language": "",
+      "cpes": [
+        {
+          "cpe": "cpe:2.3:a:pipewire-bin:pipewire-bin:0.3.48-1ubuntu3:*:*:*:*:*:*:*",
+          "source": "syft-generated"
+        },
+        {
+          "cpe": "cpe:2.3:a:pipewire-bin:pipewire_bin:0.3.48-1ubuntu3:*:*:*:*:*:*:*",
+          "source": "syft-generated"
+        },
+        {
+          "cpe": "cpe:2.3:a:pipewire_bin:pipewire-bin:0.3.48-1ubuntu3:*:*:*:*:*:*:*",
+          "source": "syft-generated"
+        },
+        {
+          "cpe": "cpe:2.3:a:pipewire_bin:pipewire_bin:0.3.48-1ubuntu3:*:*:*:*:*:*:*",
+          "source": "syft-generated"
+        },
+        {
+          "cpe": "cpe:2.3:a:pipewire:pipewire-bin:0.3.48-1ubuntu3:*:*:*:*:*:*:*",
+          "source": "syft-generated"
+        },
+        {
+          "cpe": "cpe:2.3:a:pipewire:pipewire_bin:0.3.48-1ubuntu3:*:*:*:*:*:*:*",
+          "source": "syft-generated"
+        }
+      ],
+      "purl": "pkg:deb/ubuntu/pipewire-bin@0.3.48-1ubuntu3?arch=amd64",
+      "metadataType": "snap-entry",
+      "metadata": {
+        "snapType": "app",
+        "base": "core22",
+        "snapName": "firefox",
+        "snapVersion": "145.0.2-1",
+        "architecture": "amd64"
+      }
+    },
+    {
+      "id": "f59ae36617a285e1",
+      "name": "pipewire-pulse",
+      "version": "0.3.48-1ubuntu3",
+      "type": "deb",
+      "foundBy": "snap-cataloger",
+      "locations": [
+        {
+          "path": "/snap/manifest.yaml",
+          "accessPath": "/snap/manifest.yaml"
+        }
+      ],
+      "licenses": [],
+      "language": "",
+      "cpes": [
+        {
+          "cpe": "cpe:2.3:a:pipewire-pulse:pipewire-pulse:0.3.48-1ubuntu3:*:*:*:*:*:*:*",
+          "source": "syft-generated"
+        },
+        {
+          "cpe": "cpe:2.3:a:pipewire-pulse:pipewire_pulse:0.3.48-1ubuntu3:*:*:*:*:*:*:*",
+          "source": "syft-generated"
+        },
+        {
+          "cpe": "cpe:2.3:a:pipewire_pulse:pipewire-pulse:0.3.48-1ubuntu3:*:*:*:*:*:*:*",
+          "source": "syft-generated"
+        },
+        {
+          "cpe": "cpe:2.3:a:pipewire_pulse:pipewire_pulse:0.3.48-1ubuntu3:*:*:*:*:*:*:*",
+          "source": "syft-generated"
+        },
+        {
+          "cpe": "cpe:2.3:a:pipewire:pipewire-pulse:0.3.48-1ubuntu3:*:*:*:*:*:*:*",
+          "source": "syft-generated"
+        },
+        {
+          "cpe": "cpe:2.3:a:pipewire:pipewire_pulse:0.3.48-1ubuntu3:*:*:*:*:*:*:*",
+          "source": "syft-generated"
+        }
+      ],
+      "purl": "pkg:deb/ubuntu/pipewire-pulse@0.3.48-1ubuntu3?arch=amd64",
+      "metadataType": "snap-entry",
+      "metadata": {
+        "snapType": "app",
+        "base": "core22",
+        "snapName": "firefox",
+        "snapVersion": "145.0.2-1",
+        "architecture": "amd64"
+      }
+    }
+  ],
+  "artifactRelationships": [
+    {
+      "parent": "01b1a42e4887caad",
+      "child": "25eafd1415f6974f",
+      "type": "evident-by",
+      "metadata": {
+        "kind": "supporting"
+      }
+    },
+    {
+      "parent": "05988fcbdabb40f4",
+      "child": "25eafd1415f6974f",
+      "type": "evident-by",
+      "metadata": {
+        "kind": "supporting"
+      }
+    },
+    {
+      "parent": "10e8c2c614697d76",
+      "child": "25eafd1415f6974f",
+      "type": "evident-by",
+      "metadata": {
+        "kind": "supporting"
+      }
+    },
+    {
+      "parent": "130a82eca896a4f927a7c560d327afef4d14a268cbef8590ea846be9eee6807c",
+      "child": "01b1a42e4887caad",
+      "type": "contains"
+    },
+    {
+      "parent": "130a82eca896a4f927a7c560d327afef4d14a268cbef8590ea846be9eee6807c",
+      "child": "05988fcbdabb40f4",
+      "type": "contains"
+    },
+    {
+      "parent": "130a82eca896a4f927a7c560d327afef4d14a268cbef8590ea846be9eee6807c",
+      "child": "10e8c2c614697d76",
+      "type": "contains"
+    },
+    {
+      "parent": "130a82eca896a4f927a7c560d327afef4d14a268cbef8590ea846be9eee6807c",
+      "child": "154d3561b2b73d85",
+      "type": "contains"
+    },
+    {
+      "parent": "130a82eca896a4f927a7c560d327afef4d14a268cbef8590ea846be9eee6807c",
+      "child": "2bfaa30b385eca42",
+      "type": "contains"
+    },
+    {
+      "parent": "130a82eca896a4f927a7c560d327afef4d14a268cbef8590ea846be9eee6807c",
+      "child": "2c5841d54cb2f7cd",
+      "type": "contains"
+    },
+    {
+      "parent": "130a82eca896a4f927a7c560d327afef4d14a268cbef8590ea846be9eee6807c",
+      "child": "311370898e3cae45",
+      "type": "contains"
+    },
+    {
+      "parent": "130a82eca896a4f927a7c560d327afef4d14a268cbef8590ea846be9eee6807c",
+      "child": "3ac3f1ed61f2b655",
+      "type": "contains"
+    },
+    {
+      "parent": "130a82eca896a4f927a7c560d327afef4d14a268cbef8590ea846be9eee6807c",
+      "child": "3b03a5a4e847fc94",
+      "type": "contains"
+    },
+    {
+      "parent": "130a82eca896a4f927a7c560d327afef4d14a268cbef8590ea846be9eee6807c",
+      "child": "3cc571e2152128bb",
+      "type": "contains"
+    },
+    {
+      "parent": "130a82eca896a4f927a7c560d327afef4d14a268cbef8590ea846be9eee6807c",
+      "child": "466737957b1a4e18",
+      "type": "contains"
+    },
+    {
+      "parent": "130a82eca896a4f927a7c560d327afef4d14a268cbef8590ea846be9eee6807c",
+      "child": "466830bf4c868414",
+      "type": "contains"
+    },
+    {
+      "parent": "130a82eca896a4f927a7c560d327afef4d14a268cbef8590ea846be9eee6807c",
+      "child": "496312201dce2259",
+      "type": "contains"
+    },
+    {
+      "parent": "130a82eca896a4f927a7c560d327afef4d14a268cbef8590ea846be9eee6807c",
+      "child": "5dfbc8e4fd995101",
+      "type": "contains"
+    },
+    {
+      "parent": "130a82eca896a4f927a7c560d327afef4d14a268cbef8590ea846be9eee6807c",
+      "child": "6423e39bc2641e3b",
+      "type": "contains"
+    },
+    {
+      "parent": "130a82eca896a4f927a7c560d327afef4d14a268cbef8590ea846be9eee6807c",
+      "child": "65eb223ca1203305",
+      "type": "contains"
+    },
+    {
+      "parent": "130a82eca896a4f927a7c560d327afef4d14a268cbef8590ea846be9eee6807c",
+      "child": "66e66cf74c81c4b0",
+      "type": "contains"
+    },
+    {
+      "parent": "130a82eca896a4f927a7c560d327afef4d14a268cbef8590ea846be9eee6807c",
+      "child": "6927333d819f2d09",
+      "type": "contains"
+    },
+    {
+      "parent": "130a82eca896a4f927a7c560d327afef4d14a268cbef8590ea846be9eee6807c",
+      "child": "6bb5d65bc060a79f",
+      "type": "contains"
+    },
+    {
+      "parent": "130a82eca896a4f927a7c560d327afef4d14a268cbef8590ea846be9eee6807c",
+      "child": "6d729f1247a8bda3",
+      "type": "contains"
+    },
+    {
+      "parent": "130a82eca896a4f927a7c560d327afef4d14a268cbef8590ea846be9eee6807c",
+      "child": "6e3aaae8830acd86",
+      "type": "contains"
+    },
+    {
+      "parent": "130a82eca896a4f927a7c560d327afef4d14a268cbef8590ea846be9eee6807c",
+      "child": "70648e5daed43da2",
+      "type": "contains"
+    },
+    {
+      "parent": "130a82eca896a4f927a7c560d327afef4d14a268cbef8590ea846be9eee6807c",
+      "child": "7d7846d6e7e49283",
+      "type": "contains"
+    },
+    {
+      "parent": "130a82eca896a4f927a7c560d327afef4d14a268cbef8590ea846be9eee6807c",
+      "child": "7fa0d9b7def08bee",
+      "type": "contains"
+    },
+    {
+      "parent": "130a82eca896a4f927a7c560d327afef4d14a268cbef8590ea846be9eee6807c",
+      "child": "82099563e026dfb9",
+      "type": "contains"
+    },
+    {
+      "parent": "130a82eca896a4f927a7c560d327afef4d14a268cbef8590ea846be9eee6807c",
+      "child": "8824943d1f15214b",
+      "type": "contains"
+    },
+    {
+      "parent": "130a82eca896a4f927a7c560d327afef4d14a268cbef8590ea846be9eee6807c",
+      "child": "9173daedd7c9376c",
+      "type": "contains"
+    },
+    {
+      "parent": "130a82eca896a4f927a7c560d327afef4d14a268cbef8590ea846be9eee6807c",
+      "child": "91f76a4680c32bf3",
+      "type": "contains"
+    },
+    {
+      "parent": "130a82eca896a4f927a7c560d327afef4d14a268cbef8590ea846be9eee6807c",
+      "child": "981a578a4c6868db",
+      "type": "contains"
+    },
+    {
+      "parent": "130a82eca896a4f927a7c560d327afef4d14a268cbef8590ea846be9eee6807c",
+      "child": "9c2743b8cef079bc",
+      "type": "contains"
+    },
+    {
+      "parent": "130a82eca896a4f927a7c560d327afef4d14a268cbef8590ea846be9eee6807c",
+      "child": "bc26c056d7a3c6f7",
+      "type": "contains"
+    },
+    {
+      "parent": "130a82eca896a4f927a7c560d327afef4d14a268cbef8590ea846be9eee6807c",
+      "child": "c45f0c46504e46cf",
+      "type": "contains"
+    },
+    {
+      "parent": "130a82eca896a4f927a7c560d327afef4d14a268cbef8590ea846be9eee6807c",
+      "child": "c4622208552e10fb",
+      "type": "contains"
+    },
+    {
+      "parent": "130a82eca896a4f927a7c560d327afef4d14a268cbef8590ea846be9eee6807c",
+      "child": "c7d31a1a5de7de96",
+      "type": "contains"
+    },
+    {
+      "parent": "130a82eca896a4f927a7c560d327afef4d14a268cbef8590ea846be9eee6807c",
+      "child": "cba3b8f3a17f1499",
+      "type": "contains"
+    },
+    {
+      "parent": "130a82eca896a4f927a7c560d327afef4d14a268cbef8590ea846be9eee6807c",
+      "child": "d05eab40e9b5c2ed",
+      "type": "contains"
+    },
+    {
+      "parent": "130a82eca896a4f927a7c560d327afef4d14a268cbef8590ea846be9eee6807c",
+      "child": "d90f77c01f2bc332",
+      "type": "contains"
+    },
+    {
+      "parent": "130a82eca896a4f927a7c560d327afef4d14a268cbef8590ea846be9eee6807c",
+      "child": "dae13da4216dd412",
+      "type": "contains"
+    },
+    {
+      "parent": "130a82eca896a4f927a7c560d327afef4d14a268cbef8590ea846be9eee6807c",
+      "child": "e1d94299aa9f0329",
+      "type": "contains"
+    },
+    {
+      "parent": "130a82eca896a4f927a7c560d327afef4d14a268cbef8590ea846be9eee6807c",
+      "child": "e9c910263b929cc8",
+      "type": "contains"
+    },
+    {
+      "parent": "130a82eca896a4f927a7c560d327afef4d14a268cbef8590ea846be9eee6807c",
+      "child": "ee45cd4c56faba05",
+      "type": "contains"
+    },
+    {
+      "parent": "130a82eca896a4f927a7c560d327afef4d14a268cbef8590ea846be9eee6807c",
+      "child": "f59ae36617a285e1",
+      "type": "contains"
+    },
+    {
+      "parent": "130a82eca896a4f927a7c560d327afef4d14a268cbef8590ea846be9eee6807c",
+      "child": "fdad9e3449e3d964",
+      "type": "contains"
+    },
+    {
+      "parent": "154d3561b2b73d85",
+      "child": "25eafd1415f6974f",
+      "type": "evident-by",
+      "metadata": {
+        "kind": "supporting"
+      }
+    },
+    {
+      "parent": "2bfaa30b385eca42",
+      "child": "25eafd1415f6974f",
+      "type": "evident-by",
+      "metadata": {
+        "kind": "supporting"
+      }
+    },
+    {
+      "parent": "2c5841d54cb2f7cd",
+      "child": "25eafd1415f6974f",
+      "type": "evident-by",
+      "metadata": {
+        "kind": "supporting"
+      }
+    },
+    {
+      "parent": "311370898e3cae45",
+      "child": "25eafd1415f6974f",
+      "type": "evident-by",
+      "metadata": {
+        "kind": "supporting"
+      }
+    },
+    {
+      "parent": "3ac3f1ed61f2b655",
+      "child": "25eafd1415f6974f",
+      "type": "evident-by",
+      "metadata": {
+        "kind": "supporting"
+      }
+    },
+    {
+      "parent": "3b03a5a4e847fc94",
+      "child": "25eafd1415f6974f",
+      "type": "evident-by",
+      "metadata": {
+        "kind": "supporting"
+      }
+    },
+    {
+      "parent": "3cc571e2152128bb",
+      "child": "25eafd1415f6974f",
+      "type": "evident-by",
+      "metadata": {
+        "kind": "supporting"
+      }
+    },
+    {
+      "parent": "466737957b1a4e18",
+      "child": "25eafd1415f6974f",
+      "type": "evident-by",
+      "metadata": {
+        "kind": "supporting"
+      }
+    },
+    {
+      "parent": "466830bf4c868414",
+      "child": "25eafd1415f6974f",
+      "type": "evident-by",
+      "metadata": {
+        "kind": "supporting"
+      }
+    },
+    {
+      "parent": "496312201dce2259",
+      "child": "25eafd1415f6974f",
+      "type": "evident-by",
+      "metadata": {
+        "kind": "supporting"
+      }
+    },
+    {
+      "parent": "5dfbc8e4fd995101",
+      "child": "25eafd1415f6974f",
+      "type": "evident-by",
+      "metadata": {
+        "kind": "supporting"
+      }
+    },
+    {
+      "parent": "6423e39bc2641e3b",
+      "child": "25eafd1415f6974f",
+      "type": "evident-by",
+      "metadata": {
+        "kind": "supporting"
+      }
+    },
+    {
+      "parent": "65eb223ca1203305",
+      "child": "25eafd1415f6974f",
+      "type": "evident-by",
+      "metadata": {
+        "kind": "supporting"
+      }
+    },
+    {
+      "parent": "66e66cf74c81c4b0",
+      "child": "25eafd1415f6974f",
+      "type": "evident-by",
+      "metadata": {
+        "kind": "supporting"
+      }
+    },
+    {
+      "parent": "6927333d819f2d09",
+      "child": "25eafd1415f6974f",
+      "type": "evident-by",
+      "metadata": {
+        "kind": "supporting"
+      }
+    },
+    {
+      "parent": "6bb5d65bc060a79f",
+      "child": "25eafd1415f6974f",
+      "type": "evident-by",
+      "metadata": {
+        "kind": "supporting"
+      }
+    },
+    {
+      "parent": "6d729f1247a8bda3",
+      "child": "25eafd1415f6974f",
+      "type": "evident-by",
+      "metadata": {
+        "kind": "supporting"
+      }
+    },
+    {
+      "parent": "6e3aaae8830acd86",
+      "child": "25eafd1415f6974f",
+      "type": "evident-by",
+      "metadata": {
+        "kind": "supporting"
+      }
+    },
+    {
+      "parent": "70648e5daed43da2",
+      "child": "25eafd1415f6974f",
+      "type": "evident-by",
+      "metadata": {
+        "kind": "supporting"
+      }
+    },
+    {
+      "parent": "7d7846d6e7e49283",
+      "child": "25eafd1415f6974f",
+      "type": "evident-by",
+      "metadata": {
+        "kind": "supporting"
+      }
+    },
+    {
+      "parent": "7fa0d9b7def08bee",
+      "child": "25eafd1415f6974f",
+      "type": "evident-by",
+      "metadata": {
+        "kind": "supporting"
+      }
+    },
+    {
+      "parent": "82099563e026dfb9",
+      "child": "25eafd1415f6974f",
+      "type": "evident-by",
+      "metadata": {
+        "kind": "supporting"
+      }
+    },
+    {
+      "parent": "8824943d1f15214b",
+      "child": "25eafd1415f6974f",
+      "type": "evident-by",
+      "metadata": {
+        "kind": "supporting"
+      }
+    },
+    {
+      "parent": "9173daedd7c9376c",
+      "child": "25eafd1415f6974f",
+      "type": "evident-by",
+      "metadata": {
+        "kind": "supporting"
+      }
+    },
+    {
+      "parent": "91f76a4680c32bf3",
+      "child": "25eafd1415f6974f",
+      "type": "evident-by",
+      "metadata": {
+        "kind": "supporting"
+      }
+    },
+    {
+      "parent": "981a578a4c6868db",
+      "child": "25eafd1415f6974f",
+      "type": "evident-by",
+      "metadata": {
+        "kind": "supporting"
+      }
+    },
+    {
+      "parent": "9c2743b8cef079bc",
+      "child": "25eafd1415f6974f",
+      "type": "evident-by",
+      "metadata": {
+        "kind": "supporting"
+      }
+    },
+    {
+      "parent": "bc26c056d7a3c6f7",
+      "child": "25eafd1415f6974f",
+      "type": "evident-by",
+      "metadata": {
+        "kind": "supporting"
+      }
+    },
+    {
+      "parent": "c45f0c46504e46cf",
+      "child": "25eafd1415f6974f",
+      "type": "evident-by",
+      "metadata": {
+        "kind": "supporting"
+      }
+    },
+    {
+      "parent": "c4622208552e10fb",
+      "child": "25eafd1415f6974f",
+      "type": "evident-by",
+      "metadata": {
+        "kind": "supporting"
+      }
+    },
+    {
+      "parent": "c7d31a1a5de7de96",
+      "child": "ec247a55a2f0badf",
+      "type": "evident-by",
+      "metadata": {
+        "kind": "supporting"
+      }
+    },
+    {
+      "parent": "cba3b8f3a17f1499",
+      "child": "25eafd1415f6974f",
+      "type": "evident-by",
+      "metadata": {
+        "kind": "supporting"
+      }
+    },
+    {
+      "parent": "d05eab40e9b5c2ed",
+      "child": "25eafd1415f6974f",
+      "type": "evident-by",
+      "metadata": {
+        "kind": "supporting"
+      }
+    },
+    {
+      "parent": "d90f77c01f2bc332",
+      "child": "25eafd1415f6974f",
+      "type": "evident-by",
+      "metadata": {
+        "kind": "supporting"
+      }
+    },
+    {
+      "parent": "dae13da4216dd412",
+      "child": "25eafd1415f6974f",
+      "type": "evident-by",
+      "metadata": {
+        "kind": "supporting"
+      }
+    },
+    {
+      "parent": "e1d94299aa9f0329",
+      "child": "25eafd1415f6974f",
+      "type": "evident-by",
+      "metadata": {
+        "kind": "supporting"
+      }
+    },
+    {
+      "parent": "e9c910263b929cc8",
+      "child": "25eafd1415f6974f",
+      "type": "evident-by",
+      "metadata": {
+        "kind": "supporting"
+      }
+    },
+    {
+      "parent": "ee45cd4c56faba05",
+      "child": "25eafd1415f6974f",
+      "type": "evident-by",
+      "metadata": {
+        "kind": "supporting"
+      }
+    },
+    {
+      "parent": "f59ae36617a285e1",
+      "child": "25eafd1415f6974f",
+      "type": "evident-by",
+      "metadata": {
+        "kind": "supporting"
+      }
+    },
+    {
+      "parent": "fdad9e3449e3d964",
+      "child": "25eafd1415f6974f",
+      "type": "evident-by",
+      "metadata": {
+        "kind": "supporting"
+      }
+    }
+  ],
+  "files": [
+    {
+      "id": "ec247a55a2f0badf",
+      "location": {
+        "path": "/meta/snap.yaml"
+      },
+      "metadata": {
+        "mode": 644,
+        "type": "RegularFile",
+        "userID": 0,
+        "groupID": 0,
+        "mimeType": "text/plain",
+        "size": 4525
+      },
+      "digests": [
+        {
+          "algorithm": "sha1",
+          "value": "c146c1d69950feedd6ad39c37b23da196b3439b6"
+        },
+        {
+          "algorithm": "sha256",
+          "value": "3cd8ff8498a9e6c3b52360fbab76ec49a821088f8d08796facc9d3f7cc0cc521"
+        }
+      ]
+    },
+    {
+      "id": "25eafd1415f6974f",
+      "location": {
+        "path": "/snap/manifest.yaml"
+      },
+      "metadata": {
+        "mode": 644,
+        "type": "RegularFile",
+        "userID": 0,
+        "groupID": 0,
+        "mimeType": "text/plain",
+        "size": 53519
+      },
+      "digests": [
+        {
+          "algorithm": "sha1",
+          "value": "f73290aeee46c53739a6aad5976dee1219ace279"
+        },
+        {
+          "algorithm": "sha256",
+          "value": "22d9cdd596b905b3d811227b2780016214c72cb65f40482b695a5a5dab883e21"
+        }
+      ]
+    },
+    {
+      "id": "84fcc1ea2a079e27",
+      "location": {
+        "path": "/snap/snapcraft.yaml"
+      },
+      "unknowns": [
+        "snap-cataloger: failed to parse snapcraft.yaml: yaml: unmarshal errors:\n  line 169: cannot unmarshal !!str `craftct...` into map[string]string\n  line 214: cannot unmarshal !!str `craftct...` into map[string]string\n  line 252: cannot unmarshal !!str `craftct...` into map[string]string\n  line 269: cannot unmarshal !!str `craftct...` into map[string]string\n  line 293: cannot unmarshal !!str `craftct...` into map[string]string\n  line 315: cannot unmarshal !!str `craftct...` into map[string]string\n  line 373: cannot unmarshal !!str `craftct...` into map[string]string\n  line 617: cannot unmarshal !!str `craftct...` into map[string]string\n  line 634: cannot unmarshal !!str `export ...` into map[string]string"
+      ]
+    },
+    {
+      "id": "c8b44f8dc9b98787",
+      "location": {
+        "path": "/usr/lib/firefox/glxtest"
+      },
+      "executable": {
+        "format": "elf",
+        "hasExports": false,
+        "hasEntrypoint": false,
+        "importedLibraries": []
+      },
+      "unknowns": [
+        "cargo-auditable-binary-cataloger: rust cataloger: unable to read dependency information: unknown file format",
+        "file-executable-cataloger: unable to determine ELF features: EOF",
+        "unknowns-labeler: no package identified in executable file"
+      ]
+    },
+    {
+      "id": "7ef5320714dd3115",
+      "location": {
+        "path": "/usr/lib/firefox/libmozgtk.so"
+      },
+      "executable": {
+        "format": "elf",
+        "hasExports": false,
+        "hasEntrypoint": false,
+        "importedLibraries": []
+      },
+      "unknowns": [
+        "cargo-auditable-binary-cataloger: rust cataloger: unable to read dependency information: unknown file format",
+        "file-executable-cataloger: unable to determine ELF features: EOF",
+        "unknowns-labeler: no package identified in executable file"
+      ]
+    },
+    {
+      "id": "733815493e7b75e6",
+      "location": {
+        "path": "/usr/lib/firefox/libmozwayland.so"
+      },
+      "executable": {
+        "format": "elf",
+        "hasExports": false,
+        "hasEntrypoint": false,
+        "importedLibraries": []
+      },
+      "unknowns": [
+        "cargo-auditable-binary-cataloger: rust cataloger: unable to read dependency information: unknown file format",
+        "file-executable-cataloger: unable to determine ELF features: EOF",
+        "unknowns-labeler: no package identified in executable file"
+      ]
+    },
+    {
+      "id": "fda744cf6dff219e",
+      "location": {
+        "path": "/usr/lib/firefox/libplc4.so"
+      },
+      "executable": {
+        "format": "elf",
+        "hasExports": false,
+        "hasEntrypoint": false,
+        "importedLibraries": []
+      },
+      "unknowns": [
+        "cargo-auditable-binary-cataloger: rust cataloger: unable to read dependency information: unknown file format",
+        "file-executable-cataloger: unable to determine ELF features: EOF",
+        "unknowns-labeler: no package identified in executable file"
+      ]
+    },
+    {
+      "id": "e6679eef1bd6c74f",
+      "location": {
+        "path": "/usr/lib/firefox/libplds4.so"
+      },
+      "executable": {
+        "format": "elf",
+        "hasExports": false,
+        "hasEntrypoint": false,
+        "importedLibraries": []
+      },
+      "unknowns": [
+        "cargo-auditable-binary-cataloger: rust cataloger: unable to read dependency information: unknown file format",
+        "file-executable-cataloger: unable to determine ELF features: EOF",
+        "unknowns-labeler: no package identified in executable file"
+      ]
+    },
+    {
+      "id": "9a70291cf1783f91",
+      "location": {
+        "path": "/usr/lib/firefox/vaapitest"
+      },
+      "executable": {
+        "format": "elf",
+        "hasExports": false,
+        "hasEntrypoint": false,
+        "importedLibraries": []
+      },
+      "unknowns": [
+        "cargo-auditable-binary-cataloger: rust cataloger: unable to read dependency information: unknown file format",
+        "file-executable-cataloger: unable to determine ELF features: EOF",
+        "unknowns-labeler: no package identified in executable file"
+      ]
+    },
+    {
+      "id": "90e8470dc6e60dec",
+      "location": {
+        "path": "/usr/lib/x86_64-linux-gnu/libVkLayer_MESA_device_select.so"
+      },
+      "executable": {
+        "format": "elf",
+        "hasExports": false,
+        "hasEntrypoint": false,
+        "importedLibraries": []
+      },
+      "unknowns": [
+        "cargo-auditable-binary-cataloger: rust cataloger: unable to read dependency information: unknown file format",
+        "file-executable-cataloger: unable to determine ELF features: EOF",
+        "unknowns-labeler: no package identified in executable file"
+      ]
+    },
+    {
+      "id": "f83842444b1aff09",
+      "location": {
+        "path": "/usr/lib/x86_64-linux-gnu/libgsm.so.1.0.19"
+      },
+      "executable": {
+        "format": "elf",
+        "hasExports": false,
+        "hasEntrypoint": false,
+        "importedLibraries": []
+      },
+      "unknowns": [
+        "cargo-auditable-binary-cataloger: rust cataloger: unable to read dependency information: unknown file format",
+        "file-executable-cataloger: unable to determine ELF features: EOF",
+        "unknowns-labeler: no package identified in executable file"
+      ]
+    },
+    {
+      "id": "dc0d7da2b2d15179",
+      "location": {
+        "path": "/usr/lib/x86_64-linux-gnu/libmfx.so.1.35"
+      },
+      "executable": {
+        "format": "elf",
+        "hasExports": false,
+        "hasEntrypoint": false,
+        "importedLibraries": []
+      },
+      "unknowns": [
+        "cargo-auditable-binary-cataloger: rust cataloger: unable to read dependency information: unknown file format",
+        "file-executable-cataloger: unable to determine ELF features: EOF",
+        "unknowns-labeler: no package identified in executable file"
+      ]
+    },
+    {
+      "id": "1702987ec9e2d1c5",
+      "location": {
+        "path": "/usr/lib/x86_64-linux-gnu/libnuma.so.1.0.0"
+      },
+      "executable": {
+        "format": "elf",
+        "hasExports": false,
+        "hasEntrypoint": false,
+        "importedLibraries": []
+      },
+      "unknowns": [
+        "cargo-auditable-binary-cataloger: rust cataloger: unable to read dependency information: unknown file format",
+        "file-executable-cataloger: unable to determine ELF features: EOF",
+        "unknowns-labeler: no package identified in executable file"
+      ]
+    },
+    {
+      "id": "a64bbd9610567ee2",
+      "location": {
+        "path": "/usr/lib/x86_64-linux-gnu/libpci.so.3.7.0"
+      },
+      "executable": {
+        "format": "elf",
+        "hasExports": false,
+        "hasEntrypoint": false,
+        "importedLibraries": []
+      },
+      "unknowns": [
+        "cargo-auditable-binary-cataloger: rust cataloger: unable to read dependency information: unknown file format",
+        "file-executable-cataloger: unable to determine ELF features: EOF",
+        "unknowns-labeler: no package identified in executable file"
+      ]
+    },
+    {
+      "id": "773600394be2887c",
+      "location": {
+        "path": "/usr/lib/x86_64-linux-gnu/libshine.so.3.0.1"
+      },
+      "executable": {
+        "format": "elf",
+        "hasExports": false,
+        "hasEntrypoint": false,
+        "importedLibraries": []
+      },
+      "unknowns": [
+        "cargo-auditable-binary-cataloger: rust cataloger: unable to read dependency information: unknown file format",
+        "file-executable-cataloger: unable to determine ELF features: EOF",
+        "unknowns-labeler: no package identified in executable file"
+      ]
+    },
+    {
+      "id": "3e5b3461e2a469b2",
+      "location": {
+        "path": "/usr/lib/x86_64-linux-gnu/libsnappy.so.1.1.8"
+      },
+      "executable": {
+        "format": "elf",
+        "hasExports": false,
+        "hasEntrypoint": false,
+        "importedLibraries": []
+      },
+      "unknowns": [
+        "cargo-auditable-binary-cataloger: rust cataloger: unable to read dependency information: unknown file format",
+        "file-executable-cataloger: unable to determine ELF features: EOF",
+        "unknowns-labeler: no package identified in executable file"
+      ]
+    },
+    {
+      "id": "693eade373023a13",
+      "location": {
+        "path": "/usr/lib/x86_64-linux-gnu/libspeechd.so.2.6.0"
+      },
+      "executable": {
+        "format": "elf",
+        "hasExports": false,
+        "hasEntrypoint": false,
+        "importedLibraries": []
+      },
+      "unknowns": [
+        "cargo-auditable-binary-cataloger: rust cataloger: unable to read dependency information: unknown file format",
+        "file-executable-cataloger: unable to determine ELF features: EOF",
+        "unknowns-labeler: no package identified in executable file"
+      ]
+    },
+    {
+      "id": "314e9576c7de78d0",
+      "location": {
+        "path": "/usr/lib/x86_64-linux-gnu/libvdpau.so.1.0.0"
+      },
+      "executable": {
+        "format": "elf",
+        "hasExports": false,
+        "hasEntrypoint": false,
+        "importedLibraries": []
+      },
+      "unknowns": [
+        "cargo-auditable-binary-cataloger: rust cataloger: unable to read dependency information: unknown file format",
+        "file-executable-cataloger: unable to determine ELF features: EOF",
+        "unknowns-labeler: no package identified in executable file"
+      ]
+    },
+    {
+      "id": "488d3aad85f3243c",
+      "location": {
+        "path": "/usr/lib/x86_64-linux-gnu/libwebpmux.so.3.0.8"
+      },
+      "executable": {
+        "format": "elf",
+        "hasExports": false,
+        "hasEntrypoint": false,
+        "importedLibraries": []
+      },
+      "unknowns": [
+        "cargo-auditable-binary-cataloger: rust cataloger: unable to read dependency information: unknown file format",
+        "file-executable-cataloger: unable to determine ELF features: EOF",
+        "unknowns-labeler: no package identified in executable file"
+      ]
+    },
+    {
+      "id": "75be5dccb62c32c2",
+      "location": {
+        "path": "/usr/lib/x86_64-linux-gnu/pipewire-0.3/libpipewire-module-access.so"
+      },
+      "executable": {
+        "format": "elf",
+        "hasExports": false,
+        "hasEntrypoint": false,
+        "importedLibraries": []
+      },
+      "unknowns": [
+        "cargo-auditable-binary-cataloger: rust cataloger: unable to read dependency information: unknown file format",
+        "file-executable-cataloger: unable to determine ELF features: EOF",
+        "unknowns-labeler: no package identified in executable file"
+      ]
+    },
+    {
+      "id": "854642bc487123bf",
+      "location": {
+        "path": "/usr/lib/x86_64-linux-gnu/pipewire-0.3/libpipewire-module-client-device.so"
+      },
+      "executable": {
+        "format": "elf",
+        "hasExports": false,
+        "hasEntrypoint": false,
+        "importedLibraries": []
+      },
+      "unknowns": [
+        "cargo-auditable-binary-cataloger: rust cataloger: unable to read dependency information: unknown file format",
+        "file-executable-cataloger: unable to determine ELF features: EOF",
+        "unknowns-labeler: no package identified in executable file"
+      ]
+    },
+    {
+      "id": "ec7e814428093986",
+      "location": {
+        "path": "/usr/lib/x86_64-linux-gnu/pipewire-0.3/libpipewire-module-echo-cancel.so"
+      },
+      "executable": {
+        "format": "elf",
+        "hasExports": false,
+        "hasEntrypoint": false,
+        "importedLibraries": []
+      },
+      "unknowns": [
+        "cargo-auditable-binary-cataloger: rust cataloger: unable to read dependency information: unknown file format",
+        "file-executable-cataloger: unable to determine ELF features: EOF",
+        "unknowns-labeler: no package identified in executable file"
+      ]
+    },
+    {
+      "id": "9e7b33fd99592542",
+      "location": {
+        "path": "/usr/lib/x86_64-linux-gnu/pipewire-0.3/libpipewire-module-fallback-sink.so"
+      },
+      "executable": {
+        "format": "elf",
+        "hasExports": false,
+        "hasEntrypoint": false,
+        "importedLibraries": []
+      },
+      "unknowns": [
+        "cargo-auditable-binary-cataloger: rust cataloger: unable to read dependency information: unknown file format",
+        "file-executable-cataloger: unable to determine ELF features: EOF",
+        "unknowns-labeler: no package identified in executable file"
+      ]
+    },
+    {
+      "id": "0d0fbe58ef604455",
+      "location": {
+        "path": "/usr/lib/x86_64-linux-gnu/pipewire-0.3/libpipewire-module-link-factory.so"
+      },
+      "executable": {
+        "format": "elf",
+        "hasExports": false,
+        "hasEntrypoint": false,
+        "importedLibraries": []
+      },
+      "unknowns": [
+        "cargo-auditable-binary-cataloger: rust cataloger: unable to read dependency information: unknown file format",
+        "file-executable-cataloger: unable to determine ELF features: EOF",
+        "unknowns-labeler: no package identified in executable file"
+      ]
+    },
+    {
+      "id": "c91846bba508905e",
+      "location": {
+        "path": "/usr/lib/x86_64-linux-gnu/pipewire-0.3/libpipewire-module-loopback.so"
+      },
+      "executable": {
+        "format": "elf",
+        "hasExports": false,
+        "hasEntrypoint": false,
+        "importedLibraries": []
+      },
+      "unknowns": [
+        "cargo-auditable-binary-cataloger: rust cataloger: unable to read dependency information: unknown file format",
+        "file-executable-cataloger: unable to determine ELF features: EOF",
+        "unknowns-labeler: no package identified in executable file"
+      ]
+    },
+    {
+      "id": "37aee7df5e26441b",
+      "location": {
+        "path": "/usr/lib/x86_64-linux-gnu/pipewire-0.3/libpipewire-module-metadata.so"
+      },
+      "executable": {
+        "format": "elf",
+        "hasExports": false,
+        "hasEntrypoint": false,
+        "importedLibraries": []
+      },
+      "unknowns": [
+        "cargo-auditable-binary-cataloger: rust cataloger: unable to read dependency information: unknown file format",
+        "file-executable-cataloger: unable to determine ELF features: EOF",
+        "unknowns-labeler: no package identified in executable file"
+      ]
+    },
+    {
+      "id": "4655f16b9154798e",
+      "location": {
+        "path": "/usr/lib/x86_64-linux-gnu/pipewire-0.3/libpipewire-module-portal.so"
+      },
+      "executable": {
+        "format": "elf",
+        "hasExports": false,
+        "hasEntrypoint": false,
+        "importedLibraries": []
+      },
+      "unknowns": [
+        "cargo-auditable-binary-cataloger: rust cataloger: unable to read dependency information: unknown file format",
+        "file-executable-cataloger: unable to determine ELF features: EOF",
+        "unknowns-labeler: no package identified in executable file"
+      ]
+    },
+    {
+      "id": "55760d258bbfdfc3",
+      "location": {
+        "path": "/usr/lib/x86_64-linux-gnu/pipewire-0.3/libpipewire-module-profiler.so"
+      },
+      "executable": {
+        "format": "elf",
+        "hasExports": false,
+        "hasEntrypoint": false,
+        "importedLibraries": []
+      },
+      "unknowns": [
+        "cargo-auditable-binary-cataloger: rust cataloger: unable to read dependency information: unknown file format",
+        "file-executable-cataloger: unable to determine ELF features: EOF",
+        "unknowns-labeler: no package identified in executable file"
+      ]
+    },
+    {
+      "id": "ee9f2c799e15d069",
+      "location": {
+        "path": "/usr/lib/x86_64-linux-gnu/pipewire-0.3/libpipewire-module-protocol-simple.so"
+      },
+      "executable": {
+        "format": "elf",
+        "hasExports": false,
+        "hasEntrypoint": false,
+        "importedLibraries": []
+      },
+      "unknowns": [
+        "cargo-auditable-binary-cataloger: rust cataloger: unable to read dependency information: unknown file format",
+        "file-executable-cataloger: unable to determine ELF features: EOF",
+        "unknowns-labeler: no package identified in executable file"
+      ]
+    },
+    {
+      "id": "3f664fc615874d08",
+      "location": {
+        "path": "/usr/lib/x86_64-linux-gnu/pipewire-0.3/libpipewire-module-pulse-tunnel.so"
+      },
+      "executable": {
+        "format": "elf",
+        "hasExports": false,
+        "hasEntrypoint": false,
+        "importedLibraries": []
+      },
+      "unknowns": [
+        "cargo-auditable-binary-cataloger: rust cataloger: unable to read dependency information: unknown file format",
+        "file-executable-cataloger: unable to determine ELF features: EOF",
+        "unknowns-labeler: no package identified in executable file"
+      ]
+    },
+    {
+      "id": "6e8bc8a6d023c80e",
+      "location": {
+        "path": "/usr/lib/x86_64-linux-gnu/pipewire-0.3/libpipewire-module-raop-discover.so"
+      },
+      "executable": {
+        "format": "elf",
+        "hasExports": false,
+        "hasEntrypoint": false,
+        "importedLibraries": []
+      },
+      "unknowns": [
+        "cargo-auditable-binary-cataloger: rust cataloger: unable to read dependency information: unknown file format",
+        "file-executable-cataloger: unable to determine ELF features: EOF",
+        "unknowns-labeler: no package identified in executable file"
+      ]
+    },
+    {
+      "id": "af471781bb67e9bb",
+      "location": {
+        "path": "/usr/lib/x86_64-linux-gnu/pipewire-0.3/libpipewire-module-rt.so"
+      },
+      "executable": {
+        "format": "elf",
+        "hasExports": false,
+        "hasEntrypoint": false,
+        "importedLibraries": []
+      },
+      "unknowns": [
+        "cargo-auditable-binary-cataloger: rust cataloger: unable to read dependency information: unknown file format",
+        "file-executable-cataloger: unable to determine ELF features: EOF",
+        "unknowns-labeler: no package identified in executable file"
+      ]
+    },
+    {
+      "id": "dcd71a440810437e",
+      "location": {
+        "path": "/usr/lib/x86_64-linux-gnu/pipewire-0.3/libpipewire-module-rtkit.so"
+      },
+      "executable": {
+        "format": "elf",
+        "hasExports": false,
+        "hasEntrypoint": false,
+        "importedLibraries": []
+      },
+      "unknowns": [
+        "cargo-auditable-binary-cataloger: rust cataloger: unable to read dependency information: unknown file format",
+        "file-executable-cataloger: unable to determine ELF features: EOF",
+        "unknowns-labeler: no package identified in executable file"
+      ]
+    },
+    {
+      "id": "0398bdd5c853c0a3",
+      "location": {
+        "path": "/usr/lib/x86_64-linux-gnu/pipewire-0.3/libpipewire-module-spa-device-factory.so"
+      },
+      "executable": {
+        "format": "elf",
+        "hasExports": false,
+        "hasEntrypoint": false,
+        "importedLibraries": []
+      },
+      "unknowns": [
+        "cargo-auditable-binary-cataloger: rust cataloger: unable to read dependency information: unknown file format",
+        "file-executable-cataloger: unable to determine ELF features: EOF",
+        "unknowns-labeler: no package identified in executable file"
+      ]
+    },
+    {
+      "id": "a9e0cfb56a8918a1",
+      "location": {
+        "path": "/usr/lib/x86_64-linux-gnu/pipewire-0.3/libpipewire-module-spa-device.so"
+      },
+      "executable": {
+        "format": "elf",
+        "hasExports": false,
+        "hasEntrypoint": false,
+        "importedLibraries": []
+      },
+      "unknowns": [
+        "cargo-auditable-binary-cataloger: rust cataloger: unable to read dependency information: unknown file format",
+        "file-executable-cataloger: unable to determine ELF features: EOF",
+        "unknowns-labeler: no package identified in executable file"
+      ]
+    },
+    {
+      "id": "6dae4c2530a68260",
+      "location": {
+        "path": "/usr/lib/x86_64-linux-gnu/pipewire-0.3/libpipewire-module-x11-bell.so"
+      },
+      "executable": {
+        "format": "elf",
+        "hasExports": false,
+        "hasEntrypoint": false,
+        "importedLibraries": []
+      },
+      "unknowns": [
+        "cargo-auditable-binary-cataloger: rust cataloger: unable to read dependency information: unknown file format",
+        "file-executable-cataloger: unable to determine ELF features: EOF",
+        "unknowns-labeler: no package identified in executable file"
+      ]
+    },
+    {
+      "id": "121aae388d0c619a",
+      "location": {
+        "path": "/usr/lib/x86_64-linux-gnu/pipewire-0.3/libpipewire-module-zeroconf-discover.so"
+      },
+      "executable": {
+        "format": "elf",
+        "hasExports": false,
+        "hasEntrypoint": false,
+        "importedLibraries": []
+      },
+      "unknowns": [
+        "cargo-auditable-binary-cataloger: rust cataloger: unable to read dependency information: unknown file format",
+        "file-executable-cataloger: unable to determine ELF features: EOF",
+        "unknowns-labeler: no package identified in executable file"
+      ]
+    },
+    {
+      "id": "74295ef2abb9630d",
+      "location": {
+        "path": "/usr/lib/x86_64-linux-gnu/spa-0.2/aec/libspa-aec-null.so"
+      },
+      "executable": {
+        "format": "elf",
+        "hasExports": false,
+        "hasEntrypoint": false,
+        "importedLibraries": []
+      },
+      "unknowns": [
+        "cargo-auditable-binary-cataloger: rust cataloger: unable to read dependency information: unknown file format",
+        "file-executable-cataloger: unable to determine ELF features: EOF",
+        "unknowns-labeler: no package identified in executable file"
+      ]
+    },
+    {
+      "id": "5bc9d4e1ee4c84d8",
+      "location": {
+        "path": "/usr/lib/x86_64-linux-gnu/spa-0.2/aec/libspa-aec-webrtc.so"
+      },
+      "executable": {
+        "format": "elf",
+        "hasExports": false,
+        "hasEntrypoint": false,
+        "importedLibraries": []
+      },
+      "unknowns": [
+        "cargo-auditable-binary-cataloger: rust cataloger: unable to read dependency information: unknown file format",
+        "file-executable-cataloger: unable to determine ELF features: EOF",
+        "unknowns-labeler: no package identified in executable file"
+      ]
+    },
+    {
+      "id": "c42cf69179f5bc24",
+      "location": {
+        "path": "/usr/lib/x86_64-linux-gnu/spa-0.2/audiotestsrc/libspa-audiotestsrc.so"
+      },
+      "executable": {
+        "format": "elf",
+        "hasExports": false,
+        "hasEntrypoint": false,
+        "importedLibraries": []
+      },
+      "unknowns": [
+        "cargo-auditable-binary-cataloger: rust cataloger: unable to read dependency information: unknown file format",
+        "file-executable-cataloger: unable to determine ELF features: EOF",
+        "unknowns-labeler: no package identified in executable file"
+      ]
+    },
+    {
+      "id": "1930b70c7737cd48",
+      "location": {
+        "path": "/usr/lib/x86_64-linux-gnu/spa-0.2/control/libspa-control.so"
+      },
+      "executable": {
+        "format": "elf",
+        "hasExports": false,
+        "hasEntrypoint": false,
+        "importedLibraries": []
+      },
+      "unknowns": [
+        "cargo-auditable-binary-cataloger: rust cataloger: unable to read dependency information: unknown file format",
+        "file-executable-cataloger: unable to determine ELF features: EOF",
+        "unknowns-labeler: no package identified in executable file"
+      ]
+    },
+    {
+      "id": "a54f77b99b987962",
+      "location": {
+        "path": "/usr/lib/x86_64-linux-gnu/spa-0.2/support/libspa-dbus.so"
+      },
+      "executable": {
+        "format": "elf",
+        "hasExports": false,
+        "hasEntrypoint": false,
+        "importedLibraries": []
+      },
+      "unknowns": [
+        "cargo-auditable-binary-cataloger: rust cataloger: unable to read dependency information: unknown file format",
+        "file-executable-cataloger: unable to determine ELF features: EOF",
+        "unknowns-labeler: no package identified in executable file"
+      ]
+    },
+    {
+      "id": "bb81fbc7e3746d5c",
+      "location": {
+        "path": "/usr/lib/x86_64-linux-gnu/spa-0.2/support/libspa-journal.so"
+      },
+      "executable": {
+        "format": "elf",
+        "hasExports": false,
+        "hasEntrypoint": false,
+        "importedLibraries": []
+      },
+      "unknowns": [
+        "cargo-auditable-binary-cataloger: rust cataloger: unable to read dependency information: unknown file format",
+        "file-executable-cataloger: unable to determine ELF features: EOF",
+        "unknowns-labeler: no package identified in executable file"
+      ]
+    },
+    {
+      "id": "b57d348450219196",
+      "location": {
+        "path": "/usr/lib/x86_64-linux-gnu/spa-0.2/videotestsrc/libspa-videotestsrc.so"
+      },
+      "executable": {
+        "format": "elf",
+        "hasExports": false,
+        "hasEntrypoint": false,
+        "importedLibraries": []
+      },
+      "unknowns": [
+        "cargo-auditable-binary-cataloger: rust cataloger: unable to read dependency information: unknown file format",
+        "file-executable-cataloger: unable to determine ELF features: EOF",
+        "unknowns-labeler: no package identified in executable file"
+      ]
+    },
+    {
+      "id": "2e83ce6fac54b82f",
+      "location": {
+        "path": "/usr/lib/x86_64-linux-gnu/spa-0.2/volume/libspa-volume.so"
+      },
+      "executable": {
+        "format": "elf",
+        "hasExports": false,
+        "hasEntrypoint": false,
+        "importedLibraries": []
+      },
+      "unknowns": [
+        "cargo-auditable-binary-cataloger: rust cataloger: unable to read dependency information: unknown file format",
+        "file-executable-cataloger: unable to determine ELF features: EOF",
+        "unknowns-labeler: no package identified in executable file"
+      ]
+    }
+  ],
+  "source": {
+    "id": "130a82eca896a4f927a7c560d327afef4d14a268cbef8590ea846be9eee6807c",
+    "name": "firefox",
+    "version": "145.0.2-1",
+    "type": "snap",
+    "metadata": {
+      "summary": "Mozilla Firefox web browser",
+      "base": "core22",
+      "grade": "stable",
+      "confinement": "strict",
+      "architectures": [
+        "amd64"
+      ],
+      "digests": [
+        {
+          "algorithm": "sha256",
+          "value": "e55ae56d1aefdf4a4c09f5ac6e20f340fbf16b0912d205d6ec798ec89100193d"
+        }
+      ]
+    }
+  },
+  "distro": {},
+  "descriptor": {
+    "name": "syft",
+    "version": "1.38.0",
+    "configuration": {
+      "catalogers": {
+        "requested": {
+          "default": [
+            "installed",
+            "file"
+          ]
+        },
+        "used": [
+          "alpm-db-cataloger",
+          "apk-db-cataloger",
+          "binary-classifier-cataloger",
+          "bitnami-cataloger",
+          "cargo-auditable-binary-cataloger",
+          "conan-info-cataloger",
+          "conda-meta-cataloger",
+          "dotnet-deps-binary-cataloger",
+          "dpkg-db-cataloger",
+          "elf-binary-package-cataloger",
+          "file-content-cataloger",
+          "file-digest-cataloger",
+          "file-executable-cataloger",
+          "file-metadata-cataloger",
+          "go-module-binary-cataloger",
+          "graalvm-native-image-cataloger",
+          "homebrew-cataloger",
+          "java-archive-cataloger",
+          "java-jvm-cataloger",
+          "javascript-package-cataloger",
+          "linux-kernel-cataloger",
+          "lua-rock-cataloger",
+          "nix-cataloger",
+          "pe-binary-package-cataloger",
+          "php-composer-installed-cataloger",
+          "php-interpreter-cataloger",
+          "portage-cataloger",
+          "python-installed-package-cataloger",
+          "r-package-cataloger",
+          "rpm-db-cataloger",
+          "ruby-installed-gemspec-cataloger",
+          "snap-cataloger"
+        ]
+      },
+      "data-generation": {
+        "generate-cpes": true
+      },
+      "files": {
+        "content": {
+          "globs": null,
+          "skip-files-above-size": 0
+        },
+        "hashers": [
+          "sha-1",
+          "sha-256"
+        ],
+        "selection": "owned-by-package"
+      },
+      "licenses": {
+        "coverage": 75,
+        "include-content": "none"
+      },
+      "packages": {
+        "binary": [
+          "python-binary",
+          "python-binary-lib",
+          "pypy-binary-lib",
+          "go-binary",
+          "julia-binary",
+          "helm",
+          "redis-binary",
+          "nodejs-binary",
+          "go-binary-hint",
+          "busybox-binary",
+          "util-linux-binary",
+          "haproxy-binary",
+          "perl-binary",
+          "php-composer-binary",
+          "httpd-binary",
+          "memcached-binary",
+          "traefik-binary",
+          "arangodb-binary",
+          "postgresql-binary",
+          "mysql-binary",
+          "mysql-binary",
+          "mysql-binary",
+          "xtrabackup-binary",
+          "mariadb-binary",
+          "rust-standard-library-linux",
+          "rust-standard-library-macos",
+          "ruby-binary",
+          "erlang-binary",
+          "erlang-alpine-binary",
+          "erlang-library",
+          "swipl-binary",
+          "dart-binary",
+          "haskell-ghc-binary",
+          "haskell-cabal-binary",
+          "haskell-stack-binary",
+          "consul-binary",
+          "hashicorp-vault-binary",
+          "nginx-binary",
+          "bash-binary",
+          "openssl-binary",
+          "gcc-binary",
+          "fluent-bit-binary",
+          "wordpress-cli-binary",
+          "curl-binary",
+          "lighttpd-binary",
+          "proftpd-binary",
+          "zstd-binary",
+          "xz-binary",
+          "gzip-binary",
+          "sqlcipher-binary",
+          "jq-binary",
+          "chrome-binary",
+          "ffmpeg-binary",
+          "ffmpeg-library",
+          "ffmpeg-library",
+          "elixir-binary",
+          "elixir-library",
+          "java-binary",
+          "java-jdb-binary"
+        ],
+        "dotnet": {
+          "dep-packages-must-claim-dll": true,
+          "dep-packages-must-have-dll": false,
+          "propagate-dll-claims-to-parents": true,
+          "relax-dll-claims-when-bundling-detected": true
+        },
+        "golang": {
+          "local-mod-cache-dir": "/Users/alan/go/pkg/mod",
+          "local-vendor-dir": "",
+          "main-module-version": {
+            "from-build-settings": true,
+            "from-contents": false,
+            "from-ld-flags": true
+          },
+          "proxies": [
+            "https://proxy.golang.org",
+            "direct"
+          ],
+          "search-local-mod-cache-licenses": false,
+          "search-local-vendor-licenses": false,
+          "search-remote-licenses": false
+        },
+        "java-archive": {
+          "include-indexed-archives": true,
+          "include-unindexed-archives": false,
+          "maven-base-url": "https://repo1.maven.org/maven2",
+          "maven-localrepository-dir": "/Users/alan/.m2/repository",
+          "max-parent-recursive-depth": 0,
+          "resolve-transitive-dependencies": false,
+          "use-maven-localrepository": false,
+          "use-network": false
+        },
+        "javascript": {
+          "include-dev-dependencies": false,
+          "npm-base-url": "https://registry.npmjs.org",
+          "search-remote-licenses": false
+        },
+        "linux-kernel": {
+          "catalog-modules": true
+        },
+        "nix": {
+          "capture-owned-files": false
+        },
+        "python": {
+          "guess-unpinned-requirements": false,
+          "pypi-base-url": "https://pypi.org/pypi",
+          "search-remote-licenses": false
+        }
+      },
+      "relationships": {
+        "exclude-binary-packages-with-file-ownership-overlap": true,
+        "package-file-ownership": true,
+        "package-file-ownership-overlap": true
+      },
+      "search": {
+        "scope": "squashed"
+      }
+    }
+  },
+  "schema": {
+    "version": "16.1.0",
+    "url": "https://raw.githubusercontent.com/anchore/syft/main/schema/json/schema-16.1.0.json"
+  }
+}

@@ -1,0 +1,7 @@
+{
+  "name": "tessl/pypi-fastapi",
+  "version": "0.116.0",
+  "docs": "docs/index.md",
+  "describes": "pkg:pypi/fastapi@0.116.1",
+  "summary": "FastAPI framework, high performance, easy to learn, fast to code, ready for production"
+}

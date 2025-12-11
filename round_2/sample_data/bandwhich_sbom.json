@@ -1,0 +1,303 @@
+{
+  "artifacts": [
+    {
+      "id": "1a9113e03fc1c3d7",
+      "name": "bandwhich",
+      "version": "v0.23.1",
+      "type": "deb",
+      "foundBy": "snap-cataloger",
+      "locations": [
+        {
+          "path": "/meta/snap.yaml",
+          "accessPath": "/meta/snap.yaml"
+        }
+      ],
+      "licenses": [],
+      "language": "",
+      "cpes": [
+        {
+          "cpe": "cpe:2.3:a:bandwhich:bandwhich:v0.23.1:*:*:*:*:*:*:*",
+          "source": "syft-generated"
+        }
+      ],
+      "purl": "pkg:generic/snap/bandwhich@v0.23.1?base=core22&type=app",
+      "metadataType": "snap-entry",
+      "metadata": {
+        "snapType": "app",
+        "base": "core22",
+        "snapName": "bandwhich",
+        "snapVersion": "v0.23.1",
+        "architecture": ""
+      }
+    }
+  ],
+  "artifactRelationships": [
+    {
+      "parent": "1a9113e03fc1c3d7",
+      "child": "ec247a55a2f0badf",
+      "type": "evident-by",
+      "metadata": {
+        "kind": "supporting"
+      }
+    },
+    {
+      "parent": "989236283b9534794f26bd6bf079d894ed661bf1c47a2995582ad9ba5491aeaf",
+      "child": "1a9113e03fc1c3d7",
+      "type": "contains"
+    }
+  ],
+  "files": [
+    {
+      "id": "c7defcdb8f449aea",
+      "location": {
+        "path": "/bin/bandwhich"
+      },
+      "executable": {
+        "format": "elf",
+        "hasExports": false,
+        "hasEntrypoint": false,
+        "importedLibraries": []
+      },
+      "unknowns": [
+        "cargo-auditable-binary-cataloger: rust cataloger: unable to read dependency information: unknown file format",
+        "file-executable-cataloger: unable to determine ELF features: EOF",
+        "unknowns-labeler: no package identified in executable file"
+      ]
+    },
+    {
+      "id": "ec247a55a2f0badf",
+      "location": {
+        "path": "/meta/snap.yaml"
+      },
+      "metadata": {
+        "mode": 644,
+        "type": "RegularFile",
+        "userID": 0,
+        "groupID": 0,
+        "mimeType": "text/plain",
+        "size": 620
+      },
+      "digests": [
+        {
+          "algorithm": "sha1",
+          "value": "2803afd7b9e00cbc837320217371436a12971446"
+        },
+        {
+          "algorithm": "sha256",
+          "value": "6137969ff4c98a779d5e45ebcd29bec642e668ca7236392b1f623b7200c530ce"
+        }
+      ]
+    }
+  ],
+  "source": {
+    "id": "989236283b9534794f26bd6bf079d894ed661bf1c47a2995582ad9ba5491aeaf",
+    "name": "bandwhich",
+    "version": "v0.23.1",
+    "type": "snap",
+    "metadata": {
+      "summary": "Terminal bandwidth utilization tool",
+      "base": "core22",
+      "grade": "stable",
+      "confinement": "strict",
+      "architectures": [
+        "amd64"
+      ],
+      "digests": [
+        {
+          "algorithm": "sha256",
+          "value": "516572d0c9988e35f5abaee909f4e0f8bd454ea26277606702848565706d6ffa"
+        }
+      ]
+    }
+  },
+  "distro": {},
+  "descriptor": {
+    "name": "syft",
+    "version": "1.38.0",
+    "configuration": {
+      "catalogers": {
+        "requested": {
+          "default": [
+            "installed",
+            "file"
+          ]
+        },
+        "used": [
+          "alpm-db-cataloger",
+          "apk-db-cataloger",
+          "binary-classifier-cataloger",
+          "bitnami-cataloger",
+          "cargo-auditable-binary-cataloger",
+          "conan-info-cataloger",
+          "conda-meta-cataloger",
+          "dotnet-deps-binary-cataloger",
+          "dpkg-db-cataloger",
+          "elf-binary-package-cataloger",
+          "file-content-cataloger",
+          "file-digest-cataloger",
+          "file-executable-cataloger",
+          "file-metadata-cataloger",
+          "go-module-binary-cataloger",
+          "graalvm-native-image-cataloger",
+          "homebrew-cataloger",
+          "java-archive-cataloger",
+          "java-jvm-cataloger",
+          "javascript-package-cataloger",
+          "linux-kernel-cataloger",
+          "lua-rock-cataloger",
+          "nix-cataloger",
+          "pe-binary-package-cataloger",
+          "php-composer-installed-cataloger",
+          "php-interpreter-cataloger",
+          "portage-cataloger",
+          "python-installed-package-cataloger",
+          "r-package-cataloger",
+          "rpm-db-cataloger",
+          "ruby-installed-gemspec-cataloger",
+          "snap-cataloger"
+        ]
+      },
+      "data-generation": {
+        "generate-cpes": true
+      },
+      "files": {
+        "content": {
+          "globs": null,
+          "skip-files-above-size": 0
+        },
+        "hashers": [
+          "sha-1",
+          "sha-256"
+        ],
+        "selection": "owned-by-package"
+      },
+      "licenses": {
+        "coverage": 75,
+        "include-content": "none"
+      },
+      "packages": {
+        "binary": [
+          "python-binary",
+          "python-binary-lib",
+          "pypy-binary-lib",
+          "go-binary",
+          "julia-binary",
+          "helm",
+          "redis-binary",
+          "nodejs-binary",
+          "go-binary-hint",
+          "busybox-binary",
+          "util-linux-binary",
+          "haproxy-binary",
+          "perl-binary",
+          "php-composer-binary",
+          "httpd-binary",
+          "memcached-binary",
+          "traefik-binary",
+          "arangodb-binary",
+          "postgresql-binary",
+          "mysql-binary",
+          "mysql-binary",
+          "mysql-binary",
+          "xtrabackup-binary",
+          "mariadb-binary",
+          "rust-standard-library-linux",
+          "rust-standard-library-macos",
+          "ruby-binary",
+          "erlang-binary",
+          "erlang-alpine-binary",
+          "erlang-library",
+          "swipl-binary",
+          "dart-binary",
+          "haskell-ghc-binary",
+          "haskell-cabal-binary",
+          "haskell-stack-binary",
+          "consul-binary",
+          "hashicorp-vault-binary",
+          "nginx-binary",
+          "bash-binary",
+          "openssl-binary",
+          "gcc-binary",
+          "fluent-bit-binary",
+          "wordpress-cli-binary",
+          "curl-binary",
+          "lighttpd-binary",
+          "proftpd-binary",
+          "zstd-binary",
+          "xz-binary",
+          "gzip-binary",
+          "sqlcipher-binary",
+          "jq-binary",
+          "chrome-binary",
+          "ffmpeg-binary",
+          "ffmpeg-library",
+          "ffmpeg-library",
+          "elixir-binary",
+          "elixir-library",
+          "java-binary",
+          "java-jdb-binary"
+        ],
+        "dotnet": {
+          "dep-packages-must-claim-dll": true,
+          "dep-packages-must-have-dll": false,
+          "propagate-dll-claims-to-parents": true,
+          "relax-dll-claims-when-bundling-detected": true
+        },
+        "golang": {
+          "local-mod-cache-dir": "/Users/alan/go/pkg/mod",
+          "local-vendor-dir": "",
+          "main-module-version": {
+            "from-build-settings": true,
+            "from-contents": false,
+            "from-ld-flags": true
+          },
+          "proxies": [
+            "https://proxy.golang.org",
+            "direct"
+          ],
+          "search-local-mod-cache-licenses": false,
+          "search-local-vendor-licenses": false,
+          "search-remote-licenses": false
+        },
+        "java-archive": {
+          "include-indexed-archives": true,
+          "include-unindexed-archives": false,
+          "maven-base-url": "https://repo1.maven.org/maven2",
+          "maven-localrepository-dir": "/Users/alan/.m2/repository",
+          "max-parent-recursive-depth": 0,
+          "resolve-transitive-dependencies": false,
+          "use-maven-localrepository": false,
+          "use-network": false
+        },
+        "javascript": {
+          "include-dev-dependencies": false,
+          "npm-base-url": "https://registry.npmjs.org",
+          "search-remote-licenses": false
+        },
+        "linux-kernel": {
+          "catalog-modules": true
+        },
+        "nix": {
+          "capture-owned-files": false
+        },
+        "python": {
+          "guess-unpinned-requirements": false,
+          "pypi-base-url": "https://pypi.org/pypi",
+          "search-remote-licenses": false
+        }
+      },
+      "relationships": {
+        "exclude-binary-packages-with-file-ownership-overlap": true,
+        "package-file-ownership": true,
+        "package-file-ownership-overlap": true
+      },
+      "search": {
+        "scope": "squashed"
+      }
+    }
+  },
+  "schema": {
+    "version": "16.1.0",
+    "url": "https://raw.githubusercontent.com/anchore/syft/main/schema/json/schema-16.1.0.json"
+  }
+}
