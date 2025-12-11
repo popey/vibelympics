@@ -1,0 +1,17 @@
+FROM cgr.dev/chainguard/python:latest-dev
+
+WORKDIR /app
+
+# Add local bin to PATH for uvicorn
+ENV PATH="/home/nonroot/.local/bin:$PATH"
+
+# Install dependencies directly (no editable install needed)
+RUN pip install --user fastapi uvicorn httpx boto3 pydantic pydantic-settings
+
+# Copy backend source
+COPY backend-src/ ./backend-src/
+
+EXPOSE 8000
+
+# Run with hot reload for development - use -m to run module
+CMD ["-m", "uvicorn", "backend-src.main:app", "--host", "0.0.0.0", "--port", "8000", "--reload"]

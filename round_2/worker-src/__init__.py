@@ -1,0 +1,1 @@
+# SnapScope Worker

@@ -1,0 +1,21 @@
+FROM cgr.dev/chainguard/wolfi-base AS docker-cli
+
+# Get docker-cli from a wolfi-based image
+RUN apk add --no-cache docker-cli
+
+FROM cgr.dev/chainguard/python:latest-dev
+
+# Copy docker CLI from builder
+COPY --from=docker-cli /usr/bin/docker /usr/bin/docker
+
+WORKDIR /app
+
+# Install Python dependencies to a specific location accessible by all users
+ENV PYTHONPATH="/app/deps:$PYTHONPATH"
+RUN pip install --target=/app/deps httpx boto3 pydantic
+
+# Copy worker source
+COPY worker-src/ ./worker-src/
+
+# Run worker - image has /usr/bin/python as ENTRYPOINT
+CMD ["-m", "worker-src.main"]
